@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name="viewport">
+	<link href="/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="static/bundle.9a0b3bbb.css">
+	<script async src="//traccoon.intellectsoft.net/traccoon.js"></script>
+	<script async src="https://scripts.clarity.ms/0.8.33/clarity.js"></script>
+	<script async src="https://snap.licdn.com/li.lms-analytics/insight.min.js" type="text/javascript"></script>
+	<script async src="https://s3-us-west-2.amazonaws.com/b2bjsstore/b/1N5W0H0QX8O5/1N5W0H0QX8O5.js.gz" type="text/javascript"></script>
+	<script async src="https://snap.licdn.com/li.lms-analytics/insight.min.js" type="text/javascript"></script>
+	<script async src="https://www.clarity.ms/tag/n44t21ktw2?ref=gtm" type="text/javascript"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPX4692H1S&amp;cx=c&amp;gtm=4e5a81h1" type="text/javascript"></script>
+	<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-WXTDXX"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<meta content="From creating custom AI models to AI DevOps, we offer industry-specific AI solutions and software development to data-centric enterprises. Learn more." data-react-helmet="true" name="description">
+	<meta content="Custom AI Solutions Development | Intellectsoft AI Lab" data-react-helmet="true" property="og:title">
+	<meta content="From creating custom AI models to AI DevOps, we offer industry-specific AI solutions and software development to data-centric enterprises. Learn more." data-react-helmet="true" property="og:description">
+	<meta content="website" data-react-helmet="true" property="og:type">
+	<meta content="AR Lab" data-react-helmet="true" property="og:site_name">
+	<meta content="https://ai.intellectsoft.net" data-react-helmet="true" property="og:url">
+	<meta content="https://ai.intellectsoft.net/static/media/is-ai-lab.jpg" data-react-helmet="true" property="og:image">
+	<meta content="summary_large_image" data-react-helmet="true" property="twitter:card">
+	<meta content="From creating custom AI models to AI DevOps, we offer industry-specific AI solutions and software development to data-centric enterprises. Learn more." data-react-helmet="true" property="twitter:description">
+	<meta content="Custom AI Solutions Development | Intellectsoft AI Lab" data-react-helmet="true" property="twitter:title">
+	<meta content="https://ai.intellectsoft.net/static/media/is-ai-lab.jpg" data-react-helmet="true" property="twitter:image">
+	<meta content="xxx" data-react-helmet="true" property="fb:app_id">
+	<link data-react-helmet="true" href="https://ai.intellectsoft.net" rel="canonical">
+	<script async defer src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=fhfeb">
+	</script>
+	<title></title>
+</head>
+<body>
+	<div id="root">
+		<div id="page">
+			<div>
+				<div class="fix-container">
+					<section class="header">
+						<header class="main-header">
+							<div class="logo">
+								<a class="main-site-link" href="#hero"><img alt="AI Lab logo" class="logo__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMjkiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCAyMjkgNTAiPgogICAgPGcgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8cGF0aCBkPSJNMzYuNjUxIDE1LjU2MmMuMDU2LS41MS0uMTg4LS41NjItLjY3OS0uNTYyaC05LjU3NmMtLjczNyAwLTEuMTA1LjQ5Ny0xLjM1IDEuMjQxLS4yNDYuNzQ1LTMuNzQ3IDEzLjU4OC00LjA1MiAxNC43NzktLjMwNCAxLjE5LTEuMzggMS43MzgtMi4xMTYgMS43MzhoLTUuNDk2Yy0uNzM2IDAtMS4yMjguOTI2LTEuMjI4IDEuNTI2IDAgLjM3Mi4yNDYuNTc3LjczNy41NzdoMTIuNGMxLjEwNSAwIDEuMzUtMS4yNDIgMS4zNS0xLjI0Mmw0LjA1Mi0xNS41MjNzLjI0Ni0xLjI0MSAxLjIyOC0xLjI0MWgzLjY4Yy40NDMgMCAuOTcyLS41ODQgMS4wNS0xLjI5M3ptLTIzLjE0NiAxNC4yMWMtLjI0Ni44NjguMDA3IDEuMjQuNjIxIDEuMjRoMy45ODdjLjQ5IDAgLjkxOS0uMzc4IDEuMTYyLTEuMjQuMjQzLS44NjMgMy41OS0xMi45MDYgMy44MDYtMTMuNjU1LjIxNi0uNzQ4IDAtMS4yNDEtLjQ5LTEuMjQxaC00LjA1MmMtLjg2IDAtLjk4My40OTctMS4yMjggMS4yNDEtLjI0Ni43NDUtMy41NiAxMi45MS0zLjgwNiAxMy42NTR6TTI0LjU1NS4xMDRjMTMuNTA0IDAgMjQuNTU0IDExLjE3MSAyNC41NTQgMjQuODI1IDAgMTMuNjU1LTExLjA1IDI0LjgyNi0yNC41NTUgMjQuODI2QzExLjA1IDQ5Ljc1NiAwIDM4LjU4NSAwIDI0LjkzIDAgMTEuMjc2IDExLjA1LjEwNSAyNC41NTQuMTA1ek01OS45MSAzMS4yVjE4LjY4M2gxLjM3M1YzMS4ySDU5Ljkxem0tLjI0LTE2LjEzM2MwLS4yNi4wODQtLjQ4LjI1Mi0uNjYuMTY3LS4xOC4zOTYtLjI3MS42ODYtLjI3MS4yOSAwIC41MjEuMDkuNjkzLjI3LjE3MS4xOC4yNTcuNC4yNTcuNjYxIDAgLjI2LS4wODYuNDgtLjI1Ny42NTYtLjE3Mi4xNzYtLjQwMy4yNjQtLjY5My4yNjQtLjI5IDAtLjUxOS0uMDg4LS42ODYtLjI2NGEuOTE0LjkxNCAwIDAgMS0uMjUyLS42NTZ6bTYuNjM3IDMuNjE2bC4wNDYgMi4xNGMuNDY1LS43NzEgMS4wNDUtMS4zNiAxLjczOS0xLjc2NGE0LjQ4IDQuNDggMCAwIDEgMi4zLS42MDhjMS4zMjcgMCAyLjMxNS4zNzggMi45NjMgMS4xMzQuNjQ5Ljc1Ni45NzcgMS44OS45ODQgMy40MDFWMzEuMmgtMS4zNjF2LTguMjI1Yy0uMDA4LTEuMTE4LS4yNDMtMS45NTItLjcwNC0yLjUtLjQ2Mi0uNTQ3LTEuMi0uODItMi4yMTQtLjgyLS44NDcgMC0xLjU5Ni4yNjctMi4yNDkuODAzLS42NTIuNTM3LTEuMTM0IDEuMjYtMS40NDcgMi4xN1YzMS4yaC0xLjM2MlYxOC42ODNoMS4zMDV6bTEzLjY5Ny0zLjIwNXYzLjIwNWgyLjU2M3YxLjEzM2gtMi41NjN2OC4zNWMwIC42OTYuMTIzIDEuMjEzLjM3MSAxLjU1My4yNDguMzQuNjYyLjUxIDEuMjQyLjUxLjIyOSAwIC41OTktLjA0IDEuMTEtLjExNmwuMDU3IDEuMTI0Yy0uMzU5LjEzLS44NDcuMTk1LTEuNDY1LjE5NS0uOTM4IDAtMS42Mi0uMjc2LTIuMDQ4LS44MjctLjQyNy0uNTUyLS42NC0xLjM2NC0uNjQtMi40MzZ2LTguMzUzaC0yLjI3OHYtMS4xMzNoMi4yNzd2LTMuMjA1aDEuMzc0em05Ljk0MyA0LjE1M2MtMS4wMyAwLTEuODk4LjM4Mi0yLjYwMyAxLjE0Ni0uNzA2Ljc2My0xLjEzNSAxLjc4OS0xLjI4NyAzLjA3N2g3LjQyNnYtLjE1Yy0uMDM4LTEuMjA0LS4zNzgtMi4xODMtMS4wMTktMi45MzktLjY0LS43NTYtMS40OC0xLjEzNC0yLjUxNy0xLjEzNHptLjI1MiAxMS44Yy0xLjA1MyAwLTIuMDA1LS4yNjEtMi44NTUtLjc4Ni0uODUtLjUyNC0xLjUxMi0xLjI1NS0xLjk4NS0yLjE5Mi0uNDczLS45MzgtLjcxLTEuOTg4LS43MS0zLjE1M3YtLjQ5N2MwLTEuMjA0LjIzLTIuMjg3LjY5Mi0zLjI1MS40NjItLjk2NCAxLjEwNS0xLjcyMiAxLjkyOS0yLjI3NGE0LjcyMiA0LjcyMiAwIDAgMSAyLjY3Ny0uODI3YzEuNTAzIDAgMi42OTUuNTE5IDMuNTc2IDEuNTU2Ljg4MSAxLjAzOCAxLjMyMiAyLjQ1NSAxLjMyMiA0LjI1MnYuNzc1SDg2LjAxdi4yNjZjMCAxLjQyLjQwMiAyLjYwMSAxLjIwNyAzLjU0Ni44MDUuOTQ1IDEuODE4IDEuNDE3IDMuMDM4IDEuNDE3LjczMiAwIDEuMzc5LS4xMzUgMS45NC0uNDA1LjU2LS4yNyAxLjA3LS43MDEgMS41MjctMS4yOTVsLjg1OC42NTljLTEuMDA3IDEuNDczLTIuNDY3IDIuMjEtNC4zODIgMi4yMXptNy40NzItLjIzVjEzLjQzaDEuMzczVjMxLjJoLTEuMzczem01LjI1MiAwVjEzLjQzaDEuMzczVjMxLjJoLTEuMzczem05LjYzNS0xMS41N2MtMS4wMyAwLTEuODk4LjM4Mi0yLjYwMyAxLjE0Ni0uNzA2Ljc2My0xLjEzNSAxLjc4OS0xLjI4OCAzLjA3N2g3LjQyNnYtLjE1Yy0uMDM4LTEuMjA0LS4zNzctMi4xODMtMS4wMTgtMi45MzktLjY0LS43NTYtMS40OC0xLjEzNC0yLjUxNy0xLjEzNHptLjI1MiAxMS44Yy0xLjA1MyAwLTIuMDA1LS4yNjEtMi44NTUtLjc4Ni0uODUxLS41MjQtMS41MTMtMS4yNTUtMS45ODYtMi4xOTItLjQ3My0uOTM4LS43MS0xLjk4OC0uNzEtMy4xNTN2LS40OTdjMC0xLjIwNC4yMzItMi4yODcuNjkzLTMuMjUxLjQ2Mi0uOTY0IDEuMTA0LTEuNzIyIDEuOTI4LTIuMjc0YTQuNzIgNC43MiAwIDAgMSAyLjY3OC0uODI3YzEuNTAyIDAgMi42OTQuNTE5IDMuNTc2IDEuNTU2Ljg4IDEuMDM4IDEuMzIxIDIuNDU1IDEuMzIxIDQuMjUydi43NzVoLTguODM0di4yNjZjMCAxLjQyLjQwMyAyLjYwMSAxLjIwOCAzLjU0Ni44MDQuOTQ1IDEuODE3IDEuNDE3IDMuMDM4IDEuNDE3LjczMiAwIDEuMzc5LS4xMzUgMS45NC0uNDA1LjU2LS4yNyAxLjA3LS43MDEgMS41MjctMS4yOTVsLjg1OC42NTljLTEuMDA3IDEuNDczLTIuNDY4IDIuMjEtNC4zODIgMi4yMXptMTEuODg4LTEuMTY4Yy45NTQgMCAxLjc1My0uMjcyIDIuMzk4LS44MTUuNjQ0LS41NDQuOTkzLTEuMjQ4IDEuMDQ3LTIuMTEyaDEuMzE1YTMuOTQ4IDMuOTQ4IDAgMCAxLS43MDkgMi4wODggNC40NTUgNC40NTUgMCAwIDEtMS43MzQgMS40NzUgNS4xOCA1LjE4IDAgMCAxLTIuMzE3LjUzM2MtMS42MjQgMC0yLjkxMi0uNTcxLTMuODYyLTEuNzEyLS45NS0xLjE0Mi0xLjQyNC0yLjY3Ny0xLjQyNC00LjYwNXYtLjQxN2MwLTEuMjMzLjIxMy0yLjMyNS42NC0zLjI3NC40MjgtLjk0OCAxLjA0LTEuNjggMS44MzctMi4xOTguNzk3LS41MTYgMS43My0uNzc1IDIuNzk4LS43NzUgMS4zNTggMCAyLjQ3Ny40MSAzLjM1OCAxLjIyNy44ODEuODE3IDEuMzUyIDEuODkzIDEuNDEzIDMuMjI3aC0xLjMxNWMtLjA2Mi0uOTgtLjQxLTEuNzctMS4wNDctMi4zNzEtLjYzNy0uNjAyLTEuNDQtLjkwMy0yLjQxLS45MDMtMS4yMzUgMC0yLjE5NC40NTEtMi44NzcgMS4zNTQtLjY4My45MDItMS4wMjQgMi4xNjctMS4wMjQgMy43OTR2LjQwNWMwIDEuNTk3LjM0MSAyLjg0MyAxLjAyNCAzLjczNy42ODMuODk1IDEuNjQ2IDEuMzQyIDIuODkgMS4zNDJ6bTkuNjI0LTE0Ljc4NXYzLjIwNWgyLjU2M3YxLjEzM2gtMi41NjN2OC4zNWMwIC42OTYuMTIzIDEuMjEzLjM3MiAxLjU1My4yNDcuMzQuNjYxLjUxIDEuMjQxLjUxLjIyOSAwIC41OTktLjA0IDEuMTEtLjExNmwuMDU3IDEuMTI0Yy0uMzU5LjEzLS44NDcuMTk1LTEuNDY0LjE5NS0uOTM5IDAtMS42MjItLjI3Ni0yLjA0OS0uODI3LS40MjctLjU1Mi0uNjQtMS4zNjQtLjY0LTIuNDM2di04LjM1M2gtMi4yNzh2LTEuMTMzaDIuMjc3di0zLjIwNWgxLjM3NHptMTEuNTkxIDEyLjI2M2MwLS40MDktLjItLjczLS42LS45NjYtLjQwMS0uMjM1LTEuMDQ0LS40NDUtMS45MjktLjYzLTIuOTQ1LS42MjUtNC40MTctMS44OS00LjQxNy0zLjc5NSAwLTEuMTEuNDU2LTIuMDM4IDEuMzY4LTIuNzgyLjkxMS0uNzQ1IDIuMTAzLTEuMTE3IDMuNTc2LTEuMTE3IDEuNTcgMCAyLjgyOC4zNzQgMy43NyAxLjEyMi45NDIuNzQ4IDEuNDEzIDEuNzIgMS40MTMgMi45MTZoLTMuMzA3YzAtLjQ3OC0uMTUzLS44NzQtLjQ1OC0xLjE4Ni0uMzA1LS4zMTMtLjc4Mi0uNDY5LTEuNDMtLjQ2OS0uNTU3IDAtLjk4OC4xMjgtMS4yOTMuMzgyYTEuMjEgMS4yMSAwIDAgMC0uNDU4Ljk3MmMwIC4zNy4xNzQuNjcuNTIuODk3LjM0OC4yMjcuOTM0LjQyNCAxLjc1Ny41OS44MjQuMTY1IDEuNTE4LjM1MiAyLjA4My41NiAxLjc0Ny42NDkgMi42MiAxLjc3IDIuNjIgMy4zNjcgMCAxLjE0Mi0uNDg0IDIuMDY1LTEuNDUzIDIuNzcxLS45NjkuNzA2LTIuMjIgMS4wNTktMy43NTMgMS4wNTktMS4wMzggMC0xLjk1OS0uMTg3LTIuNzYzLS41NjEtLjgwNS0uMzc0LTEuNDM2LS44ODctMS44OTQtMS41NC0uNDU4LS42NS0uNjg3LTEuMzU0LS42ODctMi4xMWgzLjEzNmMuMDMuNTk0LjI0NyAxLjA0OS42NTIgMS4zNjUuNDA0LjMxNi45NDYuNDc0IDEuNjI1LjQ3NC42MzMgMCAxLjExMS0uMTIxIDEuNDM2LS4zNjQuMzI0LS4yNDMuNDg2LS41NjIuNDg2LS45NTV6bTguMTM2LTIuNjc4YzAgMS4xOS4yMiAyLjEuNjYzIDIuNzI5LjQ0My42MyAxLjA3Ni45NDQgMS45Ljk0NC44IDAgMS40MjUtLjMxIDEuODc3LS45MzMuNDUtLjYyMS42NzUtMS42MTYuNjc1LTIuOTgzIDAtMS4xNjctLjIyNS0yLjA3LS42NzUtMi43MTItLjQ1Mi0uNjQtMS4wODQtLjk2MS0xLjktLjk2MS0uODA5IDAtMS40MzQuMzE4LTEuODc3Ljk1Ni0uNDQyLjYzNy0uNjYzIDEuNjI0LS42NjMgMi45NnptLTMuMzA3LS4yMzdjMC0xLjI0Mi4yMzYtMi4zNDkuNzEtMy4zMi40NzItLjk3MiAxLjE1My0xLjcyNCAyLjA0Mi0yLjI1Ny44ODgtLjUzMiAxLjkyLS43OTggMy4wOTUtLjc5OCAxLjY3IDAgMy4wMzQuNTE3IDQuMDkgMS41NSAxLjA1NiAxLjAzNCAxLjY0NyAyLjQzOCAxLjc2OSA0LjIxMmwuMDIzLjg1NmMwIDEuOTItLjUzIDMuNDYtMS41OTIgNC42MjEtMS4wNTkgMS4xNjEtMi40ODIgMS43NDItNC4yNjYgMS43NDItMS43ODYgMC0zLjIxLS41NzktNC4yNzUtMS43MzYtMS4wNjQtMS4xNTctMS41OTYtMi43My0xLjU5Ni00Ljcydi0uMTV6bTE0LjY3IDYuMzc0VjIxLjEzNWgtMS44NDJ2LTIuNDUyaDEuODQxdi0xLjA2NWMwLTEuNDA0LjM5OS0yLjQ5MyAxLjE5Ni0zLjI2OC43OTYtLjc3NSAxLjkxMi0xLjE2MyAzLjM0OC0xLjE2My40NTcgMCAxLjAxNy4wNzcgMS42OC4yM2wtLjAzNCAyLjU3YTQuMTYgNC4xNiAwIDAgMC0xLjAwNi0uMTA0Yy0xLjI0MyAwLTEuODY1LjU5NS0xLjg2NSAxLjc4NXYxLjAxNWgyLjQ2djIuNDUyaC0yLjQ2VjMxLjJoLTMuMzE5em0xMS40NTMtMTUuNTk1djMuMDc4aDIuMTE3djIuNDUyaC0yLjExN3Y2LjI0OGMwIC40NjIuMDg3Ljc5NC4yNjQuOTk0LjE3NS4yMDEuNTEuMzAxIDEuMDA2LjMwMS4zNjcgMCAuNjktLjAyNy45NzMtLjA4djIuNTMzYy0uNjQ4LjItMS4zMTUuMy0yLjAwMy4zLTIuMzE4IDAtMy41LTEuMTgzLTMuNTQ2LTMuNTUxdi02Ljc0NWgtMS44MXYtMi40NTJoMS44MXYtMy4wNzhoMy4zMDZ6TTE5NS44OTQgNDNsLS43ODYtLjAwMkwxOTUuMTA2IDRsLjc4Ni4wMDJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMjE0Ljg5NiAyMC42NWgtMi45MjVsLS41NTggMS4zNWgtMS40OTRsMi44MDgtNi4zaDEuNDRsMi44MTcgNi4zaC0xLjUzbC0uNTU4LTEuMzV6bS0uNDU5LTEuMTA3bC0uOTk5LTIuNDEyLS45OTkgMi40MTJoMS45OTh6bTMuMjA0LTMuODQzaDEuNDU4VjIyaC0xLjQ1OHYtNi4zem0tNi44OTQgMTBoMS40NTh2NS4xMTJoMy4xNTlWMzJoLTQuNjE3di02LjN6bTkuNjM5IDQuOTVoLTIuOTI1bC0uNTU4IDEuMzVoLTEuNDk0bDIuODA4LTYuM2gxLjQ0bDIuODE3IDYuM2gtMS41M2wtLjU1OC0xLjM1em0tLjQ1OS0xLjEwN2wtLjk5OS0yLjQxMi0uOTk5IDIuNDEyaDEuOTk4em03LjgzLS44MTljLjM2LjExNC42NDIuMzA0Ljg0Ni41NzIuMjA0LjI2Ny4zMDYuNTk1LjMwNi45ODUgMCAuNTUyLS4yMTQuOTc2LS42NDMgMS4yNzQtLjQzLjI5Ny0xLjA1NS40NDUtMS44NzcuNDQ1aC0zLjI1OHYtNi4zaDMuMDc4Yy43NjggMCAxLjM1Ny4xNDcgMS43NjguNDQxLjQxMi4yOTQuNjE3LjY5My42MTcgMS4xOTcgMCAuMzA2LS4wNzMuNTc5LS4yMi44MTktLjE0OC4yNC0uMzUzLjQyOS0uNjE3LjU2N3ptLTMuMTc3LTEuOTI2djEuNDg1aDEuNDQ5Yy4zNiAwIC42MzMtLjA2My44MTktLjE4OS4xODYtLjEyNi4yNzktLjMxMi4yNzktLjU1OCAwLS4yNDYtLjA5My0uNDMtLjI3OS0uNTUzLS4xODYtLjEyNC0uNDU5LS4xODUtLjgxOS0uMTg1aC0xLjQ0OXptMS43MDEgNC4xMDRjLjM4NCAwIC42NzMtLjA2My44NjgtLjE4OS4xOTYtLjEyNi4yOTMtLjMyMS4yOTMtLjU4NSAwLS41MjItLjM4Ny0uNzgzLTEuMTYxLS43ODNoLTEuNzAxdjEuNTU3aDEuNzAxeiIvPgogICAgPC9nPgo8L3N2Zz4K"></a>
+								<div class="dropdown"><img alt="dropdown" class="dropdown__img" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTYgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMTExLjAwMDAwMCwgLTMzODMuMDAwMDAwKSIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSI+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTExMy4wMDAwMDAsIDMzODUuMDAwMDAwKSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIiPgogICAgICAgICAgICA8cGF0aCBkPSJNNiw2IEwwLjAyMjU0MjM0NjQsMC4wMjI1NDIzNDY0Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMiwwIEw2LjMsNS43Ii8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="></div>
+								<ul class="next-logos">
+									<li>
+										<a href="https://www.intellectsoft.net/"><img alt="dropdown" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDM1IDM1Ij4KICAgIDxwYXRoIGZpbGw9IiMxNDc2RjIiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI1LjY1NiAxMC44OTRjLS4wNTUuNDk2LS40MjUuOTA0LS43MzUuOTA0aC0yLjU3NmMtLjY4OCAwLS44Ni44Ny0uODYuODdsLTIuODM2IDEwLjg2NnMtLjE3Mi44NjktLjk0NS44NjloLTguNjhjLS4zNDQgMC0uNTE2LS4xNDQtLjUxNi0uNDA0IDAtLjQyLjM0NC0xLjA2OC44Ni0xLjA2OGgzLjg0N2MuNTE1IDAgMS4yNjgtLjM4NCAxLjQ4LTEuMjE3LjIxNC0uODMzIDIuNjY1LTkuODI0IDIuODM3LTEwLjM0NS4xNzItLjUyMS40My0uODY5Ljk0NS0uODY5aDYuNzAzYy4zNDQgMCAuNTE1LjAzNi40NzYuMzk0ek05LjQ1MyAyMC44NGMuMTcyLS41MjEgMi40OTMtOS4wMzcgMi42NjUtOS41NTguMTcxLS41MjEuMjU3LS44NjkuODU5LS44NjloMi44MzZjLjM0NCAwIC40OTUuMzQ1LjM0NC44Ny0uMTUxLjUyMy0yLjQ5NCA4Ljk1My0yLjY2NCA5LjU1Ny0uMTcuNjA0LS40Ny44NjktLjgxNC44NjloLTIuNzljLS40MyAwLS42MDctLjI2LS40MzYtLjg2OXpNMTcuMTg4LjA3M0M3LjczNS4wNzMgMCA3Ljg5MyAwIDE3LjQ1MVM3LjczNSAzNC44MyAxNy4xODggMzQuODNjOS40NTQgMCAxNy4xODgtNy44MiAxNy4xODgtMTcuMzc4IDAtOS41NTctNy43MzQtMTcuMzc4LTE3LjE4OC0xNy4zNzh6Ii8+Cjwvc3ZnPgo="><span class="name-site">Intellectsoft<span>Global</span></span></a>
+									</li>
+									<li>
+										<a href="https://blockchain.intellectsoft.net/"><img alt="dropdown" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDM1IDM1Ij4KICAgIDxwYXRoIGZpbGw9IiMxNDc2RjIiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI1LjY1NiAxMC44OTRjLS4wNTUuNDk2LS40MjUuOTA0LS43MzUuOTA0aC0yLjU3NmMtLjY4OCAwLS44Ni44Ny0uODYuODdsLTIuODM2IDEwLjg2NnMtLjE3Mi44NjktLjk0NS44NjloLTguNjhjLS4zNDQgMC0uNTE2LS4xNDQtLjUxNi0uNDA0IDAtLjQyLjM0NC0xLjA2OC44Ni0xLjA2OGgzLjg0N2MuNTE1IDAgMS4yNjgtLjM4NCAxLjQ4LTEuMjE3LjIxNC0uODMzIDIuNjY1LTkuODI0IDIuODM3LTEwLjM0NS4xNzItLjUyMS40My0uODY5Ljk0NS0uODY5aDYuNzAzYy4zNDQgMCAuNTE1LjAzNi40NzYuMzk0ek05LjQ1MyAyMC44NGMuMTcyLS41MjEgMi40OTMtOS4wMzcgMi42NjUtOS41NTguMTcxLS41MjEuMjU3LS44NjkuODU5LS44NjloMi44MzZjLjM0NCAwIC40OTUuMzQ1LjM0NC44Ny0uMTUxLjUyMy0yLjQ5NCA4Ljk1My0yLjY2NCA5LjU1Ny0uMTcuNjA0LS40Ny44NjktLjgxNC44NjloLTIuNzljLS40MyAwLS42MDctLjI2LS40MzYtLjg2OXpNMTcuMTg4LjA3M0M3LjczNS4wNzMgMCA3Ljg5MyAwIDE3LjQ1MVM3LjczNSAzNC44MyAxNy4xODggMzQuODNjOS40NTQgMCAxNy4xODgtNy44MiAxNy4xODgtMTcuMzc4IDAtOS41NTctNy43MzQtMTcuMzc4LTE3LjE4OC0xNy4zNzh6Ii8+Cjwvc3ZnPgo="><span class="name-site">Blockchain Lab<span>by Intellectsoft</span></span></a>
+									</li>
+									<li>
+										<a href="https://iot.intellectsoft.net/"><img alt="dropdown" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDM1IDM1Ij4KICAgIDxwYXRoIGZpbGw9IiMxNDc2RjIiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI1LjY1NiAxMC44OTRjLS4wNTUuNDk2LS40MjUuOTA0LS43MzUuOTA0aC0yLjU3NmMtLjY4OCAwLS44Ni44Ny0uODYuODdsLTIuODM2IDEwLjg2NnMtLjE3Mi44NjktLjk0NS44NjloLTguNjhjLS4zNDQgMC0uNTE2LS4xNDQtLjUxNi0uNDA0IDAtLjQyLjM0NC0xLjA2OC44Ni0xLjA2OGgzLjg0N2MuNTE1IDAgMS4yNjgtLjM4NCAxLjQ4LTEuMjE3LjIxNC0uODMzIDIuNjY1LTkuODI0IDIuODM3LTEwLjM0NS4xNzItLjUyMS40My0uODY5Ljk0NS0uODY5aDYuNzAzYy4zNDQgMCAuNTE1LjAzNi40NzYuMzk0ek05LjQ1MyAyMC44NGMuMTcyLS41MjEgMi40OTMtOS4wMzcgMi42NjUtOS41NTguMTcxLS41MjEuMjU3LS44NjkuODU5LS44NjloMi44MzZjLjM0NCAwIC40OTUuMzQ1LjM0NC44Ny0uMTUxLjUyMy0yLjQ5NCA4Ljk1My0yLjY2NCA5LjU1Ny0uMTcuNjA0LS40Ny44NjktLjgxNC44NjloLTIuNzljLS40MyAwLS42MDctLjI2LS40MzYtLjg2OXpNMTcuMTg4LjA3M0M3LjczNS4wNzMgMCA3Ljg5MyAwIDE3LjQ1MVM3LjczNSAzNC44MyAxNy4xODggMzQuODNjOS40NTQgMCAxNy4xODgtNy44MiAxNy4xODgtMTcuMzc4IDAtOS41NTctNy43MzQtMTcuMzc4LTE3LjE4OC0xNy4zNzh6Ii8+Cjwvc3ZnPgo="><span class="name-site">IoT Lab<span>by Intellectsoft</span></span></a>
+									</li>
+									<li>
+										<a href="https://ar.intellectsoft.net/"><img alt="dropdown" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDM1IDM1Ij4KICAgIDxwYXRoIGZpbGw9IiMxNDc2RjIiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI1LjY1NiAxMC44OTRjLS4wNTUuNDk2LS40MjUuOTA0LS43MzUuOTA0aC0yLjU3NmMtLjY4OCAwLS44Ni44Ny0uODYuODdsLTIuODM2IDEwLjg2NnMtLjE3Mi44NjktLjk0NS44NjloLTguNjhjLS4zNDQgMC0uNTE2LS4xNDQtLjUxNi0uNDA0IDAtLjQyLjM0NC0xLjA2OC44Ni0xLjA2OGgzLjg0N2MuNTE1IDAgMS4yNjgtLjM4NCAxLjQ4LTEuMjE3LjIxNC0uODMzIDIuNjY1LTkuODI0IDIuODM3LTEwLjM0NS4xNzItLjUyMS40My0uODY5Ljk0NS0uODY5aDYuNzAzYy4zNDQgMCAuNTE1LjAzNi40NzYuMzk0ek05LjQ1MyAyMC44NGMuMTcyLS41MjEgMi40OTMtOS4wMzcgMi42NjUtOS41NTguMTcxLS41MjEuMjU3LS44NjkuODU5LS44NjloMi44MzZjLjM0NCAwIC40OTUuMzQ1LjM0NC44Ny0uMTUxLjUyMy0yLjQ5NCA4Ljk1My0yLjY2NCA5LjU1Ny0uMTcuNjA0LS40Ny44NjktLjgxNC44NjloLTIuNzljLS40MyAwLS42MDctLjI2LS40MzYtLjg2OXpNMTcuMTg4LjA3M0M3LjczNS4wNzMgMCA3Ljg5MyAwIDE3LjQ1MVM3LjczNSAzNC44MyAxNy4xODggMzQuODNjOS40NTQgMCAxNy4xODgtNy44MiAxNy4xODgtMTcuMzc4IDAtOS41NTctNy43MzQtMTcuMzc4LTE3LjE4OC0xNy4zNzh6Ii8+Cjwvc3ZnPgo="><span class="name-site">AR Lab<span>by Intellectsoft</span></span></a>
+									</li>
+								</ul>
+							</div><button class="nav-btn">
+							<div class="inner-btn"></div></button>
+							<nav class="nav-menu">
+								<ul>
+									<li>
+										<a class="link" href="#hero">Home</a>
+									</li>
+									<li>
+										<a class="link" href="#areas">Expertise</a>
+									</li>
+									<li>
+										<a class="link" href="#cases">Clients</a>
+									</li>
+									<li>
+										<a href="https://www.intellectsoft.net/blog" target="_blank">Blog</a>
+									</li>
+									<li>
+										<a class="contact-btn" href="#contact-form">Contact us</a>
+									</li>
+								</ul>
+							</nav>
+						</header>
+					</section>
+					<section class="hero" id="hero" style="background: url(&quot;/static/media/bg-hero.jpg&quot;) 50% 50% / cover no-repeat, rgb(36, 36, 36);">
+						<div class="container">
+							<div class="welcome">
+								<h1 class="hero__title">Custom Full-cycle Development of <span class="hero__subtitle">Comprehensive Enterprise AI Solutions</span></h1>
+								<p class="hero__descr">Leverage our experience in Machine and Deep learning models development, Big Data, and Cloud technology to successfully build, deploy, and manage AI solutions in your industry.</p><a class="cta cta--black" href="#contact-form">▸ Talk to Our Experts</a>
+							</div>
+						</div>
+					</section>
+					<section class="section services">
+						<div class="container--services">
+							<div class="services__wrapper">
+								<h2 class="title">Our Services</h2>
+								<div class="services__container">
+									<div class="services__item">
+										<div class="services__img-wrapper"><img alt="Custom AI Software and Model Development" class="services__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgdmlld0JveD0iMCAwIDgwIDgwIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZmlsbD0iIzYyRTZBQyIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMy42NzggMGg1OS42NTVMNzguOTIgMTUuNTZBMy42NzggMy42NzggMCAwIDEgODAgMTguMTYydjU4LjE1OUEzLjY3OCAzLjY3OCAwIDAgMSA3Ni4zMjIgODBIMy42NzhBMy42NzggMy42NzggMCAwIDEgMCA3Ni4zMjJWMy42NzhBMy42NzggMy42NzggMCAwIDEgMy42NzggMHoiIG9wYWNpdHk9Ii4xMDkiLz4KICAgICAgICA8ZyBzdHJva2U9IiM1MDUwNTAiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNSAyMnYtMmExIDEgMCAwIDEgMS0xaDMyYTEgMSAwIDAgMSAxIDF2MjAiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTIwIDYwVjI1YTEgMSAwIDAgMSAxLTFoMzJhMSAxIDAgMCAxIDEgMXYyM00xOSAzMmgzMk0yMyAyOGgyTTI3IDI4aDJNMzEgMjhoMk01NCA1MHYyTTU5IDQ2djJNNTkgNDJ2MiIvPgogICAgICAgICAgICA8cGF0aCBkPSJNNDkgNDYuNTQzbC0xLjYzMS0zLjkzOS0zLjA0NiAxLjI2MWE5LjM2NSA5LjM2NSAwIDAgMC0yLjE4OS0yLjE4NmwxLjI2Mi0zLjA0N0wzOS40NTggMzdsLTEuMjYyIDMuMDQ3YTkuMzkzIDkuMzkzIDAgMCAwLTMuMDk0LS4wMDJMMzMuODQxIDM3bC0zLjkzOSAxLjYzMSAxLjI2MSAzLjA0NWE5LjM4OCA5LjM4OCAwIDAgMC0yLjE4NiAyLjE5bC0zLjA0Ny0xLjI2My0xLjYzMiAzLjkzOSAzLjA0OCAxLjI2MmE5LjM5MyA5LjM5MyAwIDAgMC0uMDAzIDMuMDk0bC0zLjA0NSAxLjI2MSAxLjYzMiAzLjkzOSAzLjA0NS0xLjI2MWE5LjM4NCA5LjM4NCAwIDAgMCAyLjE4OSAyLjE4NmwtMS4yNjIgMy4wNDcgMy45MzkgMS42MzIgMS4yNjItMy4wNDhjMS4wMS4xNyAyLjA1My4xNzcgMy4wOTMuMDAzbDEuMjYyIDMuMDQ1IDMuOTM4LTEuNjMyLTEuMjYxLTMuMDQ1YTkuMzI3IDkuMzI3IDAgMCAwIDIuMTg2LTIuMTg5bDMuMDQ4IDEuMjYzTDQ5IDUyLjE2bC0zLjA0Ny0xLjI2M2E5LjM2IDkuMzYgMCAwIDAgLjAwMi0zLjA5M0w0OSA0Ni41NDN6Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik00MC40NzUgNDcuNzY2YTQuMTQyIDQuMTQyIDAgMSAxLTcuNjUzIDMuMTcgNC4xNDIgNC4xNDIgMCAwIDEgNy42NTMtMy4xN3oiLz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo="></div>
+										<div class="services__content">
+											<h3 class="services__name">Custom AI Software and Model Development</h3>
+											<p class="services__text">Full-cycle development of custom AI models based on Deep and Machine Learning algorithms, including Data Science research, training, validation, testing</p>
+										</div>
+									</div>
+									<div class="services__item">
+										<div class="services__img-wrapper"><img alt="AI DevOps" class="services__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgdmlld0JveD0iMCAwIDgwIDgwIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZmlsbD0iIzYyRTZBQyIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMy42NzggMGg1OS42NTVMNzguOTIgMTUuNTZBMy42NzggMy42NzggMCAwIDEgODAgMTguMTYydjU4LjE1OUEzLjY3OCAzLjY3OCAwIDAgMSA3Ni4zMjIgODBIMy42NzhBMy42NzggMy42NzggMCAwIDEgMCA3Ni4zMjJWMy42NzhBMy42NzggMy42NzggMCAwIDEgMy42NzggMHoiIG9wYWNpdHk9Ii4xMDkiLz4KICAgICAgICA8ZyBzdHJva2U9IiM1MDUwNTAiIHN0cm9rZS13aWR0aD0iMiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNCAzMGg0bDQgNmgzTTI0IDQxaDE1TTI0IDMwYTMgMyAwIDEgMS02IDAgMyAzIDAgMCAxIDYgMHpNMjQgNDFhMyAzIDAgMSAxLTYgMCAzIDMgMCAwIDEgNiAwek0zMiAyNWw0IDZoNSIvPgogICAgICAgICAgICA8cGF0aCBkPSJNMzMgMjNhMyAzIDAgMSAxLTYgMCAzIDMgMCAwIDEgNiAwek0yNCA1MmEzIDMgMCAxIDAtNiAwIDMgMyAwIDAgMCA2IDB6TTMyIDU3bDQtNmg1Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMyA1OWEzIDMgMCAxIDAtNi0uMDAxIDMgMyAwIDAgMCA2IDB6TTQxIDQxaC0yTTI0IDUyaDRsNC02aDE5djIuODg2bDExLjQ2NS03Ljc2N0w1MSAzMi44ODZWMzZINDFNNDcgNDFoMk00MyA0MWgyTTQzIDMxaDJNNDMgNTFoMk0zOSAzNmgtMiIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="></div>
+										<div class="services__content">
+											<h3 class="services__name">AI DevOps</h3>
+											<p class="services__text">Comprehensive infrastructure management for Machine Learning workloads</p>
+										</div>
+									</div>
+									<div class="services__item">
+										<div class="services__img-wrapper"><img alt="AI-driven Big Data Solutions" class="services__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgdmlld0JveD0iMCAwIDgwIDgwIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZmlsbD0iIzYyRTZBQyIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMy42NzggMGg1OS42NTVMNzguOTIgMTUuNTZBMy42NzggMy42NzggMCAwIDEgODAgMTguMTYydjU4LjE1OUEzLjY3OCAzLjY3OCAwIDAgMSA3Ni4zMjIgODBIMy42NzhBMy42NzggMy42NzggMCAwIDEgMCA3Ni4zMjJWMy42NzhBMy42NzggMy42NzggMCAwIDEgMy42NzggMHoiIG9wYWNpdHk9Ii4xMDkiLz4KICAgICAgICA8ZyBzdHJva2U9IiM1MDUwNTAiIHN0cm9rZS13aWR0aD0iMiI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik00MS4wMzIgMjIuNDg2TDQzLjI1OCAxOWwzLjY1NiAxLjA2OS4wNzQgNC4zMTggMi42NzkgMS41NiAzLjc3OS0yLjA5NiAyLjY3NiAyLjY3Ny0yLjA5NiAzLjc3NyAxLjU0NyAyLjY4IDQuMzIuMDczIDEuMDc5IDMuNjU2LTMuNDg1IDIuMjI0djMuMDk0bDMuNDg1IDIuMjI0LTEuMDcgMy42NTYtNC4zMTcuMDc0LTEuNTYgMi42NzkgMi4wOTYgMy43NzgtMi42NzcgMi42NzctMy43NzctMi4wOTYtMi42OCAxLjU0Ny0uMDczIDQuMzItMy42NTYgMS4wNzktMi4yMjQtMy40ODVoLTMuMDk1bC0yLjIyMyAzLjQ4NS0zLjY1Ny0xLjA3LS4wNzMtNC4zMTctMi42OC0xLjU2LTMuNzc3IDIuMDk2LTIuNjc3LTIuNjc3IDIuMDk3LTMuNzc3LTEuNTQ3LTIuNjgtNC4zMjEtLjA3M0wxOCA0NC4yNTdsMy40ODYtMi4yMjR2LTMuMDk0TDE4IDM2LjcxNWwxLjA3LTMuNjU2IDQuMzE4LS4wNzQgMS41Ni0yLjY4LTIuMDk2LTMuNzc3IDIuNjc3LTIuNjc3IDMuNzc3IDIuMDk2IDIuNjgtMS41NDcuMDczLTQuMzJMMzUuNzE2IDE5bDIuMjIzIDMuNDg2eiIvPgogICAgICAgICAgICA8cGF0aCBkPSJNNDguNDg2IDMyLjQ4NmMwIDEuNjU3LTQuMDMgMy05IDMtNC45NzEgMC05LTEuMzQzLTktM3M0LjAyOS0zIDktM2M0Ljk3IDAgOSAxLjM0MyA5IDN6Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMC40ODYgMzIuNDg2djVjMCAxLjY1NiA0LjAyOSAzIDkgMyA0Ljk3IDAgOS0xLjM0NCA5LTN2LTUiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTMwLjQ4NiAzNy40ODZ2NWMwIDEuNjU2IDQuMDI5IDMgOSAzIDQuOTcgMCA5LTEuMzQ0IDktM3YtNSIvPgogICAgICAgICAgICA8cGF0aCBkPSJNMzAuNDg2IDQyLjQ4NnY1YzAgMS42NTYgNC4wMjkgMyA5IDMgNC45NyAwIDktMS4zNDQgOS0zdi01Ii8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"></div>
+										<div class="services__content">
+											<h3 class="services__name">AI-driven Big Data Solutions</h3>
+											<p class="services__text">Architecture design and implementation for Enterprise Big Data solutions</p>
+										</div>
+									</div>
+									<div class="services__item">
+										<div class="services__img-wrapper"><img alt="AI Solutions Lifecycle Management" class="services__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgdmlld0JveD0iMCAwIDgwIDgwIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZmlsbD0iIzYyRTZBQyIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMy42NzggMGg1OS42NTVMNzguOTIgMTUuNTZBMy42NzggMy42NzggMCAwIDEgODAgMTguMTYydjU4LjE1OUEzLjY3OCAzLjY3OCAwIDAgMSA3Ni4zMjIgODBIMy42NzhBMy42NzggMy42NzggMCAwIDEgMCA3Ni4zMjJWMy42NzhBMy42NzggMy42NzggMCAwIDEgMy42NzggMHoiIG9wYWNpdHk9Ii4xMDkiLz4KICAgICAgICA8ZyBzdHJva2U9IiM1MDUwNTAiIHN0cm9rZS13aWR0aD0iMiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMi4yMDcgNTEuMDE0bC0zLjIyMi0zLjIyMlY0Ni4zOGwxLjQxNy0xLjIyYy4wNjctLjQyNS4yMTUtLjczMS4yODMtMS4xNTctLjEzMy0uMjg0LS4xNjgtLjU0LS4yNDItLjgwNS0uMzY0LS4yNzItLjU5LS40NTgtLjk1NC0uNzNsLTEuNTk0LjAyOGMtLjM5OS0uMzk0LS42MTItLjYxMS0xLjAxMi0xLjAwNWwuMDIyLTMuMTA1IDEuMDQ4LS45OTMgMS41MDMuMDcgMS4wMDctLjcyNWMuMDctLjI0Ni4xNTEtLjQ4NC4yNzUtLjc0OC0uMDY3LS40MjctLjMxMi0uNzM0LS4zNzktMS4xNjFsLTEuMzc0LTEuMTc4di0xLjQxM2wzLjIyMi0zLjIyM2gxLjQxNGwxLjE4IDEuMzc3Yy40MjQuMDY5LjczLjIxNyAxLjE1NC4yODUuMjczLS4xMjYuNTItLjE1NS43NzUtLjIyNC4yNzYtLjM2OS40NjMtLjU5NC43NC0uOTZsLS4wMzQtMS41NzRjLjM5Ni0uNC42MTEtLjYxMyAxLjAwNy0xLjAxNGwzLjEwMS4wMjRjLjM5MS40MS42MDIuNjM0Ljk5MyAxLjA0M2wtLjA2MyAxLjU0Mi43MTQuOTk5Yy4yNTcuMDc1LjUwNC4xNjIuNzguMjk0LjQyOC0uMDY2LjczNS0uMzExIDEuMTY0LS4zNzhsMS4yMTctMS40MTNoMS40MTRsMy4yMjIgMy4yMjJ2MS40MTRsLTEuNDAzIDEuMjA2Yy0uMDguNDEzLS4yMzguNzItLjMxOCAxLjEzMi4xMjguMjc1LjE1NS41MTkuMjIyLjc3Mi4zNzEuMjgzLjU5Ni40NzMuOTcuNzU2bDEuNTUtLjAzN2MuNDAyLjM5NS42MTUuNjEgMS4wMTcgMS4wMDhsLS4wMjcgMy4wODYtMS4wNS45OS0xLjUxLS4wNzJjLS4zNzYuMjY5LS42My40NTItMS4wMDcuNzJhNC43MTQgNC43MTQgMCAwIDEtLjI3OC43NDVjLjA2Ny40MjkuMzEyLjczNS4zOCAxLjE2M2wxLjQ1NCAxLjI1OXYxLjQxNGwtMy4yMjIgMy4yMjJINDYuMzVsLTEuMjYzLTEuNDZjLS40MjMtLjA2OC0uNzI5LS4yMTYtMS4xNTItLjI4NC0uMjc1LjEyNi0uNTIuMTU1LS43NzYuMjI0LS4yNzYuMzY4LS40NjQuNTkzLS43MzkuOTZsLjAzMyAxLjU3NGMtLjM5NS40LS42MS42MTMtMS4wMDcgMS4wMTRsLTMuMDg4LS4wMjQtLjk5Mi0xLjA1Ni4wOC0xLjQ2OS0uNzQyLTEuMDJhNC4zNDcgNC4zNDcgMCAwIDEtLjc0Ny0uMjc2Yy0uNDEuMDc3LS43MTIuMzMtMS4xMjIuNDA3bC0xLjIxMyAxLjQxaC0xLjQxNHoiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTM3LjE1NyA0Mi44NDNhNCA0IDAgMSAwIDUuNjU3LTUuNjU4IDQgNCAwIDAgMC01LjY1NyA1LjY1OHpNMjcuOTg1IDUyLjAxNGgtNnY2Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMC44NTcgNDguNTMyYy0zLjUxNy03LjcxNC0yLjAyLTE3LjA4IDQuMzI4LTIzLjQyOCA4LjE3LTguMTY5IDIxLjQ5Ni04LjEyNCAyOS42NjUuMDQ1bDIuNzAzIDIuNzAzTTU5LjExNCAzMS40OTdjMy41MTcgNy43MTQgMi4wMTkgMTcuMDgtNC4zMyAyMy40MjgtOC4xNjggOC4xNy0yMS40OTUgOC4xMjQtMjkuNjY0LS4wNDVsLTIuNzAzLTIuNzAyIi8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik01MS45ODUgMjguMDE0aDZ2LTYiLz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo="></div>
+										<div class="services__content">
+											<h3 class="services__name">AI Solutions Lifecycle Management</h3>
+											<p class="services__text">Implementation of AI application lifecycle management and CI/CD</p>
+										</div>
+									</div>
+									<div class="services__item">
+										<div class="services__img-wrapper"><img alt="On-the-Edge AI" class="services__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgdmlld0JveD0iMCAwIDgwIDgwIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZmlsbD0iIzYyRTZBQyIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMy42NzggMGg1OS42NTVMNzguOTIgMTUuNTZBMy42NzggMy42NzggMCAwIDEgODAgMTguMTYydjU4LjE1OUEzLjY3OCAzLjY3OCAwIDAgMSA3Ni4zMjIgODBIMy42NzhBMy42NzggMy42NzggMCAwIDEgMCA3Ni4zMjJWMy42NzhBMy42NzggMy42NzggMCAwIDEgMy42NzggMHoiIG9wYWNpdHk9Ii4xMDkiLz4KICAgICAgICA8ZyBzdHJva2U9IiM1MDUwNTAiIHN0cm9rZS13aWR0aD0iMiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik01NyAyNmgtNS45MTdMNDcgMzJoLTZNNTcgMzdoLTVNNTcgMjZhMyAzIDAgMSAwIDYgMCAzIDMgMCAwIDAtNiAwek01NyA0OGgtMy45MTdsLTMuOTU4LTZINDBNNTcgNDhhMyAzIDAgMSAxIDYgMCAzIDMgMCAwIDEtNiAwek01NyAzN2EzIDMgMCAxIDAgNiAwIDMgMyAwIDAgMC02IDB6TTUxIDU0bC01LTdIMzRNNTAgNTdhMyAzIDAgMSAxIDYgMCAzIDMgMCAwIDEtNiAwek00MCAyNnYtM2EzIDMgMCAwIDAtMy0zSDIwYTMgMyAwIDAgMC0zIDN2M00xNyA1NHY0YTMgMyAwIDAgMCAzIDNoMTdhMyAzIDAgMCAwIDMtM3YtNCIvPgogICAgICAgICAgICA8cGF0aCBkPSJNNDAgNTB2NEgxN1YyNmgyM3YzTTI2IDU3aDVNNDIgMzdIMjNNNTAgMzdoLTJNNDYgMzdoLTJNMzkgMzJoLThNMzggNDJoLTkiLz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo="></div>
+										<div class="services__content">
+											<h3 class="services__name">On-the-Edge AI</h3>
+											<p class="services__text">ML models customization for on-the-edge device deployment</p>
+										</div>
+									</div>
+									<div class="services__item">
+										<div class="services__img-wrapper"><img alt="Integration" class="services__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgdmlld0JveD0iMCAwIDgwIDgwIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZmlsbD0iIzYyRTZBQyIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMy42NzggMGg1OS42NTVMNzguOTIgMTUuNTZBMy42NzggMy42NzggMCAwIDEgODAgMTguMTYydjU4LjE1OUEzLjY3OCAzLjY3OCAwIDAgMSA3Ni4zMjIgODBIMy42NzhBMy42NzggMy42NzggMCAwIDEgMCA3Ni4zMjJWMy42NzhBMy42NzggMy42NzggMCAwIDEgMy42NzggMHoiIG9wYWNpdHk9Ii4xMDkiLz4KICAgICAgICA8ZyBzdHJva2U9IiM1MDUwNTAiIHN0cm9rZS13aWR0aD0iMiI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik0zMS45MTYgNTUuODAybC0yLjcxMS0xLjU4MS0zLjgyNCAyLjEyLTIuNzA5LTIuNzEgMi4xMjItMy44MjItMS41NjYtMi43MTItNC4zNzItLjA3NC0uODU2LTMuNyAzLjc2NC0yLjI1di0zLjEzMUwxOCAzNS42OWwuOTY1LTMuNzAxIDQuMzEtLjA3NCAxLjU0OS0yLjcxMi0yLjEzNi0zLjgyMyAyLjcwMi0yLjcwOCAzLjgxOSAyLjEyIDIuNzA5LTEuNTY0LjA3NC00LjM3MkwzNS42OTEgMThsMi4yNSAzLjc2NGgzLjEzMUw0My4zMjIgMThsMy43Ljk2NS4wNzUgNC4zMSAyLjcxMiAxLjU0OSAzLjgyMy0yLjEzNSAyLjcwOCAyLjctMi4xMjEgMy44MiAxLjU2NiAyLjcwOSA0LjM3Mi4wNzMgMS4xMTMgMy43LTMuNTA2IDIuMjV2My4xMzJsMy41MDYgMi4yNS0xLjA5MyAzLjctNC4zNzUuMDc0LTEuNTgxIDIuNzEyIDIuMTE5IDMuODIzLTIuNzA5IDIuNzA5LTMuODIzLTIuMTIyLTIuNzExIDEuNTY1Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMS43NjQgMzguNzY0YTMgMyAwIDEgMS02IDAgMyAzIDAgMCAxIDYgMHpNNTEuNzY0IDMzLjc2NGEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDB6TTQxLjc2NCAyOC43NjRhMyAzIDAgMSAxLTYgMCAzIDMgMCAwIDEgNiAwek0zOC43NjQgMzEuNzY0djMyIi8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik00Ni43NjQgMzUuNzY0bC00IDR2Nk0zMC43NjQgNDAuNzY0bDQgNHYxOU01Mi43NjQgNDMuNzY0YTMgMyAwIDEgMS02IDAgMyAzIDAgMCAxIDYgMHoiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTQ3Ljc2NCA0NS43NjRsLTUgNXYxMyIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="></div>
+										<div class="services__content">
+											<h3 class="services__name">Integration</h3>
+											<p class="services__text">Establish integration with AI-ready cloud platforms and third-party APIs</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+          <section class="areas" id="areas">
+	        	<div class="container">
+	        		<h2 class="title title--white">Areas of Expertise</h2>
+	        		<div class="areas__container">
+	        			<div class="area area--active">
+	        				<div class="area__wrapper">
+	        					<div class="area__img-wrapper"><img alt="Image Processing &amp; Video Analytics"class="area__img"          src="data:image/svg+xml;base64,        PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMSIgaGVpZ2h0PSI0MSIgdmlld0JveD0iMCAIDMxIDQxIj       4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLXdpZHRoPSIxLjciPgogICAgICAgIDxwYXRoIN0cm9rZT0i       IzYyRTZBQyIgZD0iTTEyLjA4OCAzMy4yMTdoNi44MjRNMTIuOTQxIDI4LjEzYTIuOTIyIDIuOTIyIDAgMCAwIDIuMDYuODQ4SDEYy43NzIgMC     AxLjUxMi0uMzA0IDIuMDU4LS44NDhNMTIuOTQxIDE5LjY1MmwtMS4wOS0uNTQyYy0uNDA1LS4yLS44NTEtLjMwNi0xLjMwMy0uMA2SDguMTc3        Yy0uNzcyIDAtMS41MTMuMzA2LTIuMDYuODQ4TTEyLjA4OCAyMi4xOTZINy44MjRNMTguMDU5IDE5LjY1MmwxLjA5LS41NDJjLjQNS0uMi44NT       EtLjMwNiAxLjMwMy0uMzA2aDIuMzcxYy43NzIgMCAxLjUxMy4zMDYgMi4wNi44NDhNMTguOTEyIDIyLjE5Nmg0LjI2NCIvPgogIAgICAgIDxw       YXRoIHN0cm9rZT0iIzQ3N0I2NCIgZD0iTTIyLjMyNCAzNi42MDlDMjAuODggMzguNDgzIDE3Ljc3NCA0MCAxNS41IDQwYy0yLjINSAwLTUuMz     gtMS41MTctNi44MjQtMy4zOTFNMjkuMTQ3IDEyLjg3Yy0uNDM3LTIuNTUyLTEuNjM4LTUuMzYtMy42NC03LjYzQzIxLjc2Ny45OIgMTcuNDkg        MSAxNS41IDEgMTMuNTEgMSA5LjIzNC45OTMgNS40OTIgNS4yNGMtMi4wMDEgMi4yNy0zLjIwMyA1LjA3OC0zLjY0IDcuNjNNMTENDk1IDYuMD       ZjLjA3NCAyLjY2NCA1Ljc3NCA1LjE2MiA5Ljk3NyA3LjA0Nk0xMy4yNzUgOC42MDNjLTEuMTU1LjQxNy00LjI3NyAyLjA4NC02LMwNCAzLjg1       M00xIDIxLjM0OHYtNS45MzVoNS45N00xIDI4LjEzdjUuOTM1aDUuOTdNMzAgMjEuMzQ4di01LjkzNWgtNS45N00zMCAyOC4xM3YLjkzNWgtNS      45NyIvPgogICAgPC9nPgo8L3N2Zz4K"></div>
+	        					<div class="area__title">
+	        						Image Processing &amp; Video Analytics
+	        					</div>
+	        				</div>
+	        				<div class="area__content">
+	        					<h3 class="area__name">Image Processing &amp; Video Analytics</h3>
+	        					<ul class="area__list">
+	        						<li class="area__unit">Store and process all video streams</li>
+	        						<li class="area__unit">Surveillance, wearable, hand-held and other cameras integrated in one datalake          platform</li>
+	        						<li class="area__unit">Highly-customizable video learners</li>
+	        						<li class="area__unit">Lightweight ML models on the edge</li>
+	        						<li class="area__unit">Fully automated end-to-end production process</li>
+	        						<li class="area__unit">Face recognition matched with other users transactions</li>
+	        						<li class="area__unit">Personalized image processing</li>
+	        						<li class="area__unit">Behavior patterns extraction</li>
+	        						<li class="area__unit">Detecting blacklisted persons</li>
+	        					</ul>
+	        				</div>
+	        			</div>
+	        			<div class="area">
+	        				<div class="area__wrapper">
+	        					<div class="area__img-wrapper"><img alt="Machine &amp; Deep Learning" class="area__img"src="data:image/svg         +xml;base64,       PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAIDM5IDM1Ij       4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZRoPSIxLjci     PgogICAgICAgIDxwYXRoIHN0cm9rZT0iIzQ3N0I2NCIgZD0iTTE1LjE0OSAxYy0zLjY2NiAwLTYuNTAzIDIuNTE0LTcuMDc1IDQNDUtMi41Nz       cuMzQ0LTQuMjk2IDIuNTc5LTQuMjk2IDUuMzU1IDAgLjIxNS4wMTQuNDI1LjAzNi42MzFDMi4xNDggMTIuMjU4IDEgMTQuNDA2IEgMTYuOTMy      YzAgMS42MDcuNjM2IDMuNDUgMS43NjkgNC41MzQtLjU5IDIuNjcuNDMyIDcuOTM5IDUuODQ3IDcuNDU3IDEuNTUxIDMuNTQ0IDQNDY4IDUuMj      YyIDEwLjA5MSA0LjIzVjFIMTUuMTV6TTEzLjM4IDEwLjc4OGMtMy4wNTggMC01LjMwNi0uNzQxLTUuMzA2LTUuMzQiLz4KICAgIAgICA8cGF0    aCBzdHJva2U9IiM0NzdCNjQiIGQ9Ik04LjA3NCAxNi4xMjdjMS40MTYuOTMzIDMuODEzLjU2MyA1LjEtLjc5NyAxLjY5NC0xLjcMyAzLjU5NC        0xLjk1OCA1LjUxMi4wNTlNMTguNjg2IDcuMjI5Yy0yLjE4My44MzMtNC41MTQuMTktNS4zMDYtMS43OE0xOC43MDggMjUuNjhjLIuMDItLjc2       My0zLjU4Ny4yMzctNC4yMDUgMS42OTJNOS44NDMgMjQuMTM1Yy0xLjQxLS4yMjMtMi42NTItMS41Ni0yLjY1Mi0yLjY3TTguNjEIDI4LjkyM2        MwLTMuMjUzIDEuODM0LTcuNDU3IDYuNTMyLTcuNDU3Ii8      +CiAgICAgICAgPHBhdGggc3Ryb2tlPSIjNjJFNkFDIiBkPSJNMjEuMjMgMWgyLjUyM3YzLjg1M2MxLjY4Mi4zMiAyLjkyMy44OTgNC4xMzUgM       S42NzhsMi43Ny0yLjcyOCAzLjc4MiAzLjc3NS0yLjY5NyAyLjgyNGMuNzc4IDEuMjIgMS4zNjcgMi40NDQgMS42ODQgNC4xMzZoy43OHY1LjA      3N2gtMy43OGMtLjMxNyAxLjY5My0uODkxIDIuODU3LTEuNjY4IDQuMDc1bDIuNzEgMi43NDctMy43NSAzLjc4My0yLjgzMS0yLjyNGMtMS4yM       TIuNzgzLTIuNDUzIDEuMzY1LTQuMTM1IDEuNjg0djMuOTc0SDIxLjIzIi8      +CiAgICAgICAgPHBhdGggc3Ryb2tlPSIjNjJFNkFDIiBkPSJNMjEuMjMgMjMuNzI1YzMuNzE1IDAgNi43MjgtMy4wMDMgNi43MjtNi43MDkgM       C0zLjcwNS0zLjAxMy02LjcwOC02LjcyOC02LjcwOCIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0iIzQ3N0I2NCIgZD0iTTUuNDIxDEzLjYxYzE      uNDY1IDAgMi42NTMgMS4wNDIgMi42NTMgMi41MTcgMCAxLjE2My0uNzM4IDIuMzAyLTEuNzY4IDIuNjciLz4KICAgIDwvZz4KPCzdmc       +Cg=="></div>
+	        					<div class="area__title">
+	        						Machine &amp; Deep Learning
+	        					</div>
+	        				</div>
+	        				<div class="area__content">
+	        					<h3 class="area__name">Machine &amp; Deep Learning</h3>
+	        					<ul class="area__list">
+	        						<li class="area__unit">Predictive maintenance algorithms for Industrial IoT platforms</li>
+	        						<li class="area__unit">Finance: AI driven market insights and predictions; predictive andprescriptive          maintenance</li>
+	        						<li class="area__unit">Predictive algorithms for individual customer experiences (Web and Mobile</li>
+	        						<li class="area__unit">AI-driven data analytics for trend-watching in Retail and otherindustries</li>
+	        						<li class="area__unit">Data mining</li>
+	        					</ul>
+	        				</div>
+	        			</div>
+	        			<div class="area">
+	        				<div class="area__wrapper">
+	        					<div class="area__img-wrapper"><img alt="Natural Language Processing" class="area__img"src="data:image/svg         +xml;base64,       PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAIDQwIDM2Ij       4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLXdpZHRoPSIxLjciPgogICAgICAgIDxwYXRoIN0cm9rZT0i     IzQ3N0I2NCIgZD0iTTExLjc1NCAyMy41MTdsMy45OTktLjg1N2MuNDg4IDAgLjc5NC0uNTI0LjU2Ni0uOTU5LS4zMTYtLjU5Ni0NTg1LTEuMT       Y0LS41MzctMS4zMzMuMDc0LS4yNjQuNTAzLS4zNCAxLjUxLS45NDMgMS4wMDctLjYwMy44OTUtMS40MzIuNDg1LTIuMDczLS40M0uNjQxLTMu      MTM1LTQuMjI1LTMuMjA4LTUuMzE3LS4wNDYtLjcwNy43OTMtMi40ODguMjA2LTUuMjg4LS4yNjctMS4yNzMtMS4wODgtMy44MjQMy4wMjMtNi      4yMDNNMi40MjggMzUuNTE3Yy41MzUtMi4yNDUgMy4yNDQtNS42OTIgNC4xNjQtNi4wNzciLz4KICAgICAgICA8cGF0aCBzdHJvaU9IiM0NzdC    NjQiIGQ9Ik0uNzM0IDIzLjg4N2MxLjIxOCAyLjEyNSAzLjA4NSA0Ljc0MiAzLjg0MiA0Ljk4NSAxLjEzNi4zNjUgNS43NTIgMS4MjEgNy41Mj        QgMS4yNDMgMS43Ny0uNjc4IDEuNjEyLTEuNDUgMS42ODktMS45MzMuMTktMS4yIDEuMzU2LTEuMzQzIDEuMzU2LTIuOTUiLz4KIAgICAgICA8       cGF0aCBzdHJva2U9IiM2MkU2QUMiIGQ9Ik0xOC41MzYgMjQuOTJsMi4yNzktMy45ODZjLjM4My0uNjcxIDEuMzc5LS41MjUgMS4NTguMjI4bD       EuMjk2IDUuNDQyYy4yMTcuOTEgMS41MTQuODYgMS42NjEtLjA2NWwxLjE5MS03LjUwNmMuMTU2LS45NzYgMS41NTItLjk1NSAxLY3OC4wMjRs     MS4zMiAxMC4xNWMuMTI1Ljk3IDEuNTAyIDEuMDA0IDEuNjc0LjA0MWwxLjI1Ni03LjAzNGMuMTU0LS44NjIgMS4zMzctLjk2MyALjYzMS0uMT       M5bDEuMTQ4IDMuMjFhLjg0NC44NDQgMCAwIDAgMS40OTkuMTg5cy43MS0xLjA2NCAxLjA5Ny0xLjQ5MmMuMzg5LS40MjkgMS4wN0uNDY1IDEu      MDYtLjQ2NSIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0iIzQ3N0I2NCIgZD0iTTIxLjA4IDMzLjgwM2gtNC4yNHYtNC4yODZNMzQNjQ1IDMzLj      gwM2g0LjI0di00LjI4Nk0zNC42NDUgMTMuMjMyaDQuMjR2NC4yODVNMTEuNzU0IDEwLjc3M3MtNC43NjQtLjU3MS02Ljc4My44NdNNy41MTUg     MTMuMjMyaDMuMzkxIi8+CiAgICA8L2c+Cjwvc3ZnPgo="></div>
+	        					<div class="area__title">
+	        						Natural Language Processing
+	        					</div>
+	        				</div>
+	        				<div class="area__content">
+	        					<h3 class="area__name">Natural Language Processing</h3>
+	        					<ul class="area__list">
+	        						<li class="area__unit">Consumer Machine Learning Chatbots</li>
+	        						<li class="area__unit">Department-specific AI assistants</li>
+	        						<li class="area__unit">Data mining and extraction</li>
+	        						<li class="area__unit">Voice recognition/Voice AI</li>
+	        					</ul>
+	        				</div>
+	        			</div>
+	        			<div class="area">
+	        				<div class="area__wrapper">
+	        					<div class="area__img-wrapper"><img alt="Data Lakes &amp; Cloud IoT" class="area__img"src="data:image/svg          +xml;base64,         PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MSIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAIDQxIDM2Ij         4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLXdpZHRoPSIxLjciPgogICAgICAgIDxwYXRoIN0cm9rZT0i         IzQ3N0I2NCIgZD0iTTMwLjY3NCAyMy45NWgzLjM5MUMzNy4zNDMgMjMuOTUgNDAgMjEuMjg2IDQwIDE4cy0yLjY1Ny01Ljk1LTUOTM1LTUuOT         VhNS45IDUuOSAwIDAgMC0xLjgwNi4yODJjLjA3LS4zNjcuMTEtLjc0NC4xMS0xLjEzMyAwLTMuMjg2LTIuNjU2LTUuOTUtNS45MQtNS45NS0x         LjQ4MyAwLTIuODM2LjU1LTMuODc2IDEuNDUxQzIxLjQwMyAzLjM4MyAxOC4yNjMgMSAxNC41NiAxIDkuODc4IDEgNi4wODEgNC4MDYgNi4wOD         EgOS41MDJjMCAuODk2LjE0IDEuNzYuMzk3IDIuNTdBNS45NDEgNS45NDEgMCAwIDAgMSAxOGMwIDMuMjg1IDIuNjU3IDUuOTUgN45MzUgNS45         NWgyLjU0M002LjQ3NyAxMi4wNjdhNS45IDUuOSAwIDAgMSAzLjU5Mi44NzlNMjIuNTczIDYuNjk0YTguNDggOC40OCAwIDAgMSANDMxIDEuOT          U0TTMyLjI2MiAxMi4zMzNhNS45MTkgNS45MTkgMCAwIDEtLjc0IDEuOTMzIi8        +CiAgICAgICAgPHBhdGggc3Ryb2tlPSIjNjJFNkFDIiBkPSJNMjYuNDM1IDM1SDEzLjcxN2EyLjU0NyAyLjU0NyAwIDAgMS0yLj0My0yLjU1d       i0uODVhMi41NDcgMi41NDcgMCAwIDEgMi41NDMtMi41NWgxMi43MThhMi41NDcgMi41NDcgMCAwIDEgMi41NDMgMi41NXYuODVBi41NDcgMi4       1NDcgMCAwIDEgMjYuNDM1IDM1ek0yNi40MzUgMjkuMDVIMTMuNzE3YTIuNTQ3IDIuNTQ3IDAgMCAxLTIuNTQzLTIuNTV2LS44NWyLjU0NyAyL     jU0NyAwIDAgMSAyLjU0My0yLjU1aDEyLjcxOGEyLjU0NyAyLjU0NyAwIDAgMSAyLjU0MyAyLjU1di44NWEyLjU0NyAyLjU0NyAwDAgMS0yLjU       0MyAyLjU1eiIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0iIzYyRTZBQyIgZD0iTTI2LjQzNSAyMy4xSDEzLjcxN2EyLjU0NyAyLj0NyAwIDAgM      S0yLjU0My0yLjU1di0uODVhMi41NDcgMi41NDcgMCAwIDEgMi41NDMtMi41NWgxMi43MThhMi41NDcgMi41NDcgMCAwIDEgMi41DMgMi41NXY       uODVhMi41NDcgMi41NDcgMCAwIDEtMi41NDMgMi41NXoiLz4KICAgIDwvZz4KPC9zdmc+Cg=="></div>
+	        					<div class="area__title">
+	        						Data Lakes &amp; Cloud IoT
+	        					</div>
+	        				</div>
+	        				<div class="area__content">
+	        					<h3 class="area__name">Data Lakes &amp; Cloud IoT</h3>
+	        					<ul class="area__list">
+	        						<li class="area__unit">Big data, business Intelligence analytics, predictive tools, planning,generative          models, and optimization tasks in one place</li>
+	        						<li class="area__unit">Data ecosystem architecture development</li>
+	        						<li class="area__unit">Distributed storage</li>
+	        						<li class="area__unit">Scale-ready read and write processing</li>
+	        						<li class="area__unit">Data cleaning processes</li>
+	        						<li class="area__unit">Pre-built high level features for machine learning</li>
+	        						<li class="area__unit">Integration with popular cloud platforms</li>
+	        					</ul>
+	        				</div>
+	        			</div>
+	        		</div>
+	        	</div>
+	        </section>
+
+            <section class="ctablock">
+						<div class="ctablock__container">
+							<div class="ctablock__wrapper">
+								<div class="ctablock__particles">
+									<canvas height="160" style="width: 100%; height: 100%;" width="1845"></canvas>
+								</div>
+								<h2 class="ctablock__title">Start leveraging the power of AI solutions in your operations.<span class="ctablock__subtitle">Tell our experts about your project.</span></h2><a class="cta" href="#contact-form">▸ Talk to Our Experts</a>
+							</div>
+						</div>
+					</section>
+					<section class="works">
+						<div class="works__wrapper">
+							<div class="works__title-wrapper">
+								<h2 class="title">How it Works</h2>
+								<div class="works__description">
+									<p class="description">From careful project analysis and ideation stage — to solution roll-out and management, the experts of PERFECT VIEW TECHNOLOGY AI Lab will help you every step of the way with your solution.</p>
+									<div class="works__cta">
+										<h3 class="works__ctaTitle">Unlock the potential for</h3>
+										<div class="works__ctaSubtitle">
+											<h3 class="works__ctaTitle">AI and Predictive-Analytics</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="works__container">
+								<div class="works__item">
+									<div class="works__img-wrapper"><img alt="Migration" class="works__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MyIgaGVpZ2h0PSI1MyIgdmlld0JveD0iMCAwIDUzIDUzIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjYuNSIgY3k9IjI2LjUiIHI9IjI2LjUiIGZpbGw9IiM2MkU2QUMiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA4MiIvPgogICAgICAgIDxnIHN0cm9rZT0iIzYyRTZBQyIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8cGF0aCBkPSJNMjguNzQ0IDI4LjQ0NWg2LjcwMnYzLjc1bDguMTkyLTcuNS04LjE5Mi03LjV2My43NWgtMTIuNjZNMTUuMzQgMzAuNjk1YzAgMy4zMTQgMi42NjcgNiA1Ljk1NyA2czUuOTU4LTIuNjg2IDUuOTU4LTZjMC0zLjMxMy0yLjY2OC02LTUuOTU4LTZzLTUuOTU3IDIuNjg3LTUuOTU3IDZ6TTI1LjAyIDI4LjQ0NWgtNC40NjdNMzIuNDY3IDMxLjQ0NWgtMy43MjNNMjUuNzY1IDMxLjQ0NWgtMy43MjNNMjAuNTUzIDMxLjQ0NWgtMi4yMzVNMTYuODMgMzUuMTk1bC01LjIxNCA1LjI1TTEzLjg1IDI4LjQ0NUg5LjM4Mk0yMS4yOTcgMjAuOTQ1aC0yLjk3OU0zMC45NzggMTcuOTQ1SDE2LjgzTTE2LjgzIDIwLjk0NWgtMi45OCIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="><img alt="Migration" class="works__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MyIgaGVpZ2h0PSI1MyIgdmlld0JveD0iMCAwIDUzIDUzIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjYuNSIgY3k9IjI2LjUiIHI9IjI2LjUiIGZpbGw9IiM2MkU2QUMiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA4MiIvPgogICAgICAgIDxnIHN0cm9rZT0iIzYyRTZBQyIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8cGF0aCBkPSJNMzYuMzkxIDMyLjI1aDIuMjgyQzQxLjYxNiAzMi4yNSA0NCAyOS45IDQ0IDI3cy0yLjM4NS01LjI1LTUuMzI2LTUuMjVjLS41NjUgMC0xLjExLjA4OC0xLjYyLjI0OWE1LjIxIDUuMjEgMCAwIDAgLjA5OC0uOTk5YzAtMi45LTIuMzg0LTUuMjUtNS4zMjYtNS4yNS0xLjMzIDAtMi41NDUuNDg0LTMuNDc4IDEuMjhDMjcuMzEgMTQuMTAyIDI0LjQ5MiAxMiAyMS4xNyAxMmMtNC4yMDIgMC03LjYxIDMuMzU4LTcuNjEgNy41MDIgMCAuNzkuMTI2IDEuNTUyLjM1NyAyLjI2OEMxMS4xNjcgMjEuOTc3IDkgMjQuMjM2IDkgMjdjMCAyLjkgMi4zODUgNS4yNSA1LjMyNiA1LjI1aDIuMjgzTTI4LjM2IDE3LjAyNWMuMTk1LjU0OC4zMjcgMS4xMjUuMzg3IDEuNzIzTTM3LjA1NiAyMmE1LjE1NiA1LjE1NiAwIDAgMS0uNjY1IDEuNzA2TTEzLjkxNSAyMS43NjVhNS40MSA1LjQxIDAgMCAxIDEuOTc2LjIxNiIvPgogICAgICAgICAgICA8cGF0aCBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMjguMDIyIDI5LjI1aDYuMDg3Yy40MiAwIC43Ni4zMzYuNzYuNzV2OS43NU0xOC4xMyAzOS43NVYzMGMwLS40MTQuMzQtLjc1Ljc2MS0uNzVoNi4wODdNMzcuMTUyIDM5Ljc1SDE1Ljg0OHYuNzVsLjc2IDEuNWgxOS43ODNsLjc2MS0xLjV6Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNi41IDIzLjI1djEyTTI4Ljc4MyAzM0wyNi41IDM1LjI1IDI0LjIxNyAzM00yOC43ODMgMjUuNUwyNi41IDIzLjI1bC0yLjI4MyAyLjI1Ii8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"></div>
+									<div class="works__content">
+										<h4 class="works__name">Migration</h4>
+										<p class="works__text">Data migration from legacy systems to new platform</p>
+									</div>
+								</div>
+								<div class="works__item">
+									<div class="works__img-wrapper"><img alt="Design &amp; Architecture" class="works__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MyIgaGVpZ2h0PSI1MyIgdmlld0JveD0iMCAwIDUzIDUzIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjYuNSIgY3k9IjI2LjUiIHI9IjI2LjUiIGZpbGw9IiM2MkU2QUMiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA4MiIvPgogICAgICAgIDxnIHN0cm9rZT0iIzYyRTZBQyIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8cGF0aCBkPSJNMzEuNzUgMjEuMjVhMyAzIDAgMSAwIDYgMCAzIDMgMCAwIDAtNiAweiIvPgogICAgICAgICAgICA8cGF0aCBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMzAuMjYgMjguMzk0Yy43OTMuNSAxLjY3Mi44NyAyLjYxMyAxLjA4NWwuMzUgMi4yNzFoMy4wNTRsLjM1LTIuMjdhOC4zOTkgOC4zOTkgMCAwIDAgMi42MTMtMS4wODZsMS44NTUgMS4zNiAyLjE2LTIuMTYtMS4zNi0xLjg1NGMuNDk5LS43OTMuODctMS42NzIgMS4wODQtMi42MTJsMi4yNy0uMzV2LTMuMDU1bC0yLjI3LS4zNWE4LjM3NSA4LjM3NSAwIDAgMC0xLjA4NS0yLjYxM2wxLjM2LTEuODU1LTIuMTYtMi4xNi0xLjg1NCAxLjM2YTguMzkxIDguMzkxIDAgMCAwLTIuNjE0LTEuMDg0bC0uMzUtMi4yN2gtMy4wNTNsLS4zNSAyLjI3YTguNDI0IDguNDI0IDAgMCAwLTIuNjEzIDEuMDg1bC0xLjg1NS0xLjM2LTIuMTYgMi4xNiAxLjM2MSAxLjg1NGE4LjM4IDguMzggMCAwIDAtMS4wODQgMi42MTQiLz4KICAgICAgICAgICAgPHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMTYuNzUgMzQuNzVjLTEuNjIgMC0zLTEuNTQxLTMtM1YyNWMwLTIuNDc3IDQuMTQ0LTMuNzUgNi43NS0zLjc1IDIuNjA1IDAgNy41IDEuMjczIDcuNSAzLjc1djkiLz4KICAgICAgICAgICAgPHBhdGggc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTIwLjUgMTljLTEuNzQ4IDAtMy0xLjIyNS0zLTN2LTEuNWMwLTEuNzc1IDEuMjUyLTMgMy0zczMgMS4yMjUgMyAzVjE2YzAgMS43NzUtMS4yNTIgMy0zIDN6Ii8+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTE2Ljc1IDQ1LjI1VjI2LjVNMjUgMjYuNVYzNE0yNSA0MC43NXY0LjVNMjAuNSAzNHYxMS4yNSIvPgogICAgICAgICAgICA8cGF0aCBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMjMuNSA0MC43NWg4LjI1VjM0SDIzLjV6Ii8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"><img alt="Design &amp; Architecture" class="works__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MyIgaGVpZ2h0PSI1MyIgdmlld0JveD0iMCAwIDUzIDUzIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjYuNSIgY3k9IjI2LjUiIHI9IjI2LjUiIGZpbGw9IiM2MkU2QUMiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA4MiIvPgogICAgICAgIDxnIHN0cm9rZT0iIzYyRTZBQyIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8cGF0aCBkPSJNMjQuNjI4IDE4LjVjMCAxLjI0MyAxIDIuMjUgMi4yMzIgMi4yNWEyLjI0MSAyLjI0MSAwIDAgMCAyLjIzMy0yLjI1YzAtMS4yNDMtMS0yLjI1LTIuMjMzLTIuMjVhMi4yNDEgMi4yNDEgMCAwIDAtMi4yMzIgMi4yNXoiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTMzLjU1OCAyMHYtM2gtMS43MDZhNS4yNyA1LjI3IDAgMCAwLS40MDktLjk5N2wxLjIwNi0xLjIxNS0yLjEwNS0yLjEyLTEuMjA1IDEuMjE0YTUuMTM0IDUuMTM0IDAgMCAwLS45OS0uNDExVjExLjc1aC0yLjk3N3YxLjcyYy0uMzQ2LjEwNS0uNjc4LjI0LS45OS40MTJsLTEuMjA1LTEuMjE1LTIuMTA1IDIuMTIxIDEuMjA2IDEuMjE1YTUuMjcgNS4yNyAwIDAgMC0uNDA5Ljk5N2gtMS43MDZ2M2gxLjcwNmMuMTA0LjM0OS4yNC42ODMuNDA5Ljk5OGwtMS4yMDYgMS4yMTQgMi4xMDUgMi4xMjIgMS4yMDUtMS4yMTZjLjMxMi4xNzEuNjQ0LjMwOC45OS40MTJ2MS43MmgyLjk3N3YtMS43MmMuMzQ2LS4xMDUuNjc4LS4yNC45OS0uNDEybDEuMjA1IDEuMjE2IDIuMTA1LTIuMTIyLTEuMjA2LTEuMjE0YTUuMjcgNS4yNyAwIDAgMCAuNDA5LS45OThoMS43MDZ6TTIwLjE2MyAxOC41aC0zLjcyOU0xNi40MzQgMTguNWMwIDEuNjU3LTEuMzMzIDMtMi45NzcgMy0xLjY0MyAwLTIuOTc2LTEuMzQzLTIuOTc2LTNzMS4zMzMtMyAyLjk3Ni0zYzEuNjQ0IDAgMi45NzcgMS4zNDMgMi45NzcgM3pNMTMuNDU3IDIxLjV2Nk0xMy40NjUgMzVsLTMuNzItMy43NSAzLjcyLTMuNzUgMy43MjEgMy43NXpNMjAuMTYzIDMzLjVoNS45NTNWMjloLTUuOTUzek0xNy4xNzggMzEuMjVoMi45ODVNMjYuMTE2IDMxLjI1aDUuMjFNMjYuMTE2IDQwLjI1YzAgMS42NTctMS4zMzMgMy0yLjk3NiAzLTEuNjQ0IDAtMi45NzctMS4zNDMtMi45NzctM3MxLjMzMy0zIDIuOTc3LTNjMS42NDMgMCAyLjk3NiAxLjM0MyAyLjk3NiAzek0zMy41NTggMjYuNzVsLTMuNzIgNi43NWg3LjQ0MXoiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTMzLjU1OCAxOC41aDYuNjk4djIxLjc1aC0xNC4xNCIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="></div>
+									<div class="works__content">
+										<h4 class="works__name">Design &amp; Architecture</h4>
+										<p class="works__text">Design data platform tailored to the business needs</p>
+									</div>
+								</div>
+								<div class="works__item">
+									<div class="works__img-wrapper"><img alt="Platform Implementation" class="works__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MyIgaGVpZ2h0PSI1MyIgdmlld0JveD0iMCAwIDUzIDUzIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjYuNSIgY3k9IjI2LjUiIHI9IjI2LjUiIGZpbGw9IiM2MkU2QUMiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA4MiIvPgogICAgICAgIDxnIHN0cm9rZT0iIzYyRTZBQyIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8cGF0aCBkPSJNMjMuMjM5IDI2Ljk0MWMwIDEuNDcxLTEuMTY3IDIuNjYzLTIuNjA2IDIuNjYzLTEuNDQgMC0yLjYwNy0xLjE5Mi0yLjYwNy0yLjY2MyAwLTEuNDcgMS4xNjctMi42NjMgMi42MDctMi42NjMgMS40NCAwIDIuNjA2IDEuMTkyIDIuNjA2IDIuNjYzek0xNS43OTIgMjkuOTg1YzAgMS40Ny0xLjE2NyAyLjY2My0yLjYwNiAyLjY2My0xLjQ0IDAtMi42MDctMS4xOTMtMi42MDctMi42NjMgMC0xLjQ3MSAxLjE2Ny0yLjY2MyAyLjYwNy0yLjY2MyAxLjQ0IDAgMi42MDYgMS4xOTIgMi42MDYgMi42NjN6TTE1Ljc5MiA0Mi41NGwxLjc0LTguMjk4Yy4yODktMS4zNzQgMS4yMzktMi4wNyAyLjcyOC0yLjM1NWw0LjQ2OC0uNzYxIDQuNDI5LTQuMDg2czEuNDY4IDIuNTY0LS4xNTcgNC4xMzNsLTMuMTk1IDMuMjMtNC44ODMgMS41MjZNMjIuNDk0IDQyLjU0bDEuNDktNy42MU0zNC44MSAyOS4yMjRjMCAxLjQ3IDEuMTY2IDIuNjYzIDIuNjA2IDIuNjYzczIuNjA2LTEuMTkyIDIuNjA2LTIuNjYzYzAtMS40Ny0xLjE2Ny0yLjY2My0yLjYwNi0yLjY2My0xLjQ0IDAtMi42MDYgMS4xOTItMi42MDYgMi42NjN6TTQzLjY4NCA0Mi41NGwtMS42Ny01LjkzMmMtLjI4Ny0xLjM3My0xLjEyMy0yLjQzOS0zLjQ4MS0yLjQzOWgtOC45MzdzLjQ5NyAzLjA0NCAyLjk4IDMuMDQ0aDUuOTU3TTM4LjE5MSA0Mi41NEwzNi4zIDM3LjIxMk05LjcyOCA0Mi41NGwxLjEwMi01LjI1NWMuMjg4LTEuMzczIDEuMjM5LTIuMDcgMi43MjgtMi4zNTVsMy43MjMtLjc2TTIxLjExMiAxMS4xMzVsLTEwLjI5NSA0LjUwMiAzLjM5IDIuNjc4LS40NiA0LjMxNiAxMC4yOTYtNC41MDJNMjguMTcgMjcuOTU1TDE5LjkxNSA4LjNNMzAuNjggMzQuMTY0bC0xLjM2LTMuMzY1TTM0LjA2NSA0Mi41NGwtMi4xNTItNS4zMjMiLz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo="><img alt="Platform Implementation" class="works__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MyIgaGVpZ2h0PSI1MyIgdmlld0JveD0iMCAwIDUzIDUzIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjYuNSIgY3k9IjI2LjUiIHI9IjI2LjUiIGZpbGw9IiM2MkU2QUMiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA4MiIvPgogICAgICAgIDxnIHN0cm9rZT0iIzYyRTZBQyIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8cGF0aCBkPSJNMzYuNzUgMjhIMzlhNS4yNSA1LjI1IDAgMSAwLTEuNTk3LTEwLjI1MUE1LjI1IDUuMjUgMCAwIDAgMzIuMjUgMTEuNWE1LjIyIDUuMjIgMCAwIDAtMy40MjggMS4yOGMtMS4wMjQtMi45MjctMy44MDEtNS4wMy03LjA3Ni01LjAzYTcuNTAxIDcuNTAxIDAgMCAwLTcuMTUgOS43N0E1LjI0OCA1LjI0OCAwIDAgMCAxNSAyOGgyLjI1TTI4LjgzNCAxMi43NzVjLjE5Mi41NDguMzIyIDEuMTI1LjM4MSAxLjcyM00zNy40MDUgMTcuNzVhNS4yIDUuMiAwIDAgMS0uNjU1IDEuNzA2TTE0LjU5NSAxNy41MTVhNS4yNiA1LjI2IDAgMCAxIDEuOTQ4LjIxNk0xMC41IDQwaDl2LTZoLTl6TTIyLjUgNDBoOXYtNmgtOXpNMzQuNSA0MGg5di02aC05ek0xMiA0Mi4yNWg2TTE1IDQwdjIuMjVNMjQgNDIuMjVoNk0yNyA0MHYyLjI1TTM2IDQyLjI1aDZNMzkgNDB2Mi4yNU0xOC43NSAzMi41di02TTI3IDMyLjVWMjVNMzUuMjUgMzIuNXYtNS4yNU0yMC4yNSAyOGg1LjI1TTI4LjUgMjhoNS4yNU0xOC43NSAyNXYtMS41TTE4Ljc1IDIydi0xLjVNMjcgMjMuNVYyMk0yNyAyMC41VjE5TTM1LjI1IDI1Ljc1di0xLjVNMjcgMTcuNVYxNiIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="></div>
+									<div class="works__content">
+										<h4 class="works__name">Platform Implementation</h4>
+										<p class="works__text">Components implementation and deployment</p>
+									</div>
+								</div>
+								<div class="works__item">
+									<div class="works__img-wrapper"><img alt="ML &amp; Business intelligence" class="works__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MyIgaGVpZ2h0PSI1MyIgdmlld0JveD0iMCAwIDUzIDUzIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjYuNSIgY3k9IjI2LjUiIHI9IjI2LjUiIGZpbGw9IiM2MkU2QUMiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA4MiIvPgogICAgICAgIDxnIHN0cm9rZT0iIzYyRTZBQyIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8cGF0aCBkPSJNMzUuNjMgMzEuMjVoMy4wNDRDNDEuNjE2IDMxLjI1IDQ0IDI4LjkgNDQgMjZzLTIuMzg0LTUuMjUtNS4zMjYtNS4yNWMtLjU2NSAwLTEuMTEuMDg4LTEuNjIuMjQ5LjA2Mi0uMzI0LjA5OC0uNjU3LjA5OC0xIDAtMi45LTIuMzg0LTUuMjUtNS4zMjYtNS4yNS0xLjMzIDAtMi41NDUuNDg1LTMuNDc4IDEuMjhDMjcuMzEgMTMuMTA0IDI0LjQ5MiAxMSAyMS4xNyAxMWMtNC4yMDIgMC03LjYwOSAzLjM1OS03LjYwOSA3LjUwMiAwIC43OS4xMjYgMS41NTIuMzU2IDIuMjY4QzExLjE2NyAyMC45NzcgOSAyMy4yMzYgOSAyNmMwIDIuODk5IDIuMzg1IDUuMjUgNS4zMjYgNS4yNWgyLjI4M00xMy45MTUgMjAuNzY1YTUuMzYzIDUuMzYzIDAgMCAxIDMuMjI0Ljc3Nk0yOC4zNiAxNi4wMjRjLjE5NS41NDkuMzI3IDEuMTI2LjM4NyAxLjcyNE0zNy4wNTYgMjFhNS4xNyA1LjE3IDAgMCAxLS42NjUgMS43MDVNMzEuODI2IDQxSDIwLjQxM2MtMS4yNiAwLTIuMjgyLTEuMDA3LTIuMjgyLTIuMjVWMzhjMC0xLjI0MyAxLjAyMS0yLjI1IDIuMjgyLTIuMjVoMTEuNDEzYzEuMjYgMCAyLjI4MyAxLjAwNyAyLjI4MyAyLjI1di43NWMwIDEuMjQzLTEuMDIyIDIuMjUtMi4yODMgMi4yNXoiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTMxLjgyNiAzNS43NUgyMC40MTNjLTEuMjYgMC0yLjI4Mi0xLjAwNy0yLjI4Mi0yLjI1di0uNzVjMC0xLjI0MyAxLjAyMS0yLjI1IDIuMjgyLTIuMjVoMTEuNDEzYzEuMjYgMCAyLjI4MyAxLjAwNyAyLjI4MyAyLjI1di43NWMwIDEuMjQzLTEuMDIyIDIuMjUtMi4yODMgMi4yNXpNMzEuODI2IDMwLjVIMjAuNDEzYy0xLjI2IDAtMi4yODItMS4wMDctMi4yODItMi4yNXYtLjc1YzAtMS4yNDMgMS4wMjEtMi4yNSAyLjI4Mi0yLjI1aDExLjQxM2MxLjI2IDAgMi4yODMgMS4wMDcgMi4yODMgMi4yNXYuNzVjMCAxLjI0My0xLjAyMiAyLjI1LTIuMjgzIDIuMjV6Ii8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"><img alt="ML &amp; Business intelligence" class="works__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MyIgaGVpZ2h0PSI1MyIgdmlld0JveD0iMCAwIDUzIDUzIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjYuNSIgY3k9IjI2LjUiIHI9IjI2LjUiIGZpbGw9IiM2MkU2QUMiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA4MiIvPgogICAgICAgIDxnIHN0cm9rZT0iIzYyRTZBQyIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8cGF0aCBkPSJNMzguMDQ3IDM0LjM1M2gzLjUxYy40MjggMCAuNjk3LS40NjYuNDk2LS44NTItLjI3Ny0uNTMtLjUxMy0xLjAzMy0uNDctMS4xODMuMDY1LS4yMzQuNDQxLS4zMDEgMS4zMjUtLjgzNy44ODQtLjUzNi43ODUtMS4yNzIuNDI1LTEuODQtLjM2LS41Ny0yLjc1Mi0zLjc1LTIuODE1LTQuNzItLjA0MS0uNjI4LjY5Ni0yLjIwOS4xOC00LjY5NC0uNTE2LTIuNDg2LTMuMzgtMTAuNDQ4LTEzLjgxNC0xMC4yMjJDMTYuNDQ5IDEwLjIzIDEyIDE3LjQ5IDEyIDIyLjYzN2MwIDUuMTQ1IDIuNTU2IDcuNjUxIDMuMzg1IDEwLjE0OSAxLjA5NiAzLjI5OCAxLjY4NCA3LjExOC0uMzYxIDExLjQ1OE0zMS4zNDggNDQuNDA1Yy40Ny0xLjk5MyAxLjM2LTMuNjkyIDIuMTY4LTQuMDM0Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yOS44NiAzNS44NzRjLjY5OCAxLjk5OCAxLjIyMiAzLjc3NiAxLjg4NiAzLjk5My45OTcuMzI0IDQuOTU3IDEuNDcyIDYuNDQ4Ljg5MiAxLjQ5LS41OCAxLjE5Ny0xLjk2OCAxLjIxOS0yLjM4Mi4wNTQtMS4wMjUgMS4wNjQtMS4xNDcuOTEyLTIuNTE5TTIxLjY3NCAxOS4xMzVjMCAxLjI2LS45OTkgMi4yODMtMi4yMzIgMi4yODNzLTIuMjMzLTEuMDIyLTIuMjMzLTIuMjgzYzAtMS4yNiAxLTIuMjgyIDIuMjMzLTIuMjgyczIuMjMyIDEuMDIxIDIuMjMyIDIuMjgyek0zNi41NTggMTkuMTM1YzAgMS4yNi0xIDIuMjgzLTIuMjMyIDIuMjgzLTEuMjM0IDAtMi4yMzMtMS4wMjItMi4yMzMtMi4yODMgMC0xLjI2IDEtMi4yODIgMi4yMzMtMi4yODJzMi4yMzIgMS4wMjEgMi4yMzIgMi4yODJ6TTI5LjExNiAxNS4zM2MwIDEuMjYyLTEgMi4yODMtMi4yMzIgMi4yODMtMS4yMzMgMC0yLjIzMy0xLjAyMS0yLjIzMy0yLjI4MiAwLTEuMjYxIDEtMi4yODMgMi4yMzMtMi4yODNzMi4yMzIgMS4wMjIgMi4yMzIgMi4yODN6TTI2Ljg4NCAxNy42MTNWMzkuNjgiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTMyLjgzNyAyMC42NTdMMjkuODYgMjMuN3Y0LjU2Nk0yMC45MyAyMC42NTdsMi45NzcgMy4wNDN2NC41NjZNMjAuOTMgMjYuNzQ0YzAgMS4yNi0xIDIuMjgyLTIuMjMyIDIuMjgyLTEuMjMzIDAtMi4yMzMtMS4wMjEtMi4yMzMtMi4yODIgMC0xLjI2IDEtMi4yODMgMi4yMzMtMi4yODNzMi4yMzIgMS4wMjIgMi4yMzIgMi4yODN6Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMC4xODYgMjguMjY2bDIuOTc3IDMuMDQzdjEyLjkzNU0zNy4zMDIgMjYuNzQ0YzAgMS4yNi0xIDIuMjgyLTIuMjMyIDIuMjgyLTEuMjMzIDAtMi4yMzMtMS4wMjEtMi4yMzMtMi4yODIgMC0xLjI2IDEtMi4yODMgMi4yMzMtMi4yODNzMi4yMzIgMS4wMjIgMi4yMzIgMi4yODN6Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMy41ODEgMjguMjY2bC0zLjcyIDMuODA0djEuNTIyIi8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"></div>
+									<div class="works__content">
+										<h4 class="works__name">ML &amp; Business intelligence</h4>
+										<p class="works__text">Recommendation Engine</p>
+									</div>
+								</div>
+								<div class="works__item">
+									<div class="works__img-wrapper"><img alt="Analysis &amp; Ideation" class="works__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MyIgaGVpZ2h0PSI1MyIgdmlld0JveD0iMCAwIDUzIDUzIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjYuNSIgY3k9IjI2LjUiIHI9IjI2LjUiIGZpbGw9IiM2MkU2QUMiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA4MiIvPgogICAgICAgIDxnIHN0cm9rZT0iIzYyRTZBQyIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8cGF0aCBkPSJNMjkuNzI4IDEyLjgzOWE3LjQ0IDcuNDQgMCAwIDAtMS43MzkgMS43NGwtMS43Ni0uNTg1LTEuMTk1IDIuODg5IDEuNjU3LjgzYTcuNDY3IDcuNDY3IDAgMCAwLS4wMDEgMi40NmwtMS42NTYuODI5IDEuMTk2IDIuODg4IDEuNzU3LS41ODVhNy40NTggNy40NTggMCAwIDAgMS43NDIgMS43MzhsLS41ODYgMS43NiAyLjg4OCAxLjE5Ni44My0xLjY1OGMuODAzLjEzNCAxLjYzMy4xNCAyLjQ2LjAwMmwuODMgMS42NTZNMzYuMyAyMC43MTFhMi43NTYgMi43NTYgMCAxIDEtMy4wNzctNC4wNDhNMjIuNTg3IDM3LjEzNGE3LjQ4NCA3LjQ4NCAwIDAgMCAxLjczOC0xLjc0bDEuNzYuNTg1IDEuMTk2LTIuODg5LTEuNjU4LS44M2MuMTM0LS44MDMuMTQtMS42MzIuMDAyLTIuNDZsMS42NTYtLjgzLTEuMTk3LTIuODg3LTEuNzU3LjU4NGE3LjQ2NiA3LjQ2NiAwIDAgMC0xLjc0LTEuNzM4bC41ODUtMS43Ni0yLjg4OS0xLjE5NS0uODMgMS42NTdhNy40NjcgNy40NjcgMCAwIDAtMi40Ni0uMDAxbC0uODI4LTEuNjU2LTIuODkgMS4xOTYuNTg2IDEuNzU4YTcuNDQgNy40NCAwIDAgMC0xLjczOCAxLjc0TTE1LjI4OSAzMS4xNTZhMy4wMjIgMy4wMjIgMCAxIDEgMy4wMjIgMy4wMjIiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTM4LjcxMSAyNC4zNTZjMCA3LjkyOC02LjQyNyAxNC4zNTUtMTQuMzU1IDE0LjM1NUMxNi40MjggMzguNzExIDEwIDMyLjI4NCAxMCAyNC4zNTYgMTAgMTYuNDI4IDE2LjQyOCAxMCAyNC4zNTYgMTBTMzguNzEgMTYuNDI4IDM4LjcxIDI0LjM1NnpNMzcuMiAzNC45MzNsNi44IDYuOEw0MS43MzMgNDRsLTYuOC02LjgiLz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo="><img alt="Analysis &amp; Ideation" class="works__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MyIgaGVpZ2h0PSI1MyIgdmlld0JveD0iMCAwIDUzIDUzIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjYuNSIgY3k9IjI2LjUiIHI9IjI2LjUiIGZpbGw9IiM2MkU2QUMiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA4MiIvPgogICAgICAgIDxnIHN0cm9rZT0iIzYyRTZBQyIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgICAgICAgICA8cGF0aCBkPSJNMzMuMzI2IDM5LjUzMnYtMi4yNjVjMC0yLjA1My00LjIyNi0yLjk3OC02LjMyNi0yLjk3OC0yLjEgMC02LjMyNi45MjUtNi4zMjYgMi45Nzh2Mi4yNjVNMjcgMzIuMDY1YzEuNTY2IDAgMi42MDUtMS4yODMgMi42MDUtMi44NjR2LS45NTVjMC0xLjU4LTEuMDQtMi44NjMtMi42MDUtMi44NjMtMS41NjYgMC0yLjYwNSAxLjI4Mi0yLjYwNSAyLjg2M3YuOTU1YzAgMS41ODEgMS4wNCAyLjg2NCAyLjYwNSAyLjg2NHpNMTUuODM3IDMzLjU0NGMtMS41NjYgMC0yLjYwNC0xLjI4Ny0yLjYwNC0yLjg3MnYtLjk1OWMwLTEuNTg1IDEuMDM4LTIuODcxIDIuNjA0LTIuODcxczIuNjA1IDEuMjg2IDIuNjA1IDIuODcxdi45NTljMCAxLjU4NS0xLjAzOSAyLjg3Mi0yLjYwNSAyLjg3MnpNMzguMTYzIDMzLjU0NGMxLjU2NiAwIDIuNjA0LTEuMjg3IDIuNjA0LTIuODcydi0uOTU5YzAtMS41ODUtMS4wMzgtMi44NzEtMi42MDQtMi44NzFzLTIuNjA1IDEuMjg2LTIuNjA1IDIuODcxdi45NTljMCAxLjU4NSAxLjAzOSAyLjg3MiAyLjYwNSAyLjg3MnoiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTQzIDQ0di01Ljk4OGMwLTEuMjI5LTEuMDA1LTIuMjAzLTIuMjMzLTIuMjAzaC0yLjIzMmwtMy43MjEgMy43MjNoLTQuNDY1cy0uMzMzIDIuOTc5IDIuMjMyIDIuOTc5aDQuNDY2bDIuOTc2LTIuOTk1TTExIDQ0di01Ljk4OGMwLTEuMjI5Ljk5LTIuMjAzIDIuMjE4LTIuMjAzaDIuMjMzbDMuNzIgMy43MjNoNC40NjZzLjMzMyAyLjk3OS0yLjIzMyAyLjk3OUgxNi45NGwtMi45Ny0yLjk5NU0zNy43OSA0MS43NjZWNDRNMTYuMjEgNDEuNzY2VjQ0TTIxLjQxOSA0Mi41MUgzMi41OE0xNy42OTggOWgxOS4zNDlhMS40OSAxLjQ5IDAgMCAxIDEuNDg4IDEuNDl2MTAuNDI1YTEuNDkgMS40OSAwIDAgMS0xLjQ4OCAxLjQ5SDM0LjA3djMuMmMwIC42OTEtLjg2IDEuMDA4LTEuMzEuNDgzbC0zLjE1NS0zLjY4NEgxNy42OThhMS40OSAxLjQ5IDAgMCAxLTEuNDg5LTEuNDlWMTAuNDljMC0uODIyLjY2Ny0xLjQ4OSAxLjQ4OS0xLjQ4OXoiLz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo="></div>
+									<div class="works__content">
+										<h4 class="works__name">Analysis &amp; Ideation</h4>
+										<p class="works__text">Analysis of domain and data</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="section expertise">
+						<div class="containter--expertise">
+							<div class="expertise__wrapper">
+								<h2 class="title">Our Technological Expertise</h2>
+								<div class="expertise__container">
+									<div class="expertise__item">
+										<p class="expertise__descr"><span class="expertise__bullet">▸</span> All major ML frameworks</p>
+									</div>
+									<div class="expertise__item">
+										<p class="expertise__descr"><span class="expertise__bullet">▸</span> Pre-built and pre-trained models for multiple vertical use-cases (prediction, classification, segmentation, anomaly detection, NLU)</p>
+									</div>
+									<div class="expertise__item">
+										<p class="expertise__descr"><span class="expertise__bullet">▸</span> Design, deployment, and support of enterprise AI production workflow for on-prem DCs and public clouds</p>
+									</div>
+									<div class="expertise__item">
+										<p class="expertise__descr"><span class="expertise__bullet">▸</span> Enterprise Big Data technology stack: SQL/NoSQL databases, ETL, ingestion, streaming analytics</p>
+									</div>
+									<div class="expertise__item">
+										<p class="expertise__descr"><span class="expertise__bullet">▸</span> Cloud based PERFECT VIEW TECHNOLOGY platforms and services (Azure PERFECT VIEW TECHNOLOGY, AWS PERFECT VIEW TECHNOLOGY, Google AutoPERFECT VIEW TECHNOLOGY, Clarifai, Watson)</p>
+									</div>
+									<div class="expertise__item">
+										<p class="expertise__descr"><span class="expertise__bullet">▸</span> Accelerated compute infrastructure</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="section industries">
+						<div class="container--industries">
+							<div class="industries__wrapper">
+								<div class="industries__title-wrapper">
+									<h2 class="title title--white">Industries</h2>
+									<p class="description description--white">Use your customer big data and let algorithms make tailored recommendations in retail. Establish a single data lake for your entire hotel chain. Create an advanced virtual assistant for your hospital.</p>
+								</div>
+								<div class="industries__container">
+									<div class="industries__item">
+										<div class="industries__img-wrapper"><img alt="Construction" class="industries__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDM0IDQ4Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIj4KICAgICAgICA8ZyBzdHJva2U9IiM1MDUwNTAiPgogICAgICAgICAgICA8cGF0aCBkPSJNMjYgMzl2OU04IDM5djlNMjguODcgMzMuODQ0Yy0uMTUgMS4yMDEtLjQzNSAyLjUwNC0uODcgMy4xNTYtLjY4NyAxLjAzMS00IDQtNCA0YTcuMjA0IDcuMjA0IDAgMCAxLTUgMmgtNGMtMS43NSAwLTMuNTcyLS42My01LTIgMCAwLTMuMzEyLTIuOTY5LTQtNC0uNDIyLS42MzMtLjcwMi0xLjg4LS44NTYtMy4wNU0xNCAxMFYxaDZ2OU0zNCAyMUgwTTExIDdWMkM2LjI1IDMuNTgzIDMgNi45NTggMyAxMnY0bC0yIDF2Mk0yMyA3VjJjNC43NSAxLjU4MyA4IDQuOTU4IDggMTB2NGwyIDF2MiIvPgogICAgICAgIDwvZz4KICAgICAgICA8cGF0aCBzdHJva2U9IiMyRUI4N0MiIGQ9Ik0yOSAyNGgydjVsLTIgMy05LjkwOC42MDRMMTcgMjlsLTIuMTg5IDMuNjA0TDUgMzJsLTItM3YtNWgyIi8+CiAgICA8L2c+Cjwvc3ZnPgo="></div>
+										<h3 class="industries__name">Construction</h3>
+										<p class="industries__text">Image recognitions systems that monitor unsafe worker behaviour, project schedule optimizers, algorithms that help prevent downtime, and more</p>
+									</div>
+									<div class="industries__item">
+										<div class="industries__img-wrapper"><img alt="Healthcare" class="industries__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NyIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQ3IDQwIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiPgogICAgICAgIDxwYXRoIHN0cm9rZT0iIzUwNTA1MCIgZD0iTTQyLjU3NiAxNy40MjRjLjEwNC0uNDM4LjE5LS44ODQuMjU3LTEuMzM3LjU0My0zLjY1Ni0uMDk3LTguNjg1LTMuOTk1LTExLjc4M0MzNC40NzQuODM2IDI1Ljk5Ny44MTYgMjIgNy40OTggMTguMDA0LjgxNiA5LjUyNi44MzYgNS4xNjMgNC4zMDQgMS4yNjMgNy40MDIuNjI1IDEyLjQzIDEuMTY3IDE2LjA4NyAyLjIzNyAyMy4zIDcuODggMjguMzk0IDIyIDM5YzguMDg1LTYuMDczIDEzLjM5LTEwLjM0IDE2LjY1LTE0LjIzIi8+CiAgICAgICAgPHBhdGggc3Ryb2tlPSIjMkVCODdDIiBkPSJNNyAyMWg3bDQtMTAgNCAxOSA1LTEyIDMgNyAyLTRoMTQiLz4KICAgIDwvZz4KPC9zdmc+Cg=="></div>
+										<h3 class="industries__name">Healthcare</h3>
+										<p class="industries__text">Advanced virtual assistants, imagining diagnostics algorithms, predictive pandemics analytics, and other solutions</p>
+									</div>
+									<div class="industries__item">
+										<div class="industries__img-wrapper"><img alt="Insurance" class="industries__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLXdpZHRoPSIyIj4KICAgICAgICA8cGF0aCBzdHJva2U9IiM1MDUwNTAiIGQ9Ik0yMC4wMDUgMzMuNTg3YTExLjAyMyAxMS4wMjMgMCAwIDEtNy41OTEtNy41ODZtMC02QTExLjAyMSAxMS4wMjEgMCAwIDEgMjAgMTIuNDEzbTYgMGExMS4wMjMgMTEuMDIzIDAgMCAxIDcuNTg4IDcuNTlNMzMuNTg2IDI2QTExLjAyNSAxMS4wMjUgMCAwIDEgMjYgMzMuNTg2Ii8+CiAgICAgICAgPHBhdGggc3Ryb2tlPSIjMkVCODdDIiBkPSJNMjAuMTg2IDQyLjVDMTEuNTYgNDEuMjY2IDQuNzMzIDM0LjQ0MSAzLjUgMjUuODEzbTAtNS42MjdDNC43MzIgMTEuNTU5IDExLjU1OCA0LjczNCAyMC4xODYgMy41bTUuNjI4IDBjOC42MjcgMS4yMzQgMTUuNDUyIDguMDU4IDE2LjY4NSAxNi42ODZtMCA1LjYyOGMtMS4yMzMgOC42MjgtOC4wNTggMTUuNDUyLTE2LjY4NSAxNi42ODYiLz4KICAgICAgICA8cGF0aCBzdHJva2U9IiMyRUI4N0MiIGQ9Ik0yNiAzNGEyIDIgMCAwIDAtMi0yaC0yYTIgMiAwIDAgMC0yIDJ2OWEyIDIgMCAwIDAgMiAyaDJhMiAyIDAgMCAwIDItMnYtOXpNNDUgMjJhMiAyIDAgMCAwLTItMmgtOWEyIDIgMCAwIDAtMiAydjJhMiAyIDAgMCAwIDIgMmg5YTIgMiAwIDAgMCAyLTJ2LTJ6TTE0IDIyYTIgMiAwIDAgMC0yLTJIM2EyIDIgMCAwIDAtMiAydjJhMiAyIDAgMCAwIDIgMmg5YTIgMiAwIDAgMCAyLTJ2LTJ6TTI2IDNhMiAyIDAgMCAwLTItMmgtMmEyIDIgMCAwIDAtMiAydjlhMiAyIDAgMCAwIDIgMmgyYTIgMiAwIDAgMCAyLTJWM3oiLz4KICAgICAgICA8cGF0aCBzdHJva2U9IiM1MDUwNTAiIGQ9Ik0yIDEyVjlhNyA3IDAgMCAxIDctN2gzTTQ0IDEyVjlhNyA3IDAgMCAwLTctN2gtM00yIDM0djNhNyA3IDAgMCAwIDcgN2gzTTQ0IDM0djNhNyA3IDAgMCAxLTcgN2gtMyIvPgogICAgPC9nPgo8L3N2Zz4K"></div>
+										<h3 class="industries__name">Insurance</h3>
+										<p class="industries__text">AI-driven claim process, advanced customer chatbots, personalization of customer experience, predictive analytics</p>
+									</div>
+									<div class="industries__item">
+										<div class="industries__img-wrapper"><img alt="Retail &amp; E-Commerce" class="industries__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMyIgaGVpZ2h0PSI0NyIgdmlld0JveD0iMCAwIDMzIDQ3Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLXdpZHRoPSIyIj4KICAgICAgICA8cGF0aCBzdHJva2U9IiM1MDUwNTAiIGQ9Ik0yOS4wOTQgNDZIMy45MDZDMi4zMDEgNDYgMSA0NC42ODYgMSA0My4wNjVWMy45MzVDMSAyLjMxNCAyLjMwMSAxIDMuOTA2IDFoMjUuMTg4QzMwLjY5OSAxIDMyIDIuMzE0IDMyIDMuOTM1djM5LjEzQzMyIDQ0LjY4NiAzMC42OTkgNDYgMjkuMDk0IDQ2ek0xNS41MzEgMy45MzVoNC44NDRNMTEuNjU2IDMuOTM1aDEuOTM4TTEgNDAuMTNoMzFNMSA2Ljg3aDMxTTE0LjU2MyA0My4wNjVoMy44NzQiLz4KICAgICAgICA8cGF0aCBzdHJva2U9IiMyRUI4N0MiIGQ9Ik0xMC42ODggMTYuNjUyaDE2LjEzNWMuNjUgMCAxLjExNS42MzIuOTI4IDEuMjZsLTIuMzI1IDcuODI1YS45NzEuOTcxIDAgMCAxLS45MjguNjk4SDExLjY1NiIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0iIzJFQjg3QyIgZD0iTTI0LjI1IDMwLjM0OEgxMy41OTRjLS40NDkgMC0uODQtLjU0NS0uOTY5LS45NzhMNy43ODEgMTQuNjk2SDMuOTA2TTExLjY1NiAzMy4yODNoMS45MzhNMjIuMzEzIDMzLjI4M2gxLjkzNyIvPgogICAgPC9nPgo8L3N2Zz4K"></div>
+										<h3 class="industries__name">Retail &amp; E-Commerce</h3>
+										<p class="industries__text">Highly personalised customer journeys, algorithms that predict demand, automated inventory and delivery management</p>
+									</div>
+									<div class="industries__item">
+										<div class="industries__img-wrapper"><img alt="Travel &amp; Hospitality" class="industries__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLXdpZHRoPSIyIj4KICAgICAgICA8cGF0aCBzdHJva2U9IiM1MDUwNTAiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik02Ljc0MiA0N3YtMi41YTEuNSAxLjUgMCAwIDEgMS41LTEuNWg3LjVhMiAyIDAgMCAwIDItMnYtLjVhMS41IDEuNSAwIDAgMSAxLjUtMS41aC41YTIgMiAwIDAgMCAyLTJ2LTFhMiAyIDAgMCAwLTItMmgtNmExLjUgMS41IDAgMCAwLTEuNSAxLjUgMS41IDEuNSAwIDAgMS0xLjUgMS41aC03TTI0Ljc0MiA0N3YtM2EyIDIgMCAwIDEgMi0yaDdhMiAyIDAgMCAwIDAtNGgtMWEyIDIgMCAwIDEgMC00aDkiLz4KICAgICAgICA8cGF0aCBzdHJva2U9IiM1MDUwNTAiIGQ9Ik0xLjc0MiA0N2MwLTEyLjE1IDkuODUtMjIgMjItMjJzMjIgOS44NSAyMiAyMmgtNDR6Ii8+CiAgICAgICAgPHBhdGggc3Ryb2tlPSIjMkVCODdDIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMjYuNzQyIDdsLjAyNS0xLTQuMDI1LTVoLTNsMiA1djFNMzguNzQyIDExYTIgMiAwIDAgMC0yLTJIMTQuMzA0Yy0uMTEgMC0zLjU2Mi0zLTMuNTYyLTNoLTJsLjk1NiA0LjAxNmMtLjU2LjI5Ni0uOTU2LjU5Mi0uOTU2IDEuMTE5IDAgMS41ODMgMy41NDcgMS44NjUgNC41NjIgMS44NjVoOC40Mzh2MmwtMyA2aDNsNS01IDEuOTMyLTNoOC4wNjhhMiAyIDAgMCAwIDItMnpNLjc0MiAyNy4yMTVhMzAuOTgzIDMwLjk4MyAwIDAgMSAxNi05LjQyMk0yOS43NDIgMTcuNThhMzAuOTU3IDMwLjk1NyAwIDAgMSAxNi44MDYgOS40MjIiLz4KICAgIDwvZz4KPC9zdmc+Cg=="></div>
+										<h3 class="industries__name">Travel &amp; Hospitality</h3>
+										<p class="industries__text">Personalised guest experience, virtual assistants, voice-activated services, smart on-premises alerts and offers</p>
+									</div>
+									<div class="industries__item">
+										<div class="industries__img-wrapper"><img alt="Logistics &amp; Automotive" class="industries__img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NyIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ3IDQ2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLXdpZHRoPSIyIj4KICAgICAgICA8cGF0aCBzdHJva2U9IiMyRUI4N0MiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik0xMy4xMjUgMThoMTlWMWgtMTl6Ii8+CiAgICAgICAgPHBhdGggc3Ryb2tlPSIjMkVCODdDIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMjYuMTI1IDF2NGgtN1YxTTI5LjEyNSAxNGgtMk0yNi4xMjUgMTRoLTIiLz4KICAgICAgICA8cGF0aCBzdHJva2U9IiMyRUI4N0MiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTYuNjM4IDE4YTI5LjE1OSAyOS4xNTkgMCAwIDEgMy40ODctMk0xIDIyLjkxNUEyOS42NzIgMjkuNjcyIDAgMCAxIDMuOTg3IDIwTTQyLjEyOCAyMC43NjNjMS4wOTEgMSAyLjEwOCAyLjA4MiAzLjA0MiAzLjIzN00zNS4xMjYgMTZhMjguOTc4IDI4Ljk3OCAwIDAgMSAzLjk5OCAyLjM1MSIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0iIzUwNTA1MCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTYgNDV2LTIuNUExLjUgMS41IDAgMCAxIDcuNSA0MUgxNWEyIDIgMCAwIDAgMi0ydi0uNWExLjUgMS41IDAgMCAxIDEuNS0xLjVoLjVhMiAyIDAgMCAwIDItMnYtMWEyIDIgMCAwIDAtMi0yaC02YTEuNSAxLjUgMCAwIDAtMS41IDEuNUExLjUgMS41IDAgMCAxIDEwIDM1SDNNMjQgNDV2LTNhMiAyIDAgMCAxIDItMmg3YTIgMiAwIDAgMCAwLTRoLTFhMiAyIDAgMCAxIDAtNGg5Ii8+CiAgICAgICAgPHBhdGggc3Ryb2tlPSIjNTA1MDUwIiBkPSJNMSA0NWMwLTEyLjE1IDkuODUtMjIgMjItMjJzMjIgOS44NSAyMiAyMkgxeiIvPgogICAgPC9nPgo8L3N2Zz4K"></div>
+										<h3 class="industries__name">Logistics &amp; Automotive</h3>
+										<p class="industries__text">Smart traffic control, engine monitoring and predictive maintenance, semi-autonomous functionality</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="contact-form" id="contact-form">
+						<div class="contact-form__container">
+							<h2 class="contact-form__title">Push your business to the new technological frontier with Artificial Intelligence solutions.<br>
+							<span class="contact-form__subtitle">Tell our experts about your project now.</span></h2>
+							<form class="contact-form__form" id="contacts" name="contacts">
+								<div class="contact-form__group">
+									<input class="" id="name" name="name" placeholder="First Name" type="text" value=""><input class="" id="last_name" name="last_name" placeholder="Last Name" type="text" value="">
+								</div>
+								<div class="contact-form__group">
+									<input class="" id="email" name="email" placeholder="Email" type="email" value=""><input class="" id="phone" name="phone" placeholder="Phone" type="tel" value="">
+								</div>
+								<div class="contact-form__group">
+									<input class="" id="company" name="company" placeholder="Company" type="text" value="">
+									<div class="contact-form__select-wrapper">
+										<select class="default" name="country" title="">
+											<option value="">
+												Country
+											</option>
+											<option value="Afghanistan">
+												Afghanistan
+											</option>
+											<option value="Albania">
+												Albania
+											</option>
+											<option value="Algeria">
+												Algeria
+											</option>
+											<option value="Andorra">
+												Andorra
+											</option>
+											<option value="Angola">
+												Angola
+											</option>
+											<option value="Anguilla">
+												Anguilla
+											</option>
+											<option value="Antigua &amp; Barbuda">
+												Antigua &amp; Barbuda
+											</option>
+											<option value="Argentina">
+												Argentina
+											</option>
+											<option value="Armenia">
+												Armenia
+											</option>
+											<option value="Aruba">
+												Aruba
+											</option>
+											<option value="Australia">
+												Australia
+											</option>
+											<option value="Austria">
+												Austria
+											</option>
+											<option value="Azerbaijan">
+												Azerbaijan
+											</option>
+											<option value="Bahamas">
+												Bahamas
+											</option>
+											<option value="Bahrain">
+												Bahrain
+											</option>
+											<option value="Bangladesh">
+												Bangladesh
+											</option>
+											<option value="Barbados">
+												Barbados
+											</option>
+											<option value="Belarus">
+												Belarus
+											</option>
+											<option value="Belgium">
+												Belgium
+											</option>
+											<option value="Belize">
+												Belize
+											</option>
+											<option value="Benin">
+												Benin
+											</option>
+											<option value="Bermuda">
+												Bermuda
+											</option>
+											<option value="Bhutan">
+												Bhutan
+											</option>
+											<option value="Bolivia">
+												Bolivia
+											</option>
+											<option value="Bosnia &amp; Herzegovina">
+												Bosnia &amp; Herzegovina
+											</option>
+											<option value="Botswana">
+												Botswana
+											</option>
+											<option value="Brazil">
+												Brazil
+											</option>
+											<option value="British Virgin Islands">
+												British Virgin Islands
+											</option>
+											<option value="Brunei">
+												Brunei
+											</option>
+											<option value="Bulgaria">
+												Bulgaria
+											</option>
+											<option value="Burkina Faso">
+												Burkina Faso
+											</option>
+											<option value="Burundi">
+												Burundi
+											</option>
+											<option value="Cambodia">
+												Cambodia
+											</option>
+											<option value="Cameroon">
+												Cameroon
+											</option>
+											<option value="Canada">
+												Canada
+											</option>
+											<option value="Cape Verde">
+												Cape Verde
+											</option>
+											<option value="Cayman Islands">
+												Cayman Islands
+											</option>
+											<option value="Chad">
+												Chad
+											</option>
+											<option value="Chile">
+												Chile
+											</option>
+											<option value="China">
+												China
+											</option>
+											<option value="Colombia">
+												Colombia
+											</option>
+											<option value="Congo">
+												Congo
+											</option>
+											<option value="Cook Islands">
+												Cook Islands
+											</option>
+											<option value="Costa Rica">
+												Costa Rica
+											</option>
+											<option value="Cote D Ivoire">
+												Cote D Ivoire
+											</option>
+											<option value="Croatia">
+												Croatia
+											</option>
+											<option value="Cruise Ship">
+												Cruise Ship
+											</option>
+											<option value="Cuba">
+												Cuba
+											</option>
+											<option value="Cyprus">
+												Cyprus
+											</option>
+											<option value="Czech Republic">
+												Czech Republic
+											</option>
+											<option value="Denmark">
+												Denmark
+											</option>
+											<option value="Djibouti">
+												Djibouti
+											</option>
+											<option value="Dominica">
+												Dominica
+											</option>
+											<option value="Dominican Republic">
+												Dominican Republic
+											</option>
+											<option value="Ecuador">
+												Ecuador
+											</option>
+											<option value="Egypt">
+												Egypt
+											</option>
+											<option value="El Salvador">
+												El Salvador
+											</option>
+											<option value="Equatorial Guinea">
+												Equatorial Guinea
+											</option>
+											<option value="Estonia">
+												Estonia
+											</option>
+											<option value="Ethiopia">
+												Ethiopia
+											</option>
+											<option value="Falkland Islands">
+												Falkland Islands
+											</option>
+											<option value="Faroe Islands">
+												Faroe Islands
+											</option>
+											<option value="Fiji">
+												Fiji
+											</option>
+											<option value="Finland">
+												Finland
+											</option>
+											<option value="France">
+												France
+											</option>
+											<option value="French Polynesia">
+												French Polynesia
+											</option>
+											<option value="French West Indies">
+												French West Indies
+											</option>
+											<option value="Gabon">
+												Gabon
+											</option>
+											<option value="Gambia">
+												Gambia
+											</option>
+											<option value="Georgia">
+												Georgia
+											</option>
+											<option value="Germany">
+												Germany
+											</option>
+											<option value="Ghana">
+												Ghana
+											</option>
+											<option value="Gibraltar">
+												Gibraltar
+											</option>
+											<option value="Greece">
+												Greece
+											</option>
+											<option value="Greenland">
+												Greenland
+											</option>
+											<option value="Grenada">
+												Grenada
+											</option>
+											<option value="Guam">
+												Guam
+											</option>
+											<option value="Guatemala">
+												Guatemala
+											</option>
+											<option value="Guernsey">
+												Guernsey
+											</option>
+											<option value="Guinea">
+												Guinea
+											</option>
+											<option value="Guinea Bissau">
+												Guinea Bissau
+											</option>
+											<option value="Guyana">
+												Guyana
+											</option>
+											<option value="Haiti">
+												Haiti
+											</option>
+											<option value="Honduras">
+												Honduras
+											</option>
+											<option value="Hong Kong">
+												Hong Kong
+											</option>
+											<option value="Hungary">
+												Hungary
+											</option>
+											<option value="Iceland">
+												Iceland
+											</option>
+											<option value="India">
+												India
+											</option>
+											<option value="Indonesia">
+												Indonesia
+											</option>
+											<option value="Iran">
+												Iran
+											</option>
+											<option value="Iraq">
+												Iraq
+											</option>
+											<option value="Ireland">
+												Ireland
+											</option>
+											<option value="Isle of Man">
+												Isle of Man
+											</option>
+											<option value="Israel">
+												Israel
+											</option>
+											<option value="Italy">
+												Italy
+											</option>
+											<option value="Jamaica">
+												Jamaica
+											</option>
+											<option value="Japan">
+												Japan
+											</option>
+											<option value="Jersey">
+												Jersey
+											</option>
+											<option value="Jordan">
+												Jordan
+											</option>
+											<option value="Kazakhstan">
+												Kazakhstan
+											</option>
+											<option value="Kenya">
+												Kenya
+											</option>
+											<option value="Kuwait">
+												Kuwait
+											</option>
+											<option value="Kyrgyz Republic">
+												Kyrgyz Republic
+											</option>
+											<option value="Laos">
+												Laos
+											</option>
+											<option value="Latvia">
+												Latvia
+											</option>
+											<option value="Lebanon">
+												Lebanon
+											</option>
+											<option value="Lesotho">
+												Lesotho
+											</option>
+											<option value="Liberia">
+												Liberia
+											</option>
+											<option value="Libya">
+												Libya
+											</option>
+											<option value="Liechtenstein">
+												Liechtenstein
+											</option>
+											<option value="Lithuania">
+												Lithuania
+											</option>
+											<option value="Luxembourg">
+												Luxembourg
+											</option>
+											<option value="Macau">
+												Macau
+											</option>
+											<option value="Macedonia">
+												Macedonia
+											</option>
+											<option value="Madagascar">
+												Madagascar
+											</option>
+											<option value="Malawi">
+												Malawi
+											</option>
+											<option value="Malaysia">
+												Malaysia
+											</option>
+											<option value="Maldives">
+												Maldives
+											</option>
+											<option value="Mali">
+												Mali
+											</option>
+											<option value="Malta">
+												Malta
+											</option>
+											<option value="Mauritania">
+												Mauritania
+											</option>
+											<option value="Mauritius">
+												Mauritius
+											</option>
+											<option value="Mexico">
+												Mexico
+											</option>
+											<option value="Moldova">
+												Moldova
+											</option>
+											<option value="Monaco">
+												Monaco
+											</option>
+											<option value="Mongolia">
+												Mongolia
+											</option>
+											<option value="Montenegro">
+												Montenegro
+											</option>
+											<option value="Montserrat">
+												Montserrat
+											</option>
+											<option value="Morocco">
+												Morocco
+											</option>
+											<option value="Mozambique">
+												Mozambique
+											</option>
+											<option value="Namibia">
+												Namibia
+											</option>
+											<option value="Nepal">
+												Nepal
+											</option>
+											<option value="Netherlands">
+												Netherlands
+											</option>
+											<option value="Netherlands Antilles">
+												Netherlands Antilles
+											</option>
+											<option value="New Caledonia">
+												New Caledonia
+											</option>
+											<option value="New Zealand">
+												New Zealand
+											</option>
+											<option value="Nicaragua">
+												Nicaragua
+											</option>
+											<option value="Niger">
+												Niger
+											</option>
+											<option value="Nigeria">
+												Nigeria
+											</option>
+											<option value="Norway">
+												Norway
+											</option>
+											<option value="Oman">
+												Oman
+											</option>
+											<option value="Pakistan">
+												Pakistan
+											</option>
+											<option value="Palestine">
+												Palestine
+											</option>
+											<option value="Panama">
+												Panama
+											</option>
+											<option value="Papua New Guinea">
+												Papua New Guinea
+											</option>
+											<option value="Paraguay">
+												Paraguay
+											</option>
+											<option value="Peru">
+												Peru
+											</option>
+											<option value="Philippines">
+												Philippines
+											</option>
+											<option value="Poland">
+												Poland
+											</option>
+											<option value="Portugal">
+												Portugal
+											</option>
+											<option value="Puerto Rico">
+												Puerto Rico
+											</option>
+											<option value="Qatar">
+												Qatar
+											</option>
+											<option value="Reunion">
+												Reunion
+											</option>
+											<option value="Romania">
+												Romania
+											</option>
+											<option value="Russia">
+												Russia
+											</option>
+											<option value="Rwanda">
+												Rwanda
+											</option>
+											<option value="Saint Pierre &amp; Miquelon">
+												Saint Pierre &amp; Miquelon
+											</option>
+											<option value="Samoa">
+												Samoa
+											</option>
+											<option value="San Marino">
+												San Marino
+											</option>
+											<option value="Satellite">
+												Satellite
+											</option>
+											<option value="Saudi Arabia">
+												Saudi Arabia
+											</option>
+											<option value="Senegal">
+												Senegal
+											</option>
+											<option value="Serbia">
+												Serbia
+											</option>
+											<option value="Seychelles">
+												Seychelles
+											</option>
+											<option value="Sierra Leone">
+												Sierra Leone
+											</option>
+											<option value="Singapore">
+												Singapore
+											</option>
+											<option value="Slovakia">
+												Slovakia
+											</option>
+											<option value="Slovenia">
+												Slovenia
+											</option>
+											<option value="South Africa">
+												South Africa
+											</option>
+											<option value="South Korea">
+												South Korea
+											</option>
+											<option value="Spain">
+												Spain
+											</option>
+											<option value="Sri Lanka">
+												Sri Lanka
+											</option>
+											<option value="St Kitts &amp; Nevis">
+												St Kitts &amp; Nevis
+											</option>
+											<option value="St Lucia">
+												St Lucia
+											</option>
+											<option value="St Vincent">
+												St Vincent
+											</option>
+											<option value="St. Lucia">
+												St. Lucia
+											</option>
+											<option value="Sudan">
+												Sudan
+											</option>
+											<option value="Suriname">
+												Suriname
+											</option>
+											<option value="Swaziland">
+												Swaziland
+											</option>
+											<option value="Sweden">
+												Sweden
+											</option>
+											<option value="Switzerland">
+												Switzerland
+											</option>
+											<option value="Syria">
+												Syria
+											</option>
+											<option value="Taiwan">
+												Taiwan
+											</option>
+											<option value="Tajikistan">
+												Tajikistan
+											</option>
+											<option value="Tanzania">
+												Tanzania
+											</option>
+											<option value="Thailand">
+												Thailand
+											</option>
+											<option value="Timor L'Este">
+												Timor L'Este
+											</option>
+											<option value="Togo">
+												Togo
+											</option>
+											<option value="Tonga">
+												Tonga
+											</option>
+											<option value="Trinidad &amp; Tobago">
+												Trinidad &amp; Tobago
+											</option>
+											<option value="Tunisia">
+												Tunisia
+											</option>
+											<option value="Turkey">
+												Turkey
+											</option>
+											<option value="Turkmenistan">
+												Turkmenistan
+											</option>
+											<option value="Turks &amp; Caicos">
+												Turks &amp; Caicos
+											</option>
+											<option value="Uganda">
+												Uganda
+											</option>
+											<option value="Ukraine">
+												Ukraine
+											</option>
+											<option value="United Arab Emirates">
+												United Arab Emirates
+											</option>
+											<option value="United Kingdom">
+												United Kingdom
+											</option>
+											<option value="United States">
+												United States
+											</option>
+											<option value="United States Minor Outlying Islands">
+												United States Minor Outlying Islands
+											</option>
+											<option value="Uruguay">
+												Uruguay
+											</option>
+											<option value="Uzbekistan">
+												Uzbekistan
+											</option>
+											<option value="Venezuela">
+												Venezuela
+											</option>
+											<option value="Vietnam">
+												Vietnam
+											</option>
+											<option value="Virgin Islands (US)">
+												Virgin Islands (US)
+											</option>
+											<option value="Yemen">
+												Yemen
+											</option>
+											<option value="Zambia">
+												Zambia
+											</option>
+											<option value="Zimbabwe">
+												Zimbabwe
+											</option>
+										</select>
+									</div>
+								</div>
+								<div class="contact-form__group">
+									<textarea class="" id="description" name="description" placeholder="Description"></textarea>
+								</div>
+								<div class="contact-form__form-container">
+									<div class="contact-form__nda-wrapper">
+										<input class="contact-form__nda-input" id="send_nda" name="send_nda" type="checkbox"><label class="contact-form__nda-label" for="send_nda">Send NDA</label>
+									</div>
+									<div class="contact-form__attach-wrapper">
+										<input accept=".doc,.docx,.pdf,.odt, .ott,.txt" class="contact-form__attach-input" id="attach" name="attach" type="file"><label class="contact-form__attach-label" for="attach">Attach File</label>
+									</div>
+									<div class="contact-form__submit-wrapper">
+										<button class="contact-form__submit" type="submit">▸ Talk to Our Experts<span class="loader"></span></button>
+									</div>
+								</div>
+							</form>
+							<div class="success-block">
+								<p>Thank you! We will get back to you within a few hours.</p>
+							</div>
+						</div>
+						<p class="privacy">By sending this form I confirm that I have read and accept Intellectsoft <a class="privacy-link" href="https://www.intellectsoft.net/privacy-policy" rel="noopener noreferrer" target="_blank">Privacy Policy</a></p>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path d="M46.8261 11.7333H17.174V2.29851C17.174 1.48981 17.7131 0.950684 18.5218 0.950684H45.4783C46.287 0.950684 46.8261 1.48981 46.8261 2.29851V11.7333Z" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+  <path d="M46.8261 11.7334V22.516H17.174V11.7334" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+  <path d="M46.8261 22.5159V31.9507C46.8261 32.7593 46.287 33.2985 45.4783 33.2985H18.5218C17.7131 33.2985 17.174 32.7593 17.174 31.9507V22.5159" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+  <path d="M19.8695 7.6897H22.5652" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+  <path d="M19.8695 18.4724H22.5652" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+  <path d="M19.8695 29.2551H22.5652" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+  <path d="M17.1739 48.1245H1V58.9071H17.1739V48.1245Z" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+  <path d="M40.087 48.1245H23.9131V58.9071H40.087V48.1245Z" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+  <path d="M63 48.1245H46.826V58.9071H63V48.1245Z" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+  <path d="M3.69568 62.9507H14.4783" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+  <path d="M9.08691 58.9072V62.9507" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+  <path d="M26.6086 62.9507H37.3913" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+  <path d="M32 58.9072V62.9507" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+  <path d="M49.5217 62.9507H60.3043" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+  <path d="M54.9131 58.9072V62.9507" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+  <path d="M32 35.9941V45.4289" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+  <path d="M54.913 45.4289V40.0376H9.08691V45.4289" stroke="#1476F2" stroke-width="1.5" stroke-miterlimit="10"/>
+</svg>
