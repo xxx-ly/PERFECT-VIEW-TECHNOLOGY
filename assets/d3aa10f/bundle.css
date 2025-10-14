@@ -33054,7 +33054,7 @@ body.services-index .faq__wrapper {
   margin-top: 8px;
   font-size: 16px;
   line-height: 1.5;
-  color: #323232;
+  color: #ffffff;
 }
 .numerals__line {
   margin: 23px auto 25px;
@@ -33072,7 +33072,7 @@ body.services-index .faq__wrapper {
   text-align: center;
 }
 .numerals__title {
-  color: #323232;
+  color: #ffffff;
   font-size: 32px;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -33092,7 +33092,7 @@ body.services-index .faq__wrapper {
   font-style: normal;
   font-stretch: normal;
   letter-spacing: normal;
-  color: #323232;
+  color: #ffffff;
 }
 .numerals .container {
   -js-display: flex;
