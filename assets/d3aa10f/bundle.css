@@ -9283,7 +9283,7 @@ body.pages-contacts-new {
 }
 @media screen and (min-width: 1221px) {
   .pages-contacts .nav {
-    background-color: #fff;
+    background-color: #121212;
   }
 }
 @media screen and (min-width: 1221px) {
@@ -9295,7 +9295,7 @@ body.pages-contacts-new {
 @media screen and (min-width: 1221px) {
   .pages-contacts-new .nav .menu-item a.menu-item-link,
   .pages-contacts .nav .menu-item a.menu-item-link {
-    color: #323232;
+    color: #ffffff;
   }
 }
 .case-studies--contacts .main-slider .clients-image {
@@ -15647,12 +15647,24 @@ body.platforms-travel-hospitality-software-development
   transform: translateY(-50%);
 }
 .nav__btn .red-style {
-  background: #f54d4d;
+  background: #1E90FF;
   border-radius: 4px;
 }
 .nav__btn .red-style:hover {
-  background: #e04040;
-  border-color: #e04040;
+  background: #0A3D62;
+  border-color: #0A3D62;
+}
+.nav__btn .btn{
+  padding: 0;
+}
+.nav__btn a{
+  width: 100%;
+  height: 100%;
+  line-height: 45px;
+  color:#ffffff;
+}
+.nav__btn .red-style:hover a{
+  color:#ffffff;
 }
 @media screen and (min-width: 1280px) {
   .nav__btn {
@@ -18824,7 +18836,7 @@ body.services-digital-transformation-services .progress,
 body.services-it-staffing-services .progress,
 body.services-outsourcing-software-development-ukraine-services .progress,
 body.services-team-extension .progress {
-  background-color: #fff;
+  background-color: #121212;
   padding: 64px 0 80px;
 }
 body.platforms-ar-construction .progress .insurance-title,
@@ -29464,7 +29476,7 @@ body.services-team-extension .locations {
   font-size: 18px;
   line-height: 1.67;
   text-align: center;
-  color: #555;
+  color: #fff;
 }
 .services .nowrap {
   white-space: nowrap;
@@ -30035,7 +30047,7 @@ body.services-team-extension .locations {
 }
 .competencies {
   padding: 80px 0;
-  background-color: #fff;
+  background-color: #121212;
 }
 @media screen and (max-width: 991px) {
   .competencies {
@@ -41025,15 +41037,7 @@ body.services-ui-ux-design-services .faq {
 }
 @media (min-width: 768px) {
   .latest-teach.enterprise-development-latest {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#fafafa),
-      to(#fafafa)
-    );
-    background: -webkit-linear-gradient(bottom, #fafafa, #fafafa);
-    background: linear-gradient(0deg, #fafafa, #fafafa);
+    background: #121212;
     padding: 70px 0 0;
   }
   .latest-teach.enterprise-development-latest .teach-description {
@@ -48679,7 +48683,7 @@ ul.mobile-logo li:before {
 }
 .our-clients {
   padding: 72px 0;
-  background: #fff;
+  background: #121212;
 }
 @media screen and (max-width: 700px) {
   .our-clients {
@@ -48688,7 +48692,7 @@ ul.mobile-logo li:before {
 }
 .our-clients .h2,
 .our-clients h2 {
-  color: #323232;
+  color: #ffffff;
   text-align: center;
   font-size: 32px;
   margin-bottom: 48px;
