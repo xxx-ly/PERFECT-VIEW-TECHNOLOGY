@@ -223,220 +223,194 @@
           </svg>
       </div>
     </div>
-    <script>
-          document.querySelector('.sticky-cont').addEventListener('click', function (e) {
-              window.dataLayer.push({
-                  'event': 'click_button_estimate_project',
-                  'blockTitle': 'experiment_20_survey',
-                  'topic': 'click_button_estimate_project'
-              });
-              setTimeout(()=>{
-                  window.location.href = 'https://www.intellectsoft.net/survey';
-              }, 1000);
-          });
-          document.querySelector('.sticky-close').addEventListener('click', function (e) {
-              document.querySelector('.sticky-banner').setAttribute("style", "display: none !important");
-              document.querySelector('.nav').style.top = '0';
-          });
-    </script>
 
     <nav class="nav">
       <div class="container">
         <div class="nav__logo">
-          <a class="logo logo-white" href="/"></a>        
+          <a class="logo logo-white" href="index.html"></a>        
         </div>
         <div class="nav__wrapper">
-
           <ul class="nav__list version1" style="display: block;" >
               <li class="menu-item has-dropdown menu-item-services">
                 <a href="services.html" class="menu-item-link services-page">Services<i class="menu-arrow-down"></i></a>
                 <div class="sub-menu-wrapper">
-                    <div class="sub-menu-container">
-                        <div class="article-container">
-                            <div class="article__item">
-                                <div class="article__content">
-                                    <a href="/platforms" class="article__link">
-                                        <img data-src="https://admin.intellectsoft.net/upload/images/menu-contents/056bfa1e9f8a7032963ad76313e4c8016d6a3c058db3879f92d69d0a51f5fbb7.jpg" alt="Industries" class="article__img lazyloaded" src="https://admin.intellectsoft.net/upload/images/menu-contents/056bfa1e9f8a7032963ad76313e4c8016d6a3c058db3879f92d69d0a51f5fbb7.jpg">
-                                    
-                                        <p class="article__description">Intellectsoft brings the latest technologies to your vertical with our industry-specific solutions</p>
-                                    </a>
+                  <div class="sub-menu-container">
+                      <div class="article-container">
+                          <div class="article__item">
+                              <div class="article__content">
+                                  <a href="/platforms" class="article__link">
+                                      <img data-src="https://admin.intellectsoft.net/upload/images/menu-contents/056bfa1e9f8a7032963ad76313e4c8016d6a3c058db3879f92d69d0a51f5fbb7.jpg" alt="Industries" class="article__img lazyloaded" src="https://admin.intellectsoft.net/upload/images/menu-contents/056bfa1e9f8a7032963ad76313e4c8016d6a3c058db3879f92d69d0a51f5fbb7.jpg">
+                                      <p class="article__description">Intellectsoft brings the latest technologies to your vertical with our industry-specific solutions</p>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="sub-menu-list-container">
+                          <ul class="sub-menu sub-menu--double">
+                              <div class="sub-menu__wrapper">
+                              <div class="sub-menu__header"></div>
+                              <li class="menu-item">
+                                <a href="services_about_software.html"data-image="https://admin.intellectsoft.net/upload/images/menu-items/9fa712c71c3c0eb166f255ac8018a04514b26192e8809bd4c172dc01ea4e9373.png" data-descr="Custom software solutions for banks, insurance companies, and financial institutions" data-link="/solutions/financial-software-development-services" data-alt="FinTech Image" class="sub-item-link ">
+                                    Enterprise Software Development     
+                                    <i class="isoi-angle-right"></i>
+                                </a>
+                                <div class="sub-menu__list-wrapper">
+                                  <ul class="sub-menu__list">
+                                    <li class="sub-menu__list-item">
+                                        <div class="sub-menu__header"></div>
+                                        <a href="services_digital.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/cc8b65a08bea2ba22062648f549008f2e17ed74e01611ed9a872b176a0db39f0.jpg" data-descr="Intelectsoft’s digital transformation services powered by future-proof technologies prepare enterprises for a new era of advancement and growth." data-link="/services/digital-transformation-services" data-alt="Digital Transformation Image" class="sub-item-link sub-item-link--color">
+                                            Digital Transformation</a>
+                                    </li>
+                                    <li class="sub-menu__list-item">
+                                        <div class="sub-menu__header"></div>
+                                        <a href="services_about_ux.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/75da5a5e286c1ccee20394cb63f93f329a380bf9cad125c952ac18b36c103f5b.jpg" data-descr="Create an engaging product on time with a team that designs software products for more than a decade" data-link="/services/ui-ux-design-services" data-alt="UX / UI Design Image" class="sub-item-link sub-item-link--color">
+                                            UX / UI Design                            </a>
+                                    </li>
+                                    <li class="sub-menu__list-item">
+                                        <div class="sub-menu__header"></div>
+                                        <a href="#" data-image="https://admin.intellectsoft.net/upload/images/menu-items/75da5a5e286c1ccee20394cb63f93f329a380bf9cad125c952ac18b36c103f5b.jpg" data-descr="Create an engaging product on time with a team that designs software products for more than a decade" data-link="/services/ui-ux-design-services" data-alt="UX / UI Design Image" class="sub-item-link sub-item-link--color">
+                                            Design Lab                            </a>
+                                    </li>
+                                    <li class="sub-menu__list-item">
+                                        <div class="sub-menu__header"></div>
+                                        <a href="services_qa.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/77117c07b144195d350b96b692f8b22164b9ebcf8b55e468fec40216025e0b91.jpg" data-descr="Decade-long expertise, established standards, automated testing techniques" data-link="/services/qa-and-software-testing-services" data-alt="QA &amp; Testing Image" class="sub-item-link sub-item-link--color">
+                                            QA &amp; Testing                            </a>
+                                    </li>
+                                    <li class="sub-menu__list-item">
+                                        <div class="sub-menu__header"></div>
+                                        <a class="all-services-link" href="services.html">All Services <i class="isoi-angle-right "></i></a>
+                                    </li>
+                                  </ul>
                                 </div>
-                            </div>
-                          
-                        </div>
-                        <div class="sub-menu-list-container">
-                            <ul class="sub-menu sub-menu--double">
-                                <div class="sub-menu__wrapper">
-                                    <div class="sub-menu__header"></div>
-                                <li class="menu-item">
-                                        <a href="/services/enterprise-software-development"data-image="https://admin.intellectsoft.net/upload/images/menu-items/9fa712c71c3c0eb166f255ac8018a04514b26192e8809bd4c172dc01ea4e9373.png" data-descr="Custom software solutions for banks, insurance companies, and financial institutions" data-link="/solutions/financial-software-development-services" data-alt="FinTech Image" class="sub-item-link ">
-                                            Enterprise Software Development                            <i class="isoi-angle-right"></i>
-                                        </a>
-                                        <div class="sub-menu__list-wrapper">
-                                            <ul class="sub-menu__list">
-                                                <li class="sub-menu__list-item">
-                                                    <div class="sub-menu__header"></div>
-                                                    <a href="/services/digital-transformation-services" data-image="https://admin.intellectsoft.net/upload/images/menu-items/cc8b65a08bea2ba22062648f549008f2e17ed74e01611ed9a872b176a0db39f0.jpg" data-descr="Intelectsoft’s digital transformation services powered by future-proof technologies prepare enterprises for a new era of advancement and growth." data-link="/services/digital-transformation-services" data-alt="Digital Transformation Image" class="sub-item-link sub-item-link--color">
-                                                        Digital Transformation                            </a>
-                                                </li>
-                                                <li class="sub-menu__list-item">
-                                                    <div class="sub-menu__header"></div>
-                                                    <a href="/services/ui-ux-design-services" data-image="https://admin.intellectsoft.net/upload/images/menu-items/75da5a5e286c1ccee20394cb63f93f329a380bf9cad125c952ac18b36c103f5b.jpg" data-descr="Create an engaging product on time with a team that designs software products for more than a decade" data-link="/services/ui-ux-design-services" data-alt="UX / UI Design Image" class="sub-item-link sub-item-link--color">
-                                                        UX / UI Design                            </a>
-                                                </li>
-                                                <li class="sub-menu__list-item">
-                                                    <div class="sub-menu__header"></div>
-                                                    <a href="/services/design-lab" data-image="https://admin.intellectsoft.net/upload/images/menu-items/75da5a5e286c1ccee20394cb63f93f329a380bf9cad125c952ac18b36c103f5b.jpg" data-descr="Create an engaging product on time with a team that designs software products for more than a decade" data-link="/services/ui-ux-design-services" data-alt="UX / UI Design Image" class="sub-item-link sub-item-link--color">
-                                                        Design Lab                            </a>
-                                                </li>
-                                                <li class="sub-menu__list-item">
-                                                    <div class="sub-menu__header"></div>
-                                                    <a href="/services/qa-and-software-testing-services" data-image="https://admin.intellectsoft.net/upload/images/menu-items/77117c07b144195d350b96b692f8b22164b9ebcf8b55e468fec40216025e0b91.jpg" data-descr="Decade-long expertise, established standards, automated testing techniques" data-link="/services/qa-and-software-testing-services" data-alt="QA &amp; Testing Image" class="sub-item-link sub-item-link--color">
-                                                        QA &amp; Testing                            </a>
-                                                </li>
-                                                <li class="sub-menu__list-item">
-                                                    <div class="sub-menu__header"></div>
-                                                    <a class="all-services-link" href="https://www.intellectsoft.net/services">All Services <i class="isoi-angle-right "></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                </li>
-                                </div>
-                              
-                                <div class="sub-menu__wrapper">
-                                    <div class="sub-menu__header"></div>
-                                <li class="menu-item">
-                                        <a href="/services/mobile-app-development-services" data-image="https://admin.intellectsoft.net/upload/images/menu-items/5dc0cc428b805ff139bea9f050fa98e9df6264c0671cd78e8c675aee4dc79549.png" data-descr="Software for patient, workflow, and asset management, and other solutions" data-link="/platforms/healthcare-it-solutions" data-alt="Healthcare Image" class="sub-item-link">
-                                            Mobile App Development                           <i class="isoi-angle-right"></i>
-                                        </a>
-                                </li>
-                                </div>
-                              
-                                <div class="sub-menu__wrapper">
-                                    <div class="sub-menu__header"></div>
-                                <li class="menu-item">
-                                        <a href="/services/dedicated-development-team" data-image="https://admin.intellectsoft.net/upload/images/menu-items/3fbf717cfe324002179edbad7c102ff569f341550c8d321860717eec5dc195f6.png" data-descr="Software for patient, workflow, and asset management, and other solutions" data-link="/platforms/healthcare-it-solutions" data-alt="Healthcare Image" class="sub-item-link">
-                                            Dedicated Development Team                           <i class="isoi-angle-right"></i>
-                                        </a>
-                                </li>
-                                </div>
-                              
-                                <div class="sub-menu__wrapper">
-                                    <div class="sub-menu__header"></div>
-                                <li class="menu-item">
-                                        <a href="/services/it-consulting-services" data-image="https://admin.intellectsoft.net/upload/images/menu-items/c30415cfd994e7a8190b42430b5e0485cc5598ded8a8fc3c731195f73a5e2979.jpg" data-descr="Latest tech implementation, enterprise architecture, and Digital Transformation consulting from IT industry’s top minds" data-link="/services/it-consulting-services" data-alt="IT Consulting Image" class="sub-item-link ">
-                                            IT Consulting                            </a>
-                                </li>
-                                <div class="sub-menu__header"></div>
-                                <li class="menu-item">
-                                        <a href="/services/data-lab" data-image="https://admin.intellectsoft.net/upload/images/services/f123bdaeda279288860e2085717adb8828ee5500bcade5d21a67b89fecc71630.png" data-descr="Unlock the power of your data with Intellectsoft's expert data analytics consulting services. We help businesses harness actionable insights, optimize performance." data-link="/services/it-consulting-services" data-alt="IT Consulting Image" class="sub-item-link ">
-                                            Data Lab 
-                                         </a>
-                                </li>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-              </li>
-              <li class="menu-item has-dropdown">
-                <a href="platforms.html" class="menu-item-link industries-page">Industries<i class="menu-arrow-down"></i></a>
-                <div class="sub-menu-wrapper">
-                    <div class="sub-menu-container">
-                        <div class="article-container">
-                        
-                            <div class="article__item">
-                                <div class="article__content">
-                                    <a href="/platforms" class="article__link">
-                                        <img data-src="https://admin.intellectsoft.net/upload/images/menu-contents/056bfa1e9f8a7032963ad76313e4c8016d6a3c058db3879f92d69d0a51f5fbb7.jpg" alt="Industries" class="article__img lazyloaded" src="https://admin.intellectsoft.net/upload/images/menu-contents/056bfa1e9f8a7032963ad76313e4c8016d6a3c058db3879f92d69d0a51f5fbb7.jpg">
-                                    
-                                        <p class="article__description">Intellectsoft brings the latest technologies to your vertical with our industry-specific solutions</p>
-                                    </a>
-                                </div>
-                            </div>
-                          
-                        </div>
-                        <div class="sub-menu-list-container">
-                        
-                            <ul class="sub-menu sub-menu--double">
+                              </li>
+                              </div>
                             
-                                <div class="sub-menu__wrapper">
-                                    <div class="sub-menu__header">INDUSTRIES</div>
-                                    <div class="sub-menu__header"></div>
-                                    <li class="menu-item">
-                                        <a href="/solutions/financial-software-development-services" data-image="https://admin.intellectsoft.net/upload/images/menu-items/35f984c79cdd3e7047174426bd2020c7d228262393926848fed60ed76a1268fa.jpg" data-descr="Custom software solutions for banks, insurance companies, and financial institutions" data-link="/solutions/financial-software-development-services" data-alt="FinTech Image" class="sub-item-link ">
-                                            FinTech                            <i class="isoi-angle-right"></i>
-                                        </a>
-                                        <div class="sub-menu__list-wrapper">
-                                            <ul class="sub-menu__list">
-                                                <li class="sub-menu__list-item">
-                                                    <div class="sub-menu__header"></div>
-                                                    <a href="/platforms/travel-hospitality-software-development" data-image="https://admin.intellectsoft.net/upload/images/menu-items/16144c4e777751b77e7c86b9ea7b862617a26e09c237cfc8d477b38b28d28216.jpg" data-descr="Supply chain management, Big Data solutions, IoT, smart warehousing, and more" data-link="/platforms/travel-hospitality-software-development" data-alt="Logistics &amp; Automotive Image" class="sub-item-link ">
-                                                        Travel &amp; Hospitality                            <i class="isoi-angle-right"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="sub-menu__list-item">
-                                                    <div class="sub-menu__header"></div>
-                                                    <a href="/services/education-software-development" data-image="https://admin.intellectsoft.net/upload/images/menu-items/0386404a1363148b8d65b793e94d5c4127a8e45bd5bfef65c7e1d8cd4318e4b5.jpg" data-descr="Digital transformation of insurance services with custom software development, Artificial Intelligence, and cloud" data-link="/platforms/custom-insurance-software-development" data-alt="Insurance Image" class="sub-item-link ">
-                                                        Edtech                            <i class="isoi-angle-right"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="sub-menu__list-item">
-                                                    <div class="sub-menu__header"></div>
-                                                    <a href="/platforms/custom-insurance-software-development" data-image="https://admin.intellectsoft.net/upload/images/menu-items/0386404a1363148b8d65b793e94d5c4127a8e45bd5bfef65c7e1d8cd4318e4b5.jpg" data-descr="Digital transformation of insurance services with custom software development, Artificial Intelligence, and cloud" data-link="/platforms/custom-insurance-software-development" data-alt="Insurance Image" class="sub-item-link ">
-                                                        Insurance &amp; Mortage                           <i class="isoi-angle-right"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="sub-menu__list-item">
-                                                    <div class="sub-menu__header"></div>
-                                                    <a class="all-services-link" href="https://www.intellectsoft.net/platforms">All Industries <i class="isoi-angle-right "></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </div>
-                              
-                                <div class="sub-menu__wrapper">
-                                    <div class="sub-menu__header"></div>
-                                    <li class="menu-item">
-                                        <a href="/solutions/healthcare-software-development" data-image="https://admin.intellectsoft.net/upload/images/menu-items/45388f05316746acd5a7552076de7705d8566425f7b49f5a3e7d266736c708ca.jpg" data-descr="Software for patient, workflow, and asset management, and other solutions" data-link="/platforms/healthcare-it-solutions" data-alt="Healthcare Image" class="sub-item-link">
-                                            Healthcare & Well-being                            <i class="isoi-angle-right"></i>
-                                        </a>
-                                    </li>
-                                </div>
-                              
-                                <div class="sub-menu__wrapper">
-                                    <div class="sub-menu__header"></div>
-                                    <li class="menu-item">
-                                        <a href="/platforms/construction-software-development" data-image="https://admin.intellectsoft.net/upload/images/menu-items/274037bd63fe88985ab40a3df3f22855281e478f2a6bfe5e2f92dafae8ff773e.jpg" data-descr="Construction software development" data-link="/platforms/construction-software-development" data-alt="Construction Image" class="sub-item-link ">
-                                            Construction                            <i class="isoi-angle-right"></i>
-                                        </a>
-                                    </li>
-                                </div>
-                              
-                                <div class="sub-menu__wrapper">
-                                    <div class="sub-menu__header"></div>
-                                    <li class="menu-item">
-                                        <a href="/services/automotive-software-development" data-image="https://admin.intellectsoft.net/upload/images/menu-items/16144c4e777751b77e7c86b9ea7b862617a26e09c237cfc8d477b38b28d28216.jpg" data-descr="Supply chain management, Big Data solutions, IoT, smart warehousing, and more" data-link="/services/automotive-software-development" data-alt="Logistics &amp; Automotive Image" class="sub-item-link ">
-                                            Automotive                            <i class="isoi-angle-right"></i>
-                                        </a>
-                                    </li>
-                                </div>
-                            </ul>
+                              <div class="sub-menu__wrapper">
+                              <div class="sub-menu__header"></div>
+                              <li class="menu-item">
+                                <a href="services_mobile.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/5dc0cc428b805ff139bea9f050fa98e9df6264c0671cd78e8c675aee4dc79549.png" data-descr="Software for patient, workflow, and asset management, and other solutions" data-link="/platforms/healthcare-it-solutions" data-alt="Healthcare Image" class="sub-item-link">
+                                    Mobile App Development                           <i class="isoi-angle-right"></i>
+                                </a>
+                              </li>
+                              </div>
+                            
+                              <div class="sub-menu__wrapper">
+                              <div class="sub-menu__header"></div>
+                              <li class="menu-item">
+                                <a href="services_dedicated.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/3fbf717cfe324002179edbad7c102ff569f341550c8d321860717eec5dc195f6.png" data-descr="Software for patient, workflow, and asset management, and other solutions" data-link="/platforms/healthcare-it-solutions" data-alt="Healthcare Image" class="sub-item-link">
+                                    Dedicated Development Team                           <i class="isoi-angle-right"></i>
+                                </a>
+                              </li>
+                              </div>
+                            
+                              <div class="sub-menu__wrapper">
+                              <div class="sub-menu__header"></div>
+                              <li class="menu-item">
+                                <a href="services_it.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/c30415cfd994e7a8190b42430b5e0485cc5598ded8a8fc3c731195f73a5e2979.jpg" data-descr="Latest tech implementation, enterprise architecture, and Digital Transformation consulting from IT industry’s top minds" data-link="/services/it-consulting-services" data-alt="IT Consulting Image" class="sub-item-link ">
+                                  IT Consulting                            
+                                </a>
+                              </li>
+                              <div class="sub-menu__header"></div>
+                              <li class="menu-item">
+                                <a href="services_data-lab.html" data-image="https://admin.intellectsoft.net/upload/images/services/f123bdaeda279288860e2085717adb8828ee5500bcade5d21a67b89fecc71630.png" data-descr="Unlock the power of your data with Intellectsoft's expert data analytics consulting services. We help businesses harness actionable insights, optimize performance." data-link="/services/it-consulting-services" data-alt="IT Consulting Image" class="sub-item-link ">
+                                  Data Lab 
+                                </a>
+                              </li>
+                              </div>
+                          </ul>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item has-dropdown">
+                <a href="industiries.html" class="menu-item-link industries-page">Industries<i class="menu-arrow-down"></i></a>
+                <div class="sub-menu-wrapper">
+                    <div class="sub-menu-container">
+                      <div class="article-container">
+                        <div class="article__item">
+                            <div class="article__content">
+                                <a href="/platforms" class="article__link">
+                                    <img data-src="https://admin.intellectsoft.net/upload/images/menu-contents/056bfa1e9f8a7032963ad76313e4c8016d6a3c058db3879f92d69d0a51f5fbb7.jpg" alt="Industries" class="article__img lazyloaded" src="https://admin.intellectsoft.net/upload/images/menu-contents/056bfa1e9f8a7032963ad76313e4c8016d6a3c058db3879f92d69d0a51f5fbb7.jpg">
+                                    <p class="article__description">Intellectsoft brings the latest technologies to your vertical with our industry-specific solutions</p>
+                                </a>
+                            </div>
                         </div>
+                      </div>
+                      <div class="sub-menu-list-container">
+                          <ul class="sub-menu sub-menu--double">
+                              <div class="sub-menu__wrapper">
+                                  <div class="sub-menu__header">INDUSTRIES</div>
+                                  <div class="sub-menu__header"></div>
+                                  <li class="menu-item">
+                                      <a href="Industries_financial.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/35f984c79cdd3e7047174426bd2020c7d228262393926848fed60ed76a1268fa.jpg" data-descr="Custom software solutions for banks, insurance companies, and financial institutions" data-link="/solutions/financial-software-development-services" data-alt="FinTech Image" class="sub-item-link ">
+                                          FinTech                            <i class="isoi-angle-right"></i>
+                                      </a>
+                                      <div class="sub-menu__list-wrapper">
+                                          <ul class="sub-menu__list">
+                                              <li class="sub-menu__list-item">
+                                                  <div class="sub-menu__header"></div>
+                                                  <a href="Industries_travel.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/16144c4e777751b77e7c86b9ea7b862617a26e09c237cfc8d477b38b28d28216.jpg" data-descr="Supply chain management, Big Data solutions, IoT, smart warehousing, and more" data-link="/platforms/travel-hospitality-software-development" data-alt="Logistics &amp; Automotive Image" class="sub-item-link ">
+                                                      Travel &amp; Hospitality                            <i class="isoi-angle-right"></i>
+                                                  </a>
+                                              </li>
+                                              <li class="sub-menu__list-item">
+                                                  <div class="sub-menu__header"></div>
+                                                  <a href="Industries_education.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/0386404a1363148b8d65b793e94d5c4127a8e45bd5bfef65c7e1d8cd4318e4b5.jpg" data-descr="Digital transformation of insurance services with custom software development, Artificial Intelligence, and cloud" data-link="/platforms/custom-insurance-software-development" data-alt="Insurance Image" class="sub-item-link ">
+                                                      Edtech                            <i class="isoi-angle-right"></i>
+                                                  </a>
+                                              </li>
+                                              <li class="sub-menu__list-item">
+                                                  <div class="sub-menu__header"></div>
+                                                  <a href="Industries_insurance.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/0386404a1363148b8d65b793e94d5c4127a8e45bd5bfef65c7e1d8cd4318e4b5.jpg" data-descr="Digital transformation of insurance services with custom software development, Artificial Intelligence, and cloud" data-link="/platforms/custom-insurance-software-development" data-alt="Insurance Image" class="sub-item-link ">
+                                                      Insurance &amp; Mortage                           <i class="isoi-angle-right"></i>
+                                                  </a>
+                                              </li>
+                                              <li class="sub-menu__list-item">
+                                                  <div class="sub-menu__header"></div>
+                                                  <a class="all-services-link" href="industiries.html">All Industries <i class="isoi-angle-right "></i></a>
+                                              </li>
+                                          </ul>
+                                      </div>
+                                  </li>
+                              </div>
+                              <div class="sub-menu__wrapper">
+                                  <div class="sub-menu__header"></div>
+                                  <li class="menu-item">
+                                      <a href="Industries_healthcare.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/45388f05316746acd5a7552076de7705d8566425f7b49f5a3e7d266736c708ca.jpg" data-descr="Software for patient, workflow, and asset management, and other solutions" data-link="/platforms/healthcare-it-solutions" data-alt="Healthcare Image" class="sub-item-link">
+                                          Healthcare & Well-being                            <i class="isoi-angle-right"></i>
+                                      </a>
+                                  </li>
+                              </div>
+                              <div class="sub-menu__wrapper">
+                                  <div class="sub-menu__header"></div>
+                                  <li class="menu-item">
+                                      <a href="Industries_construction.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/274037bd63fe88985ab40a3df3f22855281e478f2a6bfe5e2f92dafae8ff773e.jpg" data-descr="Construction software development" data-link="/platforms/construction-software-development" data-alt="Construction Image" class="sub-item-link ">
+                                          Construction                            <i class="isoi-angle-right"></i>
+                                      </a>
+                                  </li>
+                              </div>
+                              <div class="sub-menu__wrapper">
+                                  <div class="sub-menu__header"></div>
+                                  <li class="menu-item">
+                                      <a href="Industries_automotive.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/16144c4e777751b77e7c86b9ea7b862617a26e09c237cfc8d477b38b28d28216.jpg" data-descr="Supply chain management, Big Data solutions, IoT, smart warehousing, and more" data-link="/services/automotive-software-development" data-alt="Logistics &amp; Automotive Image" class="sub-item-link ">
+                                          Automotive                            <i class="isoi-angle-right"></i>
+                                      </a>
+                                  </li>
+                              </div>
+                          </ul>
+                      </div>
                     </div>
                 </div>
               </li>
               <li class="menu-item has-dropdown">
-                <a href="clients.html" class="menu-item-link clients-page">OUR WORK<i class="menu-arrow-down"></i></a>
+                <a href="ourwork.html" class="menu-item-link clients-page">OUR WORK<i class="menu-arrow-down"></i></a>
                 <div class="sub-menu-wrapper">
                     <div class="sub-menu-container">
                         <div class="article-container">
                             <div class="article__item">
                                 <div class="article__content">
-                                    <a href="/clients" class="article__link">
+                                    <a href="ourwork.html" class="article__link">
                                         <img data-src="https://admin.intellectsoft.net/upload/images/menu-contents/a18be6ab2db509c8ae18cad92434057df85212835eff0f5a8598bb5e4f8b7002.jpg" alt="Clients" class="article__img lazyloaded" src="https://admin.intellectsoft.net/upload/images/menu-contents/a18be6ab2db509c8ae18cad92434057df85212835eff0f5a8598bb5e4f8b7002.jpg">
-                                    
                                         <p class="article__description">Trusted by world's leading brands and Fortune 500 companies</p>
                                     </a>
                                 </div>
@@ -447,7 +421,7 @@
                                 <div class="sub-menu__wrapper">
                                     <div class="sub-menu__header">CLIENTS</div>
                                     <li class="menu-item">
-                                        <a href="/clients" data-image="https://admin.intellectsoft.net/upload/images/menu-items/dc99368d4e7cdca39cf853dd1aafbb70752276469616e08ffbaef1be97be064d.jpg" data-descr="Trusted by world's leading brands and Fortune 500 companies" data-link="/clients" data-alt="Our Сlients Image" class="sub-item-link ">
+                                        <a href="ourwork.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/dc99368d4e7cdca39cf853dd1aafbb70752276469616e08ffbaef1be97be064d.jpg" data-descr="Trusted by world's leading brands and Fortune 500 companies" data-link="/clients" data-alt="Our Сlients Image" class="sub-item-link ">
                                             Our Сlients                            <i class="isoi-angle-right "></i>
                                         </a>
                                     </li>
@@ -462,12 +436,10 @@
                 <div class="sub-menu-wrapper">
                     <div class="sub-menu-container">
                         <div class="article-container">
-                        
                             <div class="article__item">
                                 <div class="article__content">
-                                    <a href="/about" class="article__link">
+                                    <a href="about.html" class="article__link">
                                         <img data-src="https://admin.intellectsoft.net/upload/images/menu-contents/cf43ddb2b4ae67ae86f4d183bbc128813fd20f799a6b22423bd7121f8463e728.jpg" alt="Company" class="article__img lazyloaded" src="https://admin.intellectsoft.net/upload/images/menu-contents/cf43ddb2b4ae67ae86f4d183bbc128813fd20f799a6b22423bd7121f8463e728.jpg">
-                                    
                                         <p class="article__description">We help enterprises reimagine their business and achieve Digital Transformation more efficiently</p>
                                     </a>
                                 </div>
@@ -479,7 +451,7 @@
                                 <div class="sub-menu__wrapper">
                                     <div class="sub-menu__header">COMPANY</div>
                                     <li class="menu-item">
-                                        <a href="/about" data-image="https://admin.intellectsoft.net/upload/images/menu-items/509c23392712fea07c84b21294b07c5eb0cde3ceab92bd02bc4f9b99175011d3.jpg" data-descr="We help enterprises reimagine their business and achieve Digital Transformation more efficiently" data-link="/about" data-alt="About Image" class="sub-item-link company-about" style="">
+                                        <a href="about.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/509c23392712fea07c84b21294b07c5eb0cde3ceab92bd02bc4f9b99175011d3.jpg" data-descr="We help enterprises reimagine their business and achieve Digital Transformation more efficiently" data-link="/about" data-alt="About Image" class="sub-item-link company-about" style="">
                                             About                            <i class="isoi-angle-right"></i>
                                         </a>
                                     </li>
@@ -488,7 +460,7 @@
                                 <div class="sub-menu__wrapper">
                                     <div class="sub-menu__header"></div>
                                     <li class="menu-item">
-                                        <a href="/contacts" data-image="https://admin.intellectsoft.net/upload/images/menu-items/e95f09433ba6a005175af33b34a0bf7f60d46ed074d7f2544f614ade86a5bd56.jpg" data-descr="Get in touch with us around the world" data-link="/contacts" data-alt="Contacts Image" class="sub-item-link ">
+                                        <a href="contacts.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/e95f09433ba6a005175af33b34a0bf7f60d46ed074d7f2544f614ade86a5bd56.jpg" data-descr="Get in touch with us around the world" data-link="/contacts" data-alt="Contacts Image" class="sub-item-link ">
                                             Contacts                            <i class="isoi-angle-right"></i>
                                         </a>
                                     </li>
@@ -514,13 +486,15 @@
           </script>        
         </div>
         <div class="nav__btn">
-          <button class="get-touch red-style btn get-in-touch-form" type="button">Get in touch</button>
-          <a id="c-button--push-left" href="" class="sandwich menu-btn"></a>
+          <button  class="get-touch red-style btn get-in-touch-form" type="button"><a href="contacts.html">Get in touch</a></button>
+        </div>
+        <div style="display: none;" class="nav__btn">
+          <button  class="get-touch red-style btn get-in-touch-form" type="button">Get in touch</button>
+          <a  id="c-button--push-left" href="contacts.html" class="sandwich menu-btn"></a>
         </div>
       </div>
     </nav>
 
-    
 <section id="version0" class="hero home-page--hero">
         <div class="container">
           <h1 class="title title--uppercase">

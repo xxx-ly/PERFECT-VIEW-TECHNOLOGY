@@ -1187,6 +1187,7 @@ body.services-team-extension .step-text {
   -ms-flex-pack: start;
   justify-content: flex-start;
   position: relative;
+  color:#ffffff;
 }
 @media screen and (max-width: 1279px) {
   .block-markdown {
@@ -1310,7 +1311,7 @@ body.services-team-extension .step-text {
   height: 8px;
   top: -55px;
   left: 0;
-  background: #000;
+  background: #ffffff;
 }
 @media screen and (max-width: 1279px) {
   .block-markdown > ul {
@@ -1340,7 +1341,7 @@ body.services-team-extension .step-text {
 .block-markdown > ul > li a {
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
-  color: #155592;
+  color: #1E90FF;
   text-decoration: none;
 }
 .block-markdown > ul > li em {
@@ -17232,6 +17233,9 @@ body.disable-scroll {
     height: auto;
   }
 }
+.mt80{
+  margin-top: 80px;
+}
 .page-header__content .page-title h1 {
   color: #fff;
 }
@@ -23439,9 +23443,14 @@ p.description {
   font-weight: 900;
   font-size: 60px;
   line-height: 65px;
-  color: #121212;
+  color: #ffffff;
   margin: 0 0 13px;
 }
+.page-title p{
+  color: #ffffff;
+}
+.mt20{margin-top: 20px;}
+.txtc{text-align: center;}
 @media screen and (max-width: 1023px) {
   .page-title h1 {
     font-size: 36px;
@@ -23450,9 +23459,9 @@ p.description {
 }
 .page-title h2 {
   font-weight: 900;
-  font-size: 60px;
+  font-size: 36px;
   line-height: 65px;
-  color: #121212;
+  color: #ffffff;
 }
 @media screen and (max-width: 1023px) {
   .page-title h2 {
