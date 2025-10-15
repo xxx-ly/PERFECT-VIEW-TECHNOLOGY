@@ -1,394 +1,68 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <script>
-    !(function () {
-      var reb2b = (window.reb2b = window.reb2b || []);
-      if (reb2b.invoked) return;
-      reb2b.invoked = true;
-      reb2b.methods = ["identify", "collect"];
-      reb2b.factory = function (method) {
-        return function () {
-          var args = Array.prototype.slice.call(arguments);
-          args.unshift(method);
-          reb2b.push(args);
-          return reb2b;
-        };
-      };
-      for (var i = 0; i < reb2b.methods.length; i++) {
-        var key = reb2b.methods[i];
-        reb2b[key] = reb2b.factory(key);
-      }
-      reb2b.load = function (key) {
-        var script = document.createElement("script");
-        script.type = "text/javascript";
-        script.async = true;
-        script.src =
-          "https://ddwl4m2hdecbv.cloudfront.net/b/" +
-          key +
-          "/DNXY8HX5QZO0.js.gz";
-        var first = document.getElementsByTagName("script")[0];
-        first.parentNode.insertBefore(script, first);
-      };
-      reb2b.SNIPPET_VERSION = "1.0.1";
-      reb2b.load("DNXY8HX5QZO0");
-    })();
-  </script>
-  <head>
-    <title>Custom Enterprise Software Development | Intellectsoft</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0072f6" />
+<head>
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.css" integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="canonical" href="https://www.intellectsoft.net/clients" />
+    <link rel="dns-prefetch" href="//traccoon.intellectsoft.net" />
+    <link rel="alternate" type="application/rss+xml" title="Intellectsoft Blog &raquo; Feed" href="https://www.intellectsoft.net/blog/feed/"/>
+    <link rel="alternate" type="application/rss+xml" title="Intellectsoft Blog &raquo; Comments Feed" href="https://www.intellectsoft.net/blog/comments/feed/"/>
+    <link rel="https://api.w.org/" href="https://www.intellectsoft.net/blog/wp-json/"/>
+    <link rel="alternate" title="JSON" type="application/json" href="https://www.intellectsoft.net/blog/wp-json/wp/v2/pages/20062"/>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.intellectsoft.net/blog/xmlrpc.php?rsd"/>
+    <link rel="shortlink" href="https://www.intellectsoft.net/blog/?p=20062" />
+    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.intellectsoft.net/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.intellectsoft.net%2Fblog%2Fclients%2F"/>
+    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.intellectsoft.net/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.intellectsoft.net%2Fblog%2Fclients%2F&#038;format=xml"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/img/favicon.png"/>
+    <link rel="icon" href="https://www.intellectsoft.net/blog/wp-content/uploads/cropped-favicon-1-32x32.png" sizes="32x32"/>
+    <link rel="icon" href="https://www.intellectsoft.net/blog/wp-content/uploads/cropped-favicon-1-192x192.png" sizes="192x192"/>
+    <link rel="apple-touch-icon" href="https://www.intellectsoft.net/blog/wp-content/uploads/cropped-favicon-1-180x180.png"/>
+    <link rel="icon" type="image/png" href="https://www.intellectsoft.net/static/shared/img/favicon/favicon.png"/>
+    <link rel="apple-touch-icon" href="https://www.intellectsoft.net/static/shared/img/favicon/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.intellectsoft.net/static/shared/img/favicon/apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.intellectsoft.net/static/shared/img/favicon/apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.intellectsoft.net/static/shared/img/favicon/apple-touch-icon-152x152.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.intellectsoft.net/static/shared/img/favicon/favicon.ico"/>
+    <link rel="stylesheet" id="style-css" href="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/css/main-style.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" id="icons-css" href="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/stylus/icons.css" type="text/css" media="all"/>
+    <link href="assets/d3aa10f/bundle.css?v=1758281891" rel="stylesheet">
+    <link rel="stylesheet" id="swiper-css" href="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/stylus/swiper.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" id="slick-css" href="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/stylus/slick.css?ver=1.1" type="text/css" media="1"/>
+    <link rel="stylesheet" id="fancybox-css" href="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/stylus/jquery.fancybox.css?ver=1.1" type="text/css" media="all"/>
+    <link rel="stylesheet" id="intl-css" href="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/stylus/intl.min.css" type="text/css" media="all"/>
+</head>
 
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/apple-touch-icon-152x152.png"
-    />
-
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-
-    <!--    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600&display=swap" rel="stylesheet">-->
-
-    <style>
-      @font-face {
-        font-display: swap;
-        font-family: ProximaNova;
-        font-style: normal;
-        font-weight: 300;
-        src: url(../fonts/ProximaNova-Light.woff);
-      }
-
-      @font-face {
-        font-display: swap;
-        font-family: ProximaNova;
-        font-style: normal;
-        font-weight: 400;
-        src: url(../fonts/ProximaNova-Regular.woff);
-      }
-
-      @font-face {
-        font-display: swap;
-        font-family: ProximaNova;
-        font-style: normal;
-        font-weight: 600;
-        src: url(../fonts/ProximaNova-Semibold.woff);
-      }
-
-      @font-face {
-        font-display: swap;
-        font-family: ProximaNova;
-        font-style: normal;
-        font-weight: 700;
-        src: url(../fonts/ProximaNova-Bold.woff);
-      }
-
-      @font-face {
-        font-display: swap;
-        font-family: ProximaNova;
-        font-style: normal;
-        font-weight: 800;
-        src: url(../fonts/ProximaNova-Black.woff);
-      }
-
-      @font-face {
-        font-display: swap;
-        font-family: ProximaNova;
-        font-style: normal;
-        font-weight: 900;
-        src: url(../fonts/ProximaNova-Xbold.woff);
-      }
-    </style>
-    <!-- Hotjar Tracking Code for https://www.intellectsoft.net/ -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = {
-          hjid: 726486,
-          hjsv: 6,
-        };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
-    <script>
-      (function (m, a, z, e) {
-        var s, t;
-        try {
-          t = m.sessionStorage.getItem("maze-us");
-        } catch (err) {}
-        if (!t) {
-          t = new Date().getTime();
-          try {
-            m.sessionStorage.setItem("maze-us", t);
-          } catch (err) {}
-        }
-        s = a.createElement("script");
-        s.src = z + "?t=" + t + "&apiKey=" + e;
-        s.async = true;
-        a.getElementsByTagName("head")[0].appendChild(s);
-        m.mazeUniversalSnippetApiKey = e;
-      })(
-        window,
-        document,
-        "https://snippet.maze.co/maze-universal-loader.js",
-        "e96206bb-8415-47be-a728-be3f23468423"
-      );
-    </script>
-    <script
-      async
-      data-api-host="https://cdn.growthbook.io"
-      data-client-key="sdk-DhGnOK6DjedHxkpX"
-      src="https://cdn.jsdelivr.net/npm/@growthbook/growthbook/dist/bundles/auto.min.js"
-    ></script>
-
-    <meta name="csrf-param" content="_csrf-app-net" />
-    <meta
-      name="csrf-token"
-      content="OHpkPilt7omq4D88Bps1xr5JjtCGZuKVBCwGfnA2hE6onI1y0BEaOQg9sb6Yqc2bAErcx4onGQZ0hXKwd_2ejw=="
-    />
-    <meta
-      property="og:title"
-      content="Custom Enterprise Software Development | Intellectsoft"
-    />
-    <meta
-      property="og:description"
-      content="Our enterprise software development services have helped brands like Eurostar, EY, Guinness. Use our 13-year expertise for your next application. Let’s talk!"
-    />
-    <meta
-      property="og:image"
-      content="https://www.intellectsoft.net/upload/images/services/359093dbf1c0940887d42f1fbfff7040cf130e188423e4d8649837a34d9ffc01.png"
-    />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1920" />
-    <meta property="og:image:height" content="1280" />
-    <meta property="og:locale" content="en_US" />
-    <meta
-      property="og:url"
-      content="https://www.intellectsoft.net/services/enterprise-software-development"
-    />
-    <meta property="og:site_name" content="Intellectsoft" />
-    <meta property="og:type" content="website" />
-    <meta
-      name="twitter:title"
-      content="Custom Enterprise Software Development | Intellectsoft"
-    />
-    <meta
-      name="twitter:description"
-      content="Our enterprise software development services have helped brands like Eurostar, EY, Guinness. Use our 13-year expertise for your next application. Let’s talk!"
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.intellectsoft.net/upload/images/services/359093dbf1c0940887d42f1fbfff7040cf130e188423e4d8649837a34d9ffc01.png"
-    />
-    <meta
-      name="twitter:url"
-      content="https://www.intellectsoft.net/services/enterprise-software-development"
-    />
-    <meta name="twitter:domain" content="Intellectsoft" />
-    <meta name="twitter:card" content="summary" />
-    <meta
-      name="description"
-      content="Our enterprise software development services have helped brands like Eurostar, EY, Guinness. Use our 13-year expertise for your next application. Let’s talk!"
-    />
-    <link
-      href="https://www.intellectsoft.net/services/enterprise-software-development"
-      rel="canonical"
-    />
-    <link
-      href="/assets/d3aa10f/icons.css?v=1758282026"
-      rel="stylesheet"
-      position="3"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css"
-      rel="stylesheet"
-      position="3"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-      rel="stylesheet"
-      position="3"
-    />
-    <link
-      href="/assets/d3aa10f/vendor/chartist.min.css?v=1758281893"
-      rel="stylesheet"
-    />
-    <link
-      href="/assets/d3aa10f/vendor/owl.carousel.min.css?v=1758281893"
-      rel="stylesheet"
-    />
-    <link
-      href="/assets/d3aa10f/vendor/swiper.min.css?v=1758281893"
-      rel="stylesheet"
-    />
-    <link href="/assets/d3aa10f/bundle.css?v=1758281891" rel="stylesheet" />
-    <!--[if IE 9]>
-      <script src="/assets/d3aa10f/vendor/ie9-placeholder.js?v=1758281893"></script>
-    <![endif]-->
-    <!--[if IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <script type="text/javascript">
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-WXTDXX");
-    </script>
-  </head>
-
-  <body class="services-enterprise-software-development">
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-WXTDXX"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <div id="o-wrapper" class="wrapper">
-      <!--    <div class="bage">-->
-      <!--      <img src="-->
-      <?//= $baseUrl; ?>
-      <!--/img/logo.svg" alt="">-->
-      <!--      <div>Top<br> Mobile App Developer</div>-->
-      <!--      <div>2020</div>-->
-      <!--    </div>-->
-
-      <div id="phone">
-        <a href="tel:+1 (650) 233-6196"
-          ><img src="/assets/d3aa10f/img/button_phone.svg" alt="button_phone"
-        /></a>
-      </div>
-
-      <div class="newsletter">
-        <div class="newsletter-title">
-          This website uses cookies to enhance site navigation and improve
-          functionality, analyze site usage, and assist in our marketing and
-          advertising efforts. Please click "I accept cookies" to let us know
-          you're okay with our use of all cookies. For more information please
-          see the cookies section of our
-          <a class="newsletter-link" href="/privacy-policy#cookies-section"
-            >Privacy Policy</a
-          >.
-        </div>
-        <div class="newsletter-button">
-          <a class="popup-ok">i accept cookies</a>
-        </div>
-      </div>
-
-      <div class="sticky-banner">
-        <div style="width: 32px; height: 32px; position: relative"></div>
-        <div
-          style="
-            flex: 1 1 0;
-            height: 40px;
-            max-width: 1200px;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 16px;
-            display: flex;
-          "
-        >
-          <div
-            style="
-              flex: 1 1 0;
-              justify-content: center;
-              align-items: center;
-              gap: 24px;
-              display: flex;
-            "
-          >
-            <div
-              style="
-                color: white;
-                font-size: 16px;
-                font-family: Montserrat;
-                font-weight: 500;
-                line-height: 24px;
-                word-wrap: break-word;
-              "
-            >
-              Plan your custom software project with precision
-            </div>
-            <div class="sticky-cont">
-              <div class="sticky-button" style="">
-                <div class="sticky-button-text">
-                  <div>Estimate Now!</div>
+  <body class="wp-singular page-template page-template-templates page-template-template-clients page-template-templatestemplate-clients-php page page-id-20062 wp-theme-intellectsoft group-blog">
+    <div id="o-wrapper" class="site">
+      <header id="masthead" class="site-header" role="banner">
+        <div class="sticky-banner">
+          <div style="width: 32px; height: 32px; position: relative"></div>
+          <div style="flex: 1 1 0;height: 40px;max-width: 1200px;justify-content: flex-start;align-items: center;gap: 16px;display: flex;">
+            <div style=" flex: 1 1 0; justify-content: center; align-items: center; gap: 24px; display: flex;">
+              <div style=" color: white; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word;">
+                Plan your custom software project with precision
+              </div>
+              <div class="sticky-cont">
+                <div class="sticky-button" style="">
+                  <div class="sticky-button-text">
+                    <div>Estimate Now!</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="sticky-close">
-          <svg
-            width="32"
-            height="32"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="close button">
-              <g id="Group">
-                <path
-                  id="Vector"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M16.0001 18.1211L21.3031 23.4251C21.5845 23.7065 21.9661 23.8646 22.3641 23.8646C22.762 23.8646 23.1437 23.7065 23.4251 23.4251C23.7065 23.1437 23.8646 22.7621 23.8646 22.3641C23.8646 21.9662 23.7065 21.5845 23.4251 21.3031L18.1201 16.0001L23.4241 10.6971C23.5634 10.5578 23.6738 10.3924 23.7492 10.2104C23.8245 10.0283 23.8633 9.83326 23.8632 9.63626C23.8632 9.43926 23.8243 9.2442 23.7489 9.06221C23.6735 8.88022 23.5629 8.71488 23.4236 8.57561C23.2843 8.43634 23.1189 8.32588 22.9368 8.25054C22.7548 8.17519 22.5597 8.13644 22.3627 8.13648C22.1657 8.13653 21.9707 8.17538 21.7887 8.25081C21.6067 8.32624 21.4414 8.43678 21.3021 8.57611L16.0001 13.8791L10.6971 8.57611C10.5588 8.43278 10.3933 8.31843 10.2104 8.23973C10.0274 8.16103 9.83058 8.11956 9.63141 8.11774C9.43224 8.11591 9.23471 8.15377 9.05033 8.22911C8.86595 8.30444 8.69842 8.41574 8.55752 8.55652C8.41661 8.69729 8.30515 8.86471 8.22964 9.04902C8.15414 9.23333 8.11609 9.43083 8.11773 9.63C8.11936 9.82917 8.16065 10.026 8.23917 10.2091C8.3177 10.3921 8.43189 10.5577 8.57509 10.6961L13.8801 16.0001L8.57609 21.3031C8.2947 21.5845 8.13661 21.9662 8.13661 22.3641C8.13661 22.7621 8.2947 23.1437 8.57609 23.4251C8.85749 23.7065 9.23914 23.8646 9.63709 23.8646C10.035 23.8646 10.4167 23.7065 10.6981 23.4251L16.0001 18.1201V18.1211Z"
-                  fill="white"
-                />
+          <div class="sticky-close">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="close button">
+                <g id="Group">
+                  <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M16.0001 18.1211L21.3031 23.4251C21.5845 23.7065 21.9661 23.8646 22.3641 23.8646C22.762 23.8646 23.1437 23.7065 23.4251 23.4251C23.7065 23.1437 23.8646 22.7621 23.8646 22.3641C23.8646 21.9662 23.7065 21.5845 23.4251 21.3031L18.1201 16.0001L23.4241 10.6971C23.5634 10.5578 23.6738 10.3924 23.7492 10.2104C23.8245 10.0283 23.8633 9.83326 23.8632 9.63626C23.8632 9.43926 23.8243 9.2442 23.7489 9.06221C23.6735 8.88022 23.5629 8.71488 23.4236 8.57561C23.2843 8.43634 23.1189 8.32588 22.9368 8.25054C22.7548 8.17519 22.5597 8.13644 22.3627 8.13648C22.1657 8.13653 21.9707 8.17538 21.7887 8.25081C21.6067 8.32624 21.4414 8.43678 21.3021 8.57611L16.0001 13.8791L10.6971 8.57611C10.5588 8.43278 10.3933 8.31843 10.2104 8.23973C10.0274 8.16103 9.83058 8.11956 9.63141 8.11774C9.43224 8.11591 9.23471 8.15377 9.05033 8.22911C8.86595 8.30444 8.69842 8.41574 8.55752 8.55652C8.41661 8.69729 8.30515 8.86471 8.22964 9.04902C8.15414 9.23333 8.11609 9.43083 8.11773 9.63C8.11936 9.82917 8.16065 10.026 8.23917 10.2091C8.3177 10.3921 8.43189 10.5577 8.57509 10.6961L13.8801 16.0001L8.57609 21.3031C8.2947 21.5845 8.13661 21.9662 8.13661 22.3641C8.13661 22.7621 8.2947 23.1437 8.57609 23.4251C8.85749 23.7065 9.23914 23.8646 9.63709 23.8646C10.035 23.8646 10.4167 23.7065 10.6981 23.4251L16.0001 18.1201V18.1211Z" fill="white"/>
+                </g>
               </g>
-            </g>
-          </svg>
+            </svg>
+          </div>
         </div>
-      </div>
-      <script>
-        document
-          .querySelector(".sticky-cont")
-          .addEventListener("click", function (e) {
-            window.dataLayer.push({
-              event: "click_button_estimate_project",
-              blockTitle: "experiment_20_survey",
-              topic: "click_button_estimate_project",
-            });
-            setTimeout(() => {
-              window.location.href = "https://www.intellectsoft.net/survey";
-            }, 1000);
-          });
-        document
-          .querySelector(".sticky-close")
-          .addEventListener("click", function (e) {
-            document
-              .querySelector(".sticky-banner")
-              .setAttribute("style", "display: none !important");
-            document.querySelector(".nav").style.top = "0";
-          });
-      </script>
 
     <nav class="nav">
       <div class="container">
@@ -434,7 +108,7 @@
                                     </li>
                                     <li class="sub-menu__list-item">
                                         <div class="sub-menu__header"></div>
-                                        <a href="#" data-image="https://admin.intellectsoft.net/upload/images/menu-items/75da5a5e286c1ccee20394cb63f93f329a380bf9cad125c952ac18b36c103f5b.jpg" data-descr="Create an engaging product on time with a team that designs software products for more than a decade" data-link="/services/ui-ux-design-services" data-alt="UX / UI Design Image" class="sub-item-link sub-item-link--color">
+                                        <a href="services_design.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/75da5a5e286c1ccee20394cb63f93f329a380bf9cad125c952ac18b36c103f5b.jpg" data-descr="Create an engaging product on time with a team that designs software products for more than a decade" data-link="/services/ui-ux-design-services" data-alt="UX / UI Design Image" class="sub-item-link sub-item-link--color">
                                             Design Lab                            </a>
                                     </li>
                                     <li class="sub-menu__list-item">
@@ -660,11 +334,11 @@
         </div>
       </div>
     </nav>
-
-      <section
+    </header>
+          <section
         class="hero hero--600 header--enterprise-development hero-healthcare mobile-hero"
         style="
-          background-image: url(assets/d3aa10f/img/美14圖.jpg);
+          background-image: url(assets/d3aa10f/img/img14.jpg);
         "
       >
         <div class="container">
@@ -677,45 +351,13 @@
             </p>
             <div style="margin-top: 20px">
               <div class="hero__button button-new">
-                <a
-                  href="#contact-section"
-                  style="
-                    padding: 0 44px;
-                    height: 52px;
-                    display: inline-flex;
-                    max-width: 354px;
-                    justify-content: center;
-                    align-items: center;
-                    text-transform: uppercase;
-                  "
-                  class="button--primary button-book-free"
-                  >Book a free consultation</a
-                >
-              </div>
-              <div class="hero__button button-new" style="margin-left: 20px">
-                <a
-                  href="https://www.intellectsoft.net/cases"
-                  style="height: 52px"
-                  class="button--blue-not-filled"
-                  >View portfolio</a
-                >
+                <a href="contacts.html" style=" padding: 0 44px; height: 52px; display: inline-flex; max-width: 354px; justify-content: center; align-items: center; text-transform: uppercase; " class="button--primary button-book-free" >Book a free consultation</a>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section class="content">
-        <!--
-		<div class="block-features block-features--main">
-							<div class="block-features__item block-features__item--link">
-					<a href="<? /*= Url::to([Services::getRouteDynamic(), 'url' => $child['item_url']]); */ ?>">
-						<h3 class="block-features__heading"><? /*= Html::decode($child['item_title']); */ ?></h3>
-						<p class="block-features__text"><? /*= Html::decode($child['item_title_text']); */ ?></p>
-					</a>
-				</div>
-					</div>
-	-->
-
         <section class="n-offers" id="why-choose">
           <div class="container">
             <h2 class="title title--black">
@@ -995,34 +637,8 @@
         </section>
 
         
-        <div
-          id="developing-solution"
-          style="
-            width: 100%;
-            height: 100%;
-            padding-top: 80px;
-            padding-bottom: 77px;
-            padding-left: 120px;
-            padding-right: 120px;
-            background: #fff;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            display: inline-flex;
-          "
-        >
-          <div
-            style="
-              /*width: 1200px;*/
-              padding-left: 103.5px;
-              padding-right: 103.5px;
-              flex-direction: column;
-              justify-content: flex-start;
-              align-items: center;
-              gap: 56px;
-              display: flex;
-            "
-          >
+        <div id="developing-solution" style=" width: 100%; height: 100%; padding-top: 80px; padding-bottom: 77px; padding-left: 120px; padding-right: 120px; background: #121212; flex-direction: column; justify-content: center; align-items: center; display: inline-flex; " >
+          <div style=" padding-left: 103.5px; padding-right: 103.5px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 56px; display: flex; " >
             <div
               style="
                 align-self: stretch;
@@ -1051,7 +667,7 @@
                     justify-content: center;
                     display: flex;
                     flex-direction: column;
-                    color: var(--color-grey-20, #323232);
+                    color: #ffffff;
                     font-size: 32px;
                     font-family: Montserrat;
                     font-weight: 600;
@@ -1083,7 +699,7 @@
                     justify-content: center;
                     display: flex;
                     flex-direction: column;
-                    color: var(--color-grey-20, #323232);
+                    color: #ffffff;
                     font-size: 18px;
                     font-family: Montserrat;
                     font-weight: 400;
@@ -1101,12 +717,12 @@
             </div>
           </div>
         </div>
-        <section class="d-main-description version22 version23" style="display: block; background: var(--surface-greyscale-98, #fff)">
+        <section class="d-main-description version22 version23" style="display: block; background: #121212;">
           <div class="container">
             <div class="d-main-description-item">
               <div class="d-main-description-item__image">
                 <picture>
-                  <img src="assets/d3aa10f/img/美15圖.jpg"/>
+                  <img src="assets/d3aa10f/img/img15.jpg"/>
                 </picture>
               </div>
               <div class="d-main-description-item__text">
@@ -1123,7 +739,7 @@
               <div class="d-main-description-item__image">
                 <picture>
                   <img
-                    src="assets/d3aa10f/img/美16圖.jpg"
+                    src="assets/d3aa10f/img/img16.jpg"
                   />
                 </picture>
               </div>
@@ -1143,7 +759,7 @@
               <div class="d-main-description-item__image">
                 <picture>
                   <img
-                    src="assets/d3aa10f/img/美17圖.jpg"
+                    src="assets/d3aa10f/img/img17.jpg"
                   />
                 </picture>
               </div>
@@ -1161,7 +777,7 @@
               <div class="d-main-description-item__image">
                 <picture>
                   <img
-                    src="assets/d3aa10f/img/美18圖.jpg"
+                    src="assets/d3aa10f/img/img18.jpg"
                   />
                 </picture>
               </div>
@@ -1181,7 +797,7 @@
               <div class="d-main-description-item__image">
                 <picture>
                   <img
-                    src="assets/d3aa10f/img/美19圖.jpg"
+                    src="assets/d3aa10f/img/img19.jpg"
                   />
                 </picture>
               </div>
@@ -1201,7 +817,7 @@
               <div class="d-main-description-item__image">
                 <picture>
                   <img
-                    src="assets/d3aa10f/img/美20圖.jpg"
+                    src="assets/d3aa10f/img/img20.jpg"
                   />
                 </picture>
               </div>
@@ -1220,7 +836,7 @@
               <div class="d-main-description-item__image">
                 <picture>
                   <img
-                    src="assets/d3aa10f/img/美21圖.jpg"
+                    src="assets/d3aa10f/img/img21.jpg"
                   />
                 </picture>
               </div>
@@ -1239,7 +855,7 @@
               <div class="d-main-description-item__image">
                 <picture>
                   <img
-                    src="assets/d3aa10f/img/美22圖.jpg"
+                    src="assets/d3aa10f/img/img22.jpg"
                   />
                 </picture>
               </div>
@@ -1927,679 +1543,503 @@
         </div>
       </div>
 
-      <footer class="footer">
-        <div class="footer__flexbox-main">
-          <div class="footer__menu-wrapper">
-            <ul class="footer__menu">
-              <li class="has-dropdown">
-                <a href="/services">Services</a>
-                <ul class="sub-menu">
-                  <li>
-                    <a
-                      href="https://www.intellectsoft.net/services/mvp-development"
-                      class="services-custom-software-development"
-                      >MVP Development</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/mobile-app-development-services"
-                      class="services-mobile-app-development"
-                      >Mobile Development</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/web-development-services"
-                      class="services-web-development"
-                      >Web Development</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/software-development-for-startups"
-                      class="services-start-up-mvp-solutions"
-                      >Startup & MVP Solutions</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/enterprise-software-development"
-                      class="services-enterprise-software-development"
-                      >Enterprise Solutions</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/dedicated-development-team"
-                      class="services-dedicated-teams"
-                      >Dedicated Teams</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/it-consulting-services"
-                      class="services-it-consulting"
-                      >IT Consulting</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/services/design-lab" class="design-lab"
-                      >Design Lab</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/services/data-lab" class="data-lab">Data Lab</a>
-                  </li>
-                  <li>
-                    <a
-                      href="/services/ui-ux-design-services"
-                      class="services-ux-ui"
-                      >UI/UX Design</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/qa-and-software-testing-services"
-                      class="services-qa-testing"
-                      >QA & Testing</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/architecture"
-                      class="services-architecture"
-                      >Solution Architecture</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.intellectsoft.net/services/ai-development-services"
-                      class="services-dev-ops"
-                      >AI Development</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.intellectsoft.net/services/custom-software-development"
-                      class="services-dev-ops"
-                      >Custom Software Development</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.intellectsoft.net/services/outsourcing-software-development-services"
-                      class="services-dev-ops"
-                      >Outsourcing Software Development</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="has-dropdown">
-                <a href="/platforms">Industries</a>
-                <ul class="sub-menu">
-                  <li>
-                    <a
-                      href="/solutions/financial-software-development-services"
-                      class="industries-financial-software-development"
-                      >Fintech</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/stock-trading-app-development"
-                      class="industries-stock-trading-app-development"
-                      >Stock Trading App Development</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/platforms/custom-insurance-software-development"
-                      class="industries-insurance-software-development"
-                      >Insurance</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/solutions/healthcare-software-development"
-                      class="industries-healthcare-it-solutions"
-                      >Healthcare & Biotech</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/healthcare-app-development-services"
-                      class="industries-healthcare-app-development-services"
-                      >Healthcare App Development</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.intellectsoft.net/solutions/dental-software-development/"
-                      class="industries-dental"
-                      >Dental</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/platforms/travel-hospitality-software-development"
-                      class="industries-healthcare-it-solutions"
-                      >Travel & Hospitality</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/platforms/ecommerce-retail"
-                      class="industries-ecommerce-retail"
-                      >eCommerce & Retail</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/platforms/logistics-and-automotive-software-solutions"
-                      class="industries-logistics-and-automotive"
-                      >Logistics & Transportation</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/automotive-software-development"
-                      class="automotive-software-development"
-                      >Automotive software development</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/platforms/construction-software-development"
-                      class="industries-construction-software-development"
-                      >Construction</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/platforms/real-estate-and-property"
-                      class="industries-real-estate-and-property"
-                      >Real Estate</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/services/education-software-development"
-                      class="edtech"
-                      >Edtech</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="has-dropdown">
-                <a href="/about">Company</a>
-                <ul class="sub-menu">
-                  <li><a href="/about" class="company-about">About</a></li>
-                  <li><a href="/team" class="company-team">Team</a></li>
-                  <li>
-                    <a href="/clients" class="company-clients">Clients</a>
-                  </li>
-                  <li>
-                    <a href="/cases" class="company-clients">Case Study</a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.intellectsoft.net/blog/"
-                      class="company-blog"
-                      >Blog</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.intellectsoft.net/blog/news/"
-                      class="company-news"
-                      >News</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.intellectsoft.net/insights"
-                      class="company-news"
-                      >eBooks</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/careers" class="company-careers">Careers</a>
-                  </li>
-                  <li>
-                    <a
-                      href="/social-responsibility"
-                      class="company-social-responsibility"
-                      >Social Responsibility</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/anti-fraud-statement">Anti-Fraud Statement</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <div class="footer__about">
-              <div class="footer__address">
-                <a class="footer__heading">Contacts</a>
-                <div class="footer__office">
-                  <a
-                    href="mailto:info@intellectsoft.net"
-                    class="footer__email get-in-touch-footer-email"
-                  >
-                    info@intellectsoft.net
-                  </a>
-                  <div class="footer__address">
-                    <a class="footer__tel" href="tel:+1 (650) 233-6196"
-                      >+1 (650) 233-6196</a
-                    ><br />
-                    <a class="footer__tel" href="tel:+44 20 3887 0078"
-                      >+44 20 3887 0078</a
-                    >
-                    <a class="footer__newyork" href="#1"
-                      >500 Fashion Ave Fl 8A</a
-                    >
-                    <a class="footer__newyork1" href="#1">New York City</a>
-                    <a class="footer__newyork1" href="#1">NY 10018, USA</a>
-                  </div>
-                  <a
-                    href="/contacts"
-                    class="all-link footer__link get-in-touch-footer"
-                  >
-                    Contact us<i class="isoi-angle-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer__about-mobile">
+<footer class="footer">
+      <div class="footer__flexbox-main">
+        <div class="footer__menu-wrapper">
+          <ul class="footer__menu">
+            <li class="has-dropdown">
+              <a href="#">Services</a>
+              <ul class="sub-menu">
+                <li>MVP Development</li>
+                <li>Mobile Development</li>
+                <li>Web Development</li>
+                <li>Startup & MVP Solutions</li>
+                <li>Enterprise Solutions</li>
+                <li>Dedicated Teams</li>
+                <li>IT Consulting</li>
+                <li>Design Lab</li>
+                <li>Data Lab</li>
+                <li>UI/UX Design</li>
+                <li>QA & Testing</li>
+                <li>Solution Architecture</li>
+                <li>AI Development</li>
+                <li>Custom Software Development</li>
+                <li>Outsourcing Software Development</li>
+              </ul>
+            </li>
+            <li class="has-dropdown"><a href="#">Industries</a>
+              <ul class="sub-menu">
+                <li>Fintech</li>
+                <li>Stock Trading App Development</li>
+                <li>Insurance</li>
+                <li>Healthcare & Biotech</li>
+                <li>Healthcare App Development</li>
+                <li>Dental</li>
+                <li>Travel & Hospitality</a></li>
+                <li>eCommerce & Retail</li>
+                <li>Logistics & Transportation</li>
+                <li>Automotive software development</li>
+                <li>Construction</li>
+                <li>Real Estate</li>
+                <li>Edtech</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="footer__about">
             <div class="footer__address">
               <a class="footer__heading">Contacts</a>
               <div class="footer__office">
-                <a
-                  href="mailto:info@intellectsoft.net"
-                  class="footer__email get-in-touch-footer-email"
-                >
-                  info@intellectsoft.net
-                </a>
                 <div class="footer__address">
-                  <a class="footer__tel" href="tel:+1 (650) 233-6196"
-                    >+1 (650) 233-6196</a
-                  ><br />
-                  <a class="footer__tel" href="tel:+44 20 3887 0078"
-                    >+44 20 3887 0078</a
-                  >
-                  <a class="footer__newyork" href="#"
-                    >500 Fashion Ave Fl 8A, New York City, New York 10018,
-                    United States</a
-                  >
+                  <a class="footer__tel" href="tel:123456789">123456789</a><br>
+                  <a class="footer__tel" href="tel:123456789">123456789</a>
+                  <a class="footer__newyork" href="#">500 Fashion Ave Fl 8A</a>
+                  <a class="footer__newyork1" href="#">New York City</a>
+                  <a class="footer__newyork1" href="#">NY 10018, USA</a>
                 </div>
-                <a
-                  href="/contacts"
-                  class="all-link footer__link get-in-touch-footer"
-                >
+                <a href="contacts.html" class="all-link footer__link get-in-touch-footer">
                   Contact us<i class="isoi-angle-right"></i>
                 </a>
               </div>
             </div>
           </div>
-          <!--<div class="footer__about">
-          <?/*= OfficesFooterWidget::widget(); */?>
-        </div>-->
         </div>
-        <div class="footer__copyright">
-          <div class="footer__copy-container">
-            <span class="footer__year">&copy; 2025 Intellectsoft US</span>
-            <a class="footer__privacy" href="/sitemap">Sitemap</a>
-            <a class="footer__privacy" href="/terms-of-use" rel="nofollow"
-              >Terms of Use</a
-            >
-            <a class="footer__privacy" href="/privacy-policy" rel="nofollow"
-              >Privacy Policy</a
-            >
-          </div>
-          <div class="footer__social social-box">
-            <div class="social-box__list">
-              <a
-                class="linkedin social-box__icon social-linkedin"
-                href="https://www.linkedin.com/company/intellectsoft"
-                rel="nofollow"
-                target="_blank"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="17"
-                  height="17"
-                  viewBox="0 0 17 17"
-                >
-                  <path
-                    d="M2 0.3C3.1 0.3 4 1.2 4 2.3 4 3.4 3.1 4.3 2 4.3 0.9 4.3 0 3.4 0 2.3 0 1.2 0.9 0.3 2 0.3L2 0.3ZM0.3 16.9L0.3 5.8 3.7 5.8 3.7 16.9 0.3 16.9ZM5.9 5.8L9.2 5.8 9.2 7.3 9.2 7.3C9.7 6.5 10.8 5.5 12.5 5.5 16 5.5 16.6 7.8 16.6 10.8L16.6 16.9 13.2 16.9 13.2 11.5C13.2 10.2 13.1 8.6 11.4 8.6 9.6 8.6 9.3 10 9.3 11.4L9.3 16.9 5.9 16.9 5.9 5.8Z"
-                  /></svg
-              ></a>
-              <a
-                class="facebook social-box__icon social-facebook"
-                href="https://www.facebook.com/Intellectsoft/"
-                rel="nofollow"
-                target="_blank"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="10"
-                  height="18"
-                  viewBox="0 0 10 18"
-                >
-                  <path
-                    d="M8 2.9C8.5 2.9 9 2.9 9.5 2.9L9.8 2.9 9.8 0.1C9.5 0.1 9.2 0.1 8.9 0 8.3 0 7.8 0 7.3 0 6.4 0 5.6 0.2 4.9 0.7 4.2 1.3 3.7 2.1 3.6 3 3.5 3.4 3.5 3.8 3.5 4.2 3.5 4.8 3.5 5.4 3.5 6.1L3.5 6.3 0.8 6.3 0.8 9.4 3.4 9.4 3.4 17.1 6.7 17.1 6.7 9.4 9.3 9.4C9.4 8.4 9.5 7.4 9.7 6.3 9.5 6.3 9.3 6.3 9.1 6.3 8.3 6.3 6.6 6.3 6.6 6.3 6.6 6.3 6.6 4.8 6.7 4.1 6.7 3.2 7.2 2.9 8 2.9"
-                  /></svg
-              ></a>
-              <a
-                class="twitter social-box__icon social-twitter"
-                href="https://twitter.com/Intellectsoft"
-                rel="nofollow"
-                target="_blank"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="19"
-                  height="18"
-                  viewBox="0 0 19 18"
-                  fill="none"
-                >
-                  <path
-                    d="M14.2447 1.42773H16.7748L11.2473 7.74535L17.75 16.3422H12.6584L8.67053 11.1283L4.10746 16.3422H1.57582L7.48808 9.58481L1.25 1.42773H6.47083L10.0755 6.19348L14.2447 1.42773ZM13.3567 14.8278H14.7587L5.70905 2.86258H4.2046L13.3567 14.8278Z"
-                    fill="white"
-                  /></svg
-              ></a>
-              <a
-                class="flickr social-box__icon social-flickr"
-                href="http://flickr.com/photos/intellectsoft/"
-                rel="nofollow"
-                target="_blank"
-                ><svg
-                  height="10"
-                  viewBox="0 0 20 10"
-                  width="20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m19.3 4.9c0 2.3-1.9 4.2-4.2 4.2-2.4 0-4.2-1.9-4.2-4.2s1.8-4.2 4.2-4.2c2.3 0 4.2 1.9 4.2 4.2"
-                  />
-                  <path
-                    d="m4.2 9.1c-2.3 0-4.2-1.9-4.2-4.2s1.9-4.2 4.2-4.2 4.2 1.9 4.2 4.2-1.9 4.2-4.2 4.2z"
-                  /></svg
-              ></a>
-              <a
-                class="youtube social-box__icon social-youtube"
-                href="https://www.youtube.com/channel/UCAXWcrzB27wtArbUJGfy8oA/featured"
-                rel="nofollow"
-                target="_blank"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 25 20"
-                  height="20"
-                >
-                  <g>
-                    <path
-                      d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
-                      transform="scale(0.04)"
-                    />
-                  </g></svg
-              ></a>
-              <a
-                class="dribble social-box__icon social-youtube"
-                href="https://dribbble.com/intellectsoft"
-                rel="nofollow"
-                target="_blank"
-                ><svg
-                  width="25"
-                  height="25"
-                  viewBox="0 0 25 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_2013_1088)">
-                    <g clip-path="url(#clip1_2013_1088)">
-                      <path
-                        d="M0.260376 12.5C0.260376 19.2598 5.74022 24.7396 12.5 24.7396C19.2597 24.7396 24.7395 19.2598 24.7395 12.5C24.7395 5.74028 19.2597 0.260437 12.5 0.260437C5.74022 0.260436 0.260376 5.74028 0.260376 12.5Z"
-                        fill="#323232"
-                        fill-opacity="0.2"
-                      />
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M0.537636 9.89603C4.69536 10.6464 8.86687 10.3042 12.5307 9.03926C10.9275 6.38572 8.66922 4.07083 5.74047 2.2945C6.40188 1.8556 7.10833 1.47926 7.85151 1.17395C10.6981 3.10711 12.9034 5.52769 14.4894 8.25243C16.9682 7.10827 19.1373 5.5066 20.8054 3.50991C21.3204 3.98593 21.7944 4.50565 22.2215 5.06317C20.3892 7.19176 18.0695 8.8866 15.4525 10.1059C15.9737 11.2377 16.3981 12.411 16.7269 13.6145C19.3989 13.4042 22.0833 13.6544 24.5959 14.379C24.4885 15.0756 24.3225 15.7527 24.103 16.4053C21.8973 15.7572 19.5417 15.5168 17.1908 15.6687C17.6628 18.2916 17.7064 21.0213 17.3347 23.7476C16.627 24.0522 15.8847 24.292 15.1156 24.4595C15.6285 21.5595 15.6335 18.6594 15.1193 15.9045C11.0185 16.5749 7.07307 18.4419 4.1215 21.4229C3.61407 20.9462 3.1473 20.4268 2.72697 19.8703C5.95906 16.6442 10.2142 14.6237 14.6377 13.8734C14.3424 12.8531 13.971 11.8592 13.5231 10.8997C9.45255 12.3644 4.82974 12.7641 0.271606 11.9631C0.302092 11.2569 0.392415 10.5662 0.537636 9.89603Z"
-                        fill="white"
-                      />
-                    </g>
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_2013_1088">
-                      <rect width="25" height="25" fill="white" />
-                    </clipPath>
-                    <clipPath id="clip1_2013_1088">
-                      <rect width="25" height="25" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
+        <div class="footer__about-mobile">
+          <div class="footer__address">
+            <a class="footer__heading">Contacts</a>
+            <div class="footer__office">
+              <a href="mailto:info@intellectsoft.net" class="footer__email get-in-touch-footer-email">
+                info@intellectsoft.net </a>
+              <div class="footer__address">
+
+                <a class="footer__tel" href="tel:+1 (650) 233-6196">+1 (650) 233-6196</a><br>
+                <a class="footer__tel" href="tel:+44 20 3887 0078">+44 20 3887 0078</a>
+                <a class="footer__newyork" href="#">500 Fashion Ave Fl 8A, New York City, New York 10018, United States</a>
+              </div>
+              <a href="contacts.html" class="all-link footer__link get-in-touch-footer">
+                Contact us<i class="isoi-angle-right"></i>
               </a>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+      <div class="footer__copyright">
+        <div class="footer__copy-container">
+          <span class="footer__year">&copy; 2025 PERFECT VIEW TECHNOLOGY</span>
+          <a class="footer__privacy" href="terms-of-use.html" rel="nofollow">Terms of Use</a>          
+          <a class="footer__privacy" href="privacy-policy.html" rel="nofollow">Privacy Policy</a>        
+        </div> 
+      </div>
+    </footer>
+      <!-- #colophon -->
     </div>
+    <!-- #page -->
     <nav class="nav-mobile">
       <div class="nav__logo--mobile">
         <a class="logo" href="/"></a>
       </div>
-      <a id="closeBtn" href="#" class="btn-close"></a>
+      <a href="#" id="closeBtn" class="btn-close"></a>
       <div class="nav-mobile__top">
-        <a class="btn btn--menuLeft red-style" href="/contacts">Get in touch</a>
+        <a href="/contacts" class="btn btn--menuLeft">Get in touch</a>
       </div>
-      <div id="c-menu--push-left" class="c-menu c-menu--push-left is-active">
-        <ul class="c-menu__items">
-          <li class="menu-item"><a href="/solutions">All Technologies</a></li>
-          <li class="menu-item has-dropdown">
+      <div id="c-menu--push-left" class="c-menu c-menu--push-left">
+        <ul id="menu-mobile-menu" class="c-menu__items">
+          <li
+            id="menu-item-4149"
+            class="has-dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4149"
+          >
             <a href="/services">Services</a>
             <ul class="sub-menu">
-              <li class="menu-item">
-                <a href="/services/dedicated-development-team"
-                  >Dedicated Development Team</a
-                >
-              </li>
-              <li class="menu-item">
-                <a href="/services/enterprise-software-development"
+              <li
+                id="menu-item-4150"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4150"
+              >
+                <a
+                  href="https://www.intellectsoft.net/services/enterprise-software-development"
                   >Enterprise Software Development</a
                 >
               </li>
-              <li class="menu-item has-dropdown">
+              <li
+                id="menu-item-4195"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4195"
+              >
                 <a href="/services/mobile-app-development-services"
-                  >Mobile App Development</a
+                  >Mobile Development</a
                 >
                 <ul class="sub-menu">
-                  <li class="menu-item">
-                    <a href="/services/mobile-app-development-services"
+                  <li
+                    id="menu-item-22182"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22182"
+                  >
+                    <a
+                      href="https://www.intellectsoft.net/services/mobile-app-development-services"
                       >Mobile Development Services</a
                     >
                   </li>
-                  <li class="menu-item">
-                    <a href="/services/ios-app-development-services">iOS</a>
+                  <li
+                    id="menu-item-18763"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18763"
+                  >
+                    <a
+                      href="https://www.intellectsoft.net/services/ios-app-development-services"
+                      >iOS</a
+                    >
                   </li>
-                  <li class="menu-item">
-                    <a href="/services/android-app-development-services"
+                  <li
+                    id="menu-item-18764"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18764"
+                  >
+                    <a
+                      href="https://www.intellectsoft.net/services/android-app-development-services"
                       >Android</a
                     >
                   </li>
-                  <li class="menu-item">
-                    <a href="/technologies/windows-phone-development-services"
+                  <li
+                    id="menu-item-18765"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18765"
+                  >
+                    <a
+                      href="https://www.intellectsoft.net/technologies/windows-phone-development-services"
                       >Windows</a
                     >
                   </li>
-                  <li class="menu-item">
-                    <a href="/technologies/hybrid-development"
+                  <li
+                    id="menu-item-18766"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18766"
+                  >
+                    <a
+                      href="https://www.intellectsoft.net/technologies/hybrid-development"
                       >Hybrid Platform</a
                     >
                   </li>
                 </ul>
               </li>
-              <li class="menu-item">
-                <a href="/services/digital-transformation-services"
-                  >Digital Transformation Services</a
+              <li
+                id="menu-item-21681"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21681"
+              >
+                <a
+                  href="https://www.intellectsoft.net/services/dedicated-development-team"
+                  >Dedicated Team</a
                 >
               </li>
-              <li class="menu-item">
-                <a href="/services/data-lab">Data Lab</a>
+              <li
+                id="menu-item-21682"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21682"
+              >
+                <a
+                  href="https://www.intellectsoft.net/services/digital-transformation-services"
+                  >Digital Transformation</a
+                >
               </li>
-              <li class="menu-item">
+              <li
+                id="menu-item-4154"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4154"
+              >
                 <a href="/services/it-consulting-services">IT Consulting</a>
               </li>
-              <li class="menu-item">
+              <li
+                id="menu-item-4151"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4151"
+              >
                 <a href="/services/ui-ux-design-services">UX / UI Design</a>
               </li>
-              <li class="menu-item">
-                <a href="/services/design-lab">Design Lab</a>
+              <li
+                id="menu-item-4488"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4488"
+              >
+                <a href="/services/dev-ops">DevOps</a>
               </li>
-              <li class="menu-item"><a href="/services/dev-ops">DevOps</a></li>
-              <li class="menu-item">
+              <li
+                id="menu-item-4152"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4152"
+              >
                 <a href="/services/qa-and-software-testing-services"
-                  >QA &amp; Testing</a
+                  >QA &#038; Testing</a
                 >
               </li>
-              <li class="menu-item"><a href="/services">All Services</a></li>
+              <li
+                id="menu-item-4155"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4155"
+              >
+                <a href="/services/dedicated-development-team"
+                  >Team Extension</a
+                >
+              </li>
+              <li
+                id="menu-item-4198"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4198"
+              >
+                <a href="/services">All Services</a>
+              </li>
             </ul>
           </li>
-          <li class="menu-item has-dropdown">
+          <li
+            id="menu-item-4134"
+            class="has-dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4134"
+          >
             <a href="/platforms">Industries</a>
             <ul class="sub-menu">
-              <li class="menu-item">
-                <a href="/platforms/ar-construction">Construction</a>
+              <li
+                id="menu-item-4505"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4505"
+              >
+                <a href="/platforms/construction-software-development"
+                  >Construction</a
+                >
               </li>
-              <li class="menu-item">
+              <li
+                id="menu-item-4143"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4143"
+              >
                 <a href="/platforms/travel-hospitality-software-development"
-                  >Travel &amp; Hospitality</a
+                  >Travel &#038; Hospitality</a
                 >
               </li>
-              <li class="menu-item">
+              <li
+                id="menu-item-4142"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4142"
+              >
                 <a href="/platforms/ecommerce-retail"
-                  >Retail &amp; E-Commerce</a
+                  >Retail &#038; E-Commerce</a
                 >
               </li>
-              <li class="menu-item">
+              <li
+                id="menu-item-4146"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4146"
+              >
                 <a href="/platforms/healthcare-it-solutions">Healthcare</a>
               </li>
-              <li class="menu-item">
-                <a
-                  href="https://www.intellectsoft.net/solutions/dental-software-development/"
-                  >Dental</a
-                >
-              </li>
-              <li class="menu-item">
+              <li
+                id="menu-item-4144"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4144"
+              >
                 <a href="/platforms/custom-insurance-software-development"
                   >Insurance</a
                 >
               </li>
-              <li class="menu-item">
+              <li
+                id="menu-item-4376"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4376"
+              >
                 <a href="/solutions/financial-software-development-services"
                   >FinTech</a
                 >
               </li>
-              <li class="menu-item">
+              <li
+                id="menu-item-16044"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16044"
+              >
                 <a href="/platforms/logistics-and-automotive-software-solutions"
-                  >Logistics &amp; Automotive</a
+                  >Logistics &#038; Automotive</a
                 >
               </li>
-              <li class="menu-item"><a href="/platforms">All Industries</a></li>
+              <li
+                id="menu-item-4197"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4197"
+              >
+                <a href="/platforms">All Industries</a>
+              </li>
             </ul>
           </li>
-          <li class="menu-item has-dropdown">
+          <li
+            id="menu-item-4159"
+            class="has-dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4159"
+          >
             <a href="/clients">Clients</a>
             <ul class="sub-menu">
-              <li class="menu-item"><a href="/clients">Our Clients</a></li>
-              <li class="menu-item"><a href="/cases">Case Studies</a></li>
+              <li
+                id="menu-item-4166"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4166"
+              >
+                <a href="/clients">Our Clients</a>
+              </li>
+              <li
+                id="menu-item-4160"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4160"
+              >
+                <a href="/cases">Case Studies</a>
+              </li>
             </ul>
           </li>
-          <li class="menu-item has-dropdown">
+          <li
+            id="menu-item-4161"
+            class="has-dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4161"
+          >
             <a href="/about">Company</a>
             <ul class="sub-menu">
-              <li class="menu-item"><a href="/about">About</a></li>
-              <li class="menu-item"><a href="/blog/">Blog</a></li>
-              <li class="menu-item"><a href="/blog/news/">News</a></li>
-              <li class="menu-item"><a href="/insights">eBooks</a></li>
-              <li class="menu-item"><a href="/team">Team</a></li>
-              <li class="menu-item"><a href="/careers">Careers</a></li>
-              <li class="menu-item">
-                <a href="/social-responsibility">Social Responsibility</a>
+              <li
+                id="menu-item-4162"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4162"
+              >
+                <a href="/about">About</a>
               </li>
-              <li class="menu-item"><a href="/contacts">Contacts</a></li>
+              <li
+                id="menu-item-4157"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4157"
+              >
+                <a href="/blog/">Blog</a>
+              </li>
+              <li
+                id="menu-item-4377"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4377"
+              >
+                <a href="/blog/news/">News</a>
+              </li>
+              <li
+                id="menu-item-4158"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4158"
+              >
+                <a href="/insights">Insights</a>
+              </li>
+              <li
+                id="menu-item-4164"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4164"
+              >
+                <a href="/team">Team</a>
+              </li>
+              <li
+                id="menu-item-4165"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4165"
+              >
+                <a href="/careers">Careers</a>
+              </li>
+              <li
+                id="menu-item-4163"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4163"
+              >
+                <a href="/contacts">Contacts</a>
+              </li>
             </ul>
           </li>
         </ul>
       </div>
     </nav>
     <div id="c-mask" class="c-mask"></div>
-
-    <script type="application/ld+json">
-      [
-        {
-          "@context": "http://schema.org",
-          "@type": "Organization",
-          "url": "https://www.intellectsoft.net/",
-          "name": "Intellectsoft",
-          "logo": "https://www.intellectsoft.net/assets/d3aa10f/img/logo-black.svg",
-          "email": "info@intellectsoft.net",
-          "address": [
-            {
-              "@context": "http://schema.org",
-              "@type": "PostalAddress",
-              "addressCountry": "United States",
-              "addressLocality": "Palo Alto",
-              "addressRegion": "CA",
-              "postOfficeBoxNumber": "721 Colorado Avenue, Suite 101",
-              "postalCode": "94303",
-              "telephone": "+1 (650) 233-6196"
+    <script type="speculationrules">
+      {
+        "prefetch": [
+          {
+            "source": "document",
+            "where": {
+              "and": [
+                { "href_matches": "\/blog\/*" },
+                {
+                  "not": {
+                    "href_matches": [
+                      "\/blog\/wp-*.php",
+                      "\/blog\/wp-admin\/*",
+                      "\/blog\/wp-content\/uploads\/*",
+                      "\/blog\/wp-content\/*",
+                      "\/blog\/wp-content\/plugins\/*",
+                      "\/blog\/wp-content\/themes\/intellectsoft\/*",
+                      "\/blog\/*\\?(.+)"
+                    ]
+                  }
+                },
+                { "not": { "selector_matches": "a[rel~=\"nofollow\"]" } },
+                {
+                  "not": { "selector_matches": ".no-prefetch, .no-prefetch a" }
+                }
+              ]
             },
-            {
-              "@context": "http://schema.org",
-              "@type": "PostalAddress",
-              "addressCountry": "United States",
-              "addressLocality": "New York",
-              "addressRegion": "NY",
-              "postOfficeBoxNumber": "315 W 36th St.",
-              "postalCode": "10018",
-              "telephone": "+1 (855) TOP DEVS"
-            }
-          ]
-        },
-        {
-          "@context": "http://schema.org",
-          "@type": "WebSite",
-          "url": "https://www.intellectsoft.net/",
-          "name": "Intellectsoft",
-          "sameAs": [
-            "https://www.linkedin.com/company/intellectsoft",
-            "https://www.facebook.com/Intellectsoft/",
-            "http://twitter.com/Intellectsoft",
-            "http://flickr.com/photos/intellectsoft/",
-            "/services/enterprise-software-development"
-          ]
-        }
-      ]
+            "eagerness": "conservative"
+          }
+        ]
+      }
     </script>
-    <script src="/assets/306aefa/jquery.min.js?v=1463765083"></script>
-    <script src="//traccoon.intellectsoft.net/tr.js"></script>
-    <script src="/assets/d3aa10f/vendor/promise.min.js?v=1758281893"></script>
-    <script src="/assets/d3aa10f/vendor/egg.min.js?v=1758281893"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="/assets/d3aa10f/vendor/flickity.pkgd.min.js?v=1758281893"></script>
-    <script src="/assets/d3aa10f/vendor/flexibility.min.js?v=1758281893"></script>
-    <script src="/assets/d3aa10f/vendor/validate.min.js?v=1758281893"></script>
-    <script src="/assets/d3aa10f/vendor/validate.additional-methods.min.js?v=1758281893"></script>
-    <script src="/assets/d3aa10f/vendor/jquery.svg3dtagcloud.min.js?v=1758281893"></script>
-    <script src="/assets/d3aa10f/vendor/advert.js?v=1758281893"></script>
-    <script src="/assets/d3aa10f/vendor/autocomplete.min.js?v=1758281893"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
-    <script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
-    <script src="/assets/d3aa10f/vendor/chartist.min.js?v=1758281893"></script>
-    <script src="/assets/d3aa10f/vendor/owl.carousel.min-2.js?v=1758281893"></script>
-    <script src="/assets/d3aa10f/vendor/swiper.min.js?v=1758281893"></script>
-    <script src="/assets/d3aa10f/bundle.min.js?v=1758282048"></script>
-    <!-- Intellectsoft -->
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/jquery.min.js?ver=1.1"
+      id="jquery-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/product-vendor/swiper.min.js"
+      id="swiper-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/vendor/is.min.js?ver=1.1"
+      id="is-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/vendor/jquery.validate.min.js?ver=1.1#deferload&#039; defer=&#039;defer"
+      id="validate-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/min/bundle.min.js?ver=1.1#deferload&#039; defer=&#039;defer"
+      id="intellectsoft-bundle-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/vendor/slick.min.js?ver=1.1"
+      id="slick-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/product-vendor/jquery.fancybox.pack.js?ver=1.1"
+      id="fancybox-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/vendor/particles.min.js?ver=1.1"
+      id="particles-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/vendor/autocomplite.js?ver=1.1"
+      id="autocomplite-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/vendor/additional-methods.min.js?ver=1.1#deferload&#039; defer=&#039;defer"
+      id="validate-additional-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/product-vendor/owl.carousel.min.js?ver=1.1"
+      id="owl-carousel-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/snakepit.js?ver=1.1"
+      id="snakepit-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/vendor/ScrollMagic.min.js?ver=1.1"
+      id="magicscroll-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/vendor/blazy.min.js?ver=1.1"
+      id="blazy-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/loadmore.js?ver=6.8.3"
+      id="true_loadmore-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js/latest-tech.js?ver=1.1"
+      id="latest-tech-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.intellectsoft.net/blog/wp-content/themes/intellectsoft/js-new/case-fixed.js?ver=1.1"
+      id="case-fixed-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//traccoon.intellectsoft.net/tr.js"
+      id="traccoon-js"
+    ></script>
+
+    <!-- This site is optimized with Phil Singleton's WP SEO Structured Data pro plugin v1.3.13 - https://kcseopro.com/wordpress-seo-structured-data-schema-plugin/ -->
+
+    <!-- / WP SEO Structured Data pro plugin. -->
   </body>
 </html>
