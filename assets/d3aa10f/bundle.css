@@ -12633,7 +12633,7 @@ body.solutions-financial-software-development-services
   margin-bottom: 10px;
 }
 .services-offer.custom-insurance-software-development {
-  background-color: #f2f2f2;
+  background-color: #121212;
 }
 @media screen and (max-width: 991px) {
   .services-offer.custom-insurance-software-development {
@@ -14490,10 +14490,10 @@ body.solutions-financial-software-development-services
   font-size: 16px;
   line-height: 21px;
   text-transform: uppercase;
-  color: #323232;
+  color: #ffffff;
 }
 .custom-made {
-  background-color: #fff;
+  background-color: #121212;
   padding: 80px 0 60px;
 }
 @media screen and (max-width: 991px) {
@@ -14584,19 +14584,23 @@ body.solutions-financial-software-development-services
   .custom-made__block--left ul li:hover h3 {
     color: #1476f2;
   }
+  .custom-made__block--left ul li:hover p {
+    color: #121212;
+  }
 }
 .custom-made__block--left ul li h3 {
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
-  color: #323232;
+  color: #ffffff;
   margin-bottom: 12px;
 }
 .custom-made__block--left ul li p {
   font-size: 14px;
   line-height: 24px;
-  color: #323232;
+  color: #ffffff;
 }
+
 .custom-made__block--right {
   -webkit-box-flex: 1;
   -ms-flex: 1;
@@ -15688,11 +15692,12 @@ body.platforms-travel-hospitality-software-development
   }
 }
 .nav__btn .sandwich {
-  background-image: url(img/sandwich-circle.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  vertical-align: middle;
+  background: #1E90FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
   width: 46px;
   height: 46px;
 }
@@ -15703,16 +15708,11 @@ body.platforms-travel-hospitality-software-development
 }
 .nav__btn .sandwich:before {
   content: "";
-  background-image: url(img/sandwich-icon.svg);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 45px;
-  height: 45px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  display: block;
+  background: #ffffff;
+  width: 28px;
+  height: 4px;
+  box-shadow: 0px 8px #fff,0px -8px #fff;
 }
 @media (min-width: 1221px) {
   .js-scroll {
@@ -15733,7 +15733,7 @@ body.platforms-travel-hospitality-software-development
 }
 @media screen and (max-width: 575px) {
   .js-hidden {
-    background-color: #fff;
+    background-color: #121212;
   }
 }
 .js-hidden .logo-white {
@@ -15785,7 +15785,7 @@ body.platforms-travel-hospitality-software-development
   top: 0;
   height: 100%;
   z-index: 201;
-  background-color: #fff;
+  background-color: #121212;
   -webkit-transform: translate3d(-310px, 0, 0);
   transform: translate3d(-310px, 0, 0);
   -webkit-transition: -webkit-transform 0.3s;
@@ -15828,7 +15828,7 @@ body.platforms-travel-hospitality-software-development
 .nav-mobile .c-menu__items li a {
   display: block;
   padding: 17px 20px;
-  color: #323232;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
@@ -15901,7 +15901,7 @@ body.platforms-travel-hospitality-software-development
   position: absolute;
   width: 100%;
   top: 10px;
-  background-color: #fff;
+  background-color: #121212;
   height: 100%;
   z-index: 100;
 }
@@ -15912,11 +15912,12 @@ body.platforms-travel-hospitality-software-development
   transition: 0.25s ease-in-out;
 }
 .nav-mobile .c-menu__items .has-dropdown.active > a:after {
-  background-image: url(img/shape-copy-3.svg);
+  background-image: url(img/shape-copy-2.svg);
   width: 7px;
   height: 12px;
   left: 20px;
-  top: 24px;
+  top: 19px;
+  transform: rotate(180deg);
 }
 .nav-mobile .c-menu__items .has-dropdown.active > .sub-menu {
   display: block;
@@ -15924,7 +15925,7 @@ body.platforms-travel-hospitality-software-development
   right: -100px;
   -webkit-animation: slide-1 0.5s forwards;
   animation: slide-1 0.5s forwards;
-  background-color: #fff;
+  background-color: #121212;
   z-index: 100;
   padding-bottom: 200px;
 }
@@ -15962,7 +15963,7 @@ body.platforms-travel-hospitality-software-development
 .nav-mobile .c-menu__items .has-dropdown li a {
   text-transform: none;
   font-weight: 600;
-  color: #323232;
+  color: #ffffff;
   padding: 12px 20px;
 }
 .nav-mobile .c-menu__items .has-dropdown > a {
@@ -22807,7 +22808,7 @@ h2 {
 .title--medium,h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #121212;
 }
 @media screen and (max-width: 575px) {
   .title--medium,
@@ -23704,10 +23705,6 @@ a:hover {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-.static,
-body.pages-error .static {
-  padding-top: 130px;
 }
 .notify {
   background-color: #e74c3c;
@@ -26306,7 +26303,7 @@ body.services-team-extension .locations {
 @media screen and (max-width: 767px) {
   .apocalypse {
     background-size: 300%;
-    height: 1450px;
+    /* height: 1450px; */
   }
 }
 .apocalypse--platforms {
@@ -26315,7 +26312,7 @@ body.services-team-extension .locations {
 }
 @media screen and (max-width: 1023px) {
   .apocalypse--platforms {
-    background-image: url(img/feature-highlights/bg-platforms-mobile.jpg);
+    background-image: url(img/feature-highlights/bg-platforms.jpg);
   }
 }
 .apocalypse--azure {
@@ -26875,6 +26872,10 @@ body.services-team-extension .locations {
   color: #fff;
   width: 40%;
 }
+.apocalypse__list h3,
+.apocalypse__list p{
+  text-shadow: 0 0 5px #121212;
+}
 @media screen and (max-width: 1023px) {
   .apocalypse__list {
     padding: -20px;
@@ -27001,7 +27002,7 @@ body.services-team-extension .locations {
   background-image: url(../img/icons/iot-blue.svg);
 }
 .planalitics {
-  background-image: url(img/bg-planalitics.jpg);
+  /* background-image: url(img/bg-planalitics.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -27019,6 +27020,7 @@ body.services-team-extension .locations {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: -20px 0;
+  color:#fff;
 }
 .planalitics .planalitics__list ul li {
   padding: 20px 45px;
@@ -27874,7 +27876,7 @@ body.services-team-extension .locations {
 }
 .capabilities {
   padding: 50px 0;
-  background-color: #fafafa;
+  background-color: #121212;
 }
 .capabilities .capabilities-title {
   max-width: 770px;
@@ -27885,7 +27887,7 @@ body.services-team-extension .locations {
   line-height: 1.25;
   font-weight: 600;
   text-transform: uppercase;
-  color: #323232;
+  color: #ffffff;
 }
 .capabilities .capabilities-description {
   max-width: 770px;
@@ -27893,7 +27895,7 @@ body.services-team-extension .locations {
   margin: -20px auto 60px;
   font-size: 18px;
   line-height: 1.67;
-  color: #555;
+  color: #ffffff;
 }
 .capabilities .capabilities-block .developers {
   margin-bottom: 50px;
@@ -27986,7 +27988,7 @@ body.services-team-extension .locations {
   line-height: 1.25;
   font-weight: 600;
   text-transform: uppercase;
-  color: #323232;
+  color: #ffffff;
 }
 .capabilities .capabilities-block .developers .dev-description p {
   margin-left: 20px;
@@ -27994,7 +27996,7 @@ body.services-team-extension .locations {
   font-size: 15px;
   line-height: 1.68;
   font-weight: 300;
-  color: #323232;
+  color: #ffffff;
   overflow: hidden;
 }
 .capabilities .capabilities-block .developers .dev-description .technologies {
@@ -29890,7 +29892,7 @@ body.services-team-extension .locations {
 }
 @media screen and (max-width: 991px) {
   .lifecycle {
-    padding-bottom: 0;
+    padding-bottom: 50px;
   }
 }
 .lifecycle .services__description {
@@ -29913,7 +29915,7 @@ body.services-team-extension .locations {
   justify-content: space-between;
   -webkit-box-align: start;
   -ms-flex-align: start;
-  align-items: flex-start;
+  align-items: center;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
   max-width: 1000px;
@@ -29948,6 +29950,7 @@ body.services-team-extension .locations {
 .lifecycle__container--right img {
   max-width: 466px;
   margin: 0 auto;
+  width: 100%;
 }
 @media screen and (max-width: 575px) {
   .lifecycle__container--right img {
@@ -31510,7 +31513,8 @@ body.services-index .faq__wrapper {
     -webkit-box-flex: 1;
     -ms-flex: auto;
     flex: auto;
-    height: 400px;
+    height: auto;
+    padding: 10px;
   }
 }
 @media screen and (max-width: 425px) {
@@ -31677,7 +31681,7 @@ body.services-index .faq__wrapper {
   margin-bottom: 10px;
   line-height: 1.2;
   font-size: 20px;
-  height: 60px;
+  /* height: 60px; */
 }
 @media (min-width: 360px) {
   .service-why .service-why__point-title-main {
@@ -32778,7 +32782,7 @@ body.services-index .faq__wrapper {
 }
 .our-qa-block {
   padding: 60px 0 80px;
-  background-color: #fff;
+  background-color: #121212;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -32794,7 +32798,7 @@ body.services-index .faq__wrapper {
   text-align: center;
   font-size: 30px;
   line-height: 1.25;
-  color: #323232;
+  color: #ffffff;
 }
 .our-qa-block .our-qa__description {
   margin: -50px auto 80px;
@@ -32803,7 +32807,7 @@ body.services-index .faq__wrapper {
   text-align: center;
   font-size: 18px;
   line-height: 1.67;
-  color: #555;
+  color: #ffffff;
 }
 .our-qa-block .our-qa__section {
   counter-reset: oval;
@@ -32935,7 +32939,7 @@ body.services-index .faq__wrapper {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #fafafa;
+  background-color: #121212;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -32973,7 +32977,7 @@ body.services-index .faq__wrapper {
   letter-spacing: normal;
   text-align: left;
   text-transform: uppercase;
-  color: #323232;
+  color: #ffffff;
   padding-left: 40px;
 }
 @media (max-width: 768px) {
@@ -32983,6 +32987,7 @@ body.services-index .faq__wrapper {
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 20px;
     padding-left: 0;
   }
 }
@@ -32996,7 +33001,7 @@ body.services-index .faq__wrapper {
   line-height: 1.25;
   letter-spacing: normal;
   text-align: left;
-  color: #555;
+  color: #ffffff;
   -js-display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33149,7 +33154,7 @@ body.services-index .faq__wrapper {
 }
 .design-services {
   padding: 90px 0;
-  background-color: #fff;
+  background-color: #121212;
 }
 @media screen and (max-width: 767px) {
   .design-services {
@@ -33162,7 +33167,7 @@ body.services-index .faq__wrapper {
   line-height: 1.25;
   font-weight: 600;
   text-transform: uppercase;
-  color: #323232;
+  color: #ffffff;
 }
 @media (max-width: 768px) {
   .design-services .design-service-title {
@@ -33177,7 +33182,7 @@ body.services-index .faq__wrapper {
   text-align: center;
   font-size: 15px;
   line-height: 1.67;
-  color: #555;
+  color: #ffffff;
 }
 @media screen and (max-width: 767px) {
   .design-services .design-service-description {
@@ -33243,7 +33248,7 @@ body.services-index .faq__wrapper {
   line-height: 1.25;
   font-weight: 400;
   text-transform: none;
-  color: #323232;
+  color: #ffffff;
   text-align: center;
 }
 @media (max-width: 768px) {
@@ -35017,7 +35022,7 @@ p.participant__position {
   line-height: 1.35;
   font-weight: 600;
   text-transform: uppercase;
-  color: #323232;
+  color: #ffffff;
 }
 @media screen and (max-width: 767px) {
   .latest-teach .teach-items .item-title {
@@ -35042,7 +35047,7 @@ p.participant__position {
   font-size: 16px;
   line-height: 1.88;
   font-weight: 300;
-  color: #323232;
+  color: #ffffff;
 }
 @media (min-width: 768px) {
   .latest-teach {
@@ -35168,7 +35173,7 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url(img/home-offers/bg-offers.webp);
+  /* background-image: url(img/home-offers/bg-offers.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -36351,7 +36356,7 @@ canvas {
   .enterprise-core .item .item-list li {
     font-size: 14px;
     line-height: 1.43;
-    color: #323232;
+    color: #ffffff;
   }
   .enterprise-core .item .item-list li:before {
     content: "";
@@ -36693,9 +36698,11 @@ canvas {
   width: 100%;
   max-width: 1200px;
   background-image: url(img/bg-map.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  background-color: #fafafa;
+  padding-bottom: 20px;
 }
 .map-scroll .container {
   height: unset;
@@ -37282,6 +37289,7 @@ canvas {
   height: 100vh;
   overflow: hidden;
   min-height: 350px;
+  background: url(/assets/d3aa10f/img/img9.jpg)no-repeat center center /cover;
 }
 .video-wrapper:after {
   content: "";
@@ -38223,7 +38231,7 @@ body.services-ui-ux-design-services .faq {
 }
 .healthcare-video__content h2 {
   margin-bottom: 0;
-  color: #323232;
+  color: #ffffff;
 }
 @media screen and (max-width: 767px) {
   .healthcare-video__content h2 {
@@ -38715,7 +38723,7 @@ body.services-ui-ux-design-services .faq {
   font-weight: 600;
   font-size: 16px;
   line-height: 25px;
-  color: #323232;
+  color: #ffffff;
   position: relative;
   padding: 13px 0 13px 50px;
 }
@@ -40702,7 +40710,7 @@ body.services-ui-ux-design-services .faq {
   transform: translateY(-50%);
 }
 .latest-teach.insurance-latest-teach {
-  background-color: #fafafa;
+  background-color: #121212;
 }
 @media (max-width: 575px) {
   .latest-teach.insurance-latest-teach {
