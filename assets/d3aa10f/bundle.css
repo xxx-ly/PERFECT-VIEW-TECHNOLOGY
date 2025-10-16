@@ -22810,7 +22810,7 @@ h2 {
 .title--medium,h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  color: #121212;
+  color: #ffffff;
 }
 @media screen and (max-width: 575px) {
   .title--medium,
@@ -39320,7 +39320,7 @@ body.services-ui-ux-design-services .faq {
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
-  color: #323232;
+  color: #ffffff;
   margin-bottom: 13px;
 }
 .healthcare-workshop__anim--left li {
