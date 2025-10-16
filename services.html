@@ -1280,7 +1280,6 @@
 </style>
 
 <script >
-
     if (window._growthbook?.isOn("test-services")) {
         console.log("Feature services is enabled!")
     } else {
@@ -1293,7 +1292,7 @@
     console.log(valueService);
 
     if (valueService === false) {
-        document.querySelector('.hero-healthcare').style.backgroundImage = 'url(assets/d3aa10f/img/services-hero.webp)';
+        // document.querySelector('.hero-healthcare').style.backgroundImage = 'url(assets/d3aa10f/img/services-hero.webp)';
         document.querySelector('#service-offer').style.display = 'none';
         document.querySelector('.mobile-app.version0').style.display = 'none';
         document.querySelector('.mobile-app.version1').style.display = 'block';
@@ -1306,13 +1305,10 @@
         document.querySelector('.advantages__section').after(document.querySelector('.cta-services'));
         document.querySelector('.ranking').style.display = 'none';
     }
-
-
-
 </script>
 
     
-        <div class="contacts-popup">
+      <div class="contacts-popup">
       <div class="contacts-popup__wrap contact-section">
         <svg class="contacts-popup__close pop-up-close" width="16" height="16" viewBox="0 0 16 16" fill="none"
           xmlns="http://www.w3.org/2000/svg">
