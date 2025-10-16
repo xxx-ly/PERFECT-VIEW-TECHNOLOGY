@@ -4400,6 +4400,7 @@ body.cases-transplant-hero header:before {
 }
 .d-main-description-item__image {
   width: 50%;
+  overflow: hidden;
 }
 .d-main-description-item__image img {
   width: 100%;
@@ -4725,7 +4726,7 @@ body.cases-transplant-hero header:before {
     margin-bottom: 20px;
   }
   .d-main-description-item__image {
-    width: 100vw;
+    width: 100%;
   }
   .d-main-description-item__image img {
     border-radius: 0;
@@ -16045,7 +16046,7 @@ body.platforms-travel-hospitality-software-development
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   width: 100%;
-  background-color: #fff;
+  background-color: #121212;
   -webkit-box-shadow: 0 -3px 20px rgba(80, 80, 80, 0.1);
   box-shadow: 0 -3px 20px rgba(80, 80, 80, 0.1);
 }
@@ -36016,9 +36017,9 @@ canvas {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .enterprise-core-mob #particles {
+  /* .enterprise-core-mob #particles {
     height: 2920px;
-  }
+  } */
   .enterprise-core-mob .tech-container {
     margin: 60px auto;
     width: 276px;
