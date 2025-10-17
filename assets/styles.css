@@ -7431,11 +7431,12 @@ body {
 .android .sp-contact-form .btnWrapper .submitBtn,
 .embedded .sp-contact-form .btnWrapper .submitBtn,
 .hardware .sp-contact-form .btnWrapper .submitBtn {
+  width: 190px;
   font-size: 1.1rem;
   font-weight: 500;
-  padding: 10px 20px;
-  color: #545453;
-  background-color: #ffd007;
+  padding: 0;
+  color: #ffffff;
+  background-color: #0A3D62;
   text-decoration: none;
   border-radius: 6px;
   cursor: pointer;
@@ -7447,13 +7448,21 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+.homePage .sp-contact-form .btnWrapper .submitBtn a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-decoration:none;
+}
 .homePage .sp-contact-form .btnWrapper .submitBtn:hover,
 .workPage .sp-contact-form .btnWrapper .submitBtn:hover,
 .industrial .sp-contact-form .btnWrapper .submitBtn:hover,
 .android .sp-contact-form .btnWrapper .submitBtn:hover,
 .embedded .sp-contact-form .btnWrapper .submitBtn:hover,
 .hardware .sp-contact-form .btnWrapper .submitBtn:hover {
-  background-color: #ffc100;
+  background-color: #1E90FF;
 }
 .homePage .sp-contact-form .btnWrapper .submitBtn:focus,
 .workPage .sp-contact-form .btnWrapper .submitBtn:focus,
@@ -9579,8 +9588,8 @@ body {
 }
 .sp-nav .logo .logoLink {
   display: block;
-  width: 195px;
-  height: 35px;
+  width: 130px;
+  height: 40px;
   transition: background-color 0.5s;
 }
 .sp-nav .logo .logoLink .logoImg {
@@ -14483,6 +14492,12 @@ body {
   background: url(/assets/d3aa10f/img/icon_gear.svg)no-repeat center center/contain;
   margin-right: 2px;
 }
+.Platforms .platforms_item li.--partb h3::before{
+  background: url(/assets/d3aa10f/img/icon_bell.svg)no-repeat center center/contain;
+}
+.Platforms .platforms_item li.--partc h3::before {
+  background: url(/assets/d3aa10f/img/icon_mobile.svg)no-repeat center center/contain;
+}
 .Platforms .platforms_item .platforms_item_list{
   list-style: disc;
   padding-left: 20px;
@@ -14505,6 +14520,15 @@ body {
   font-size: 3.75rem;
   font-weight: 300;
   padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.Platforms .wrapper .title .icon_globe{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(/assets/d3aa10f/img/icon_globe.svg)no-repeat center center/cover;
+  margin-right: 5px;
 }
 @media only screen and (max-width: 768px) {
   .Platforms .wrapper .title {

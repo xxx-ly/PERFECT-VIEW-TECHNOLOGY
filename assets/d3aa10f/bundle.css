@@ -13108,24 +13108,22 @@ body.solutions-financial-software-development-services
   top: 0 !important;
 }
 .sticky-banner {
+  position: relative;
   width: 100%;
   height: 100%;
-  padding: 4px;
+  padding: 8px 42px 4px 8px;
   background: #0072f6;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
+  display: flex;
   align-items: center;
-  display: -webkit-inline-box !important;
-  display: -ms-inline-flexbox !important;
-  display: inline-flex !important;
+  justify-content: center;
+}
+.sticky-banner_txt{
+  color:#ffffff;
+  margin-right: 20px;
+  font-weight: 900;
 }
 @media screen and (max-width: 480px) {
-  .sticky-banner {
-    padding: 16px;
-  }
+
 }
 .sticky-cont {
   height: 32px;
@@ -13158,9 +13156,17 @@ body.solutions-financial-software-development-services
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  height: 32px;
+}
+.sticky-button a{
+  color: #ffffff;
+  font-weight:bolder;
 }
 .sticky-button:hover {
   background: hsla(0, 0%, 100%, 0.24);
+}
+.sticky-button a:hover{
+  color:#ffffff;
 }
 .sticky-button-text {
   height: 24px;
@@ -13194,11 +13200,15 @@ body.solutions-financial-software-development-services
   line-height: 16px;
   word-wrap: break-word;
 }
+.sticky-button-text div a{
+  color: #fff;
+}
 .sticky-close {
   width: 32px;
   height: 32px;
-  position: relative;
+  position: absolute;
   cursor: pointer;
+  right: 10px;
 }
 .hero-slider {
   position: relative;
@@ -15686,6 +15696,7 @@ body.platforms-travel-hospitality-software-development
 @media (max-width: 1220px) {
   .nav__btn .get-touch {
     margin-right: 25px;
+    display: none;
   }
 }
 @media (max-width: 767px) {
@@ -22721,7 +22732,7 @@ body.services-outsourcing-software-development-ukraine-services
   -ms-flex-direction: column;
   flex-direction: column;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .title--black {
   text-align: center;
@@ -22734,7 +22745,7 @@ body.services-outsourcing-software-development-ukraine-services
 }
 .title--uppercase,
 h2 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 600;
 }
 @media screen and (max-width: 767px) {
@@ -22812,6 +22823,9 @@ h2 {
   margin-bottom: 20px;
   color: #ffffff;
 }
+h2.--black{
+  color: #121212;
+}
 @media screen and (max-width: 575px) {
   .title--medium,
   h2 {
@@ -22884,6 +22898,9 @@ p.description {
   color: #fff;
   width: 100%;
   margin: auto;
+}
+p.description.--black{
+  color:#121212;
 }
 @media screen and (max-width: 1023px) {
   p.description {
@@ -43780,6 +43797,7 @@ ul.mobile-logo li:before {
   padding: 14px 24px;
   border-radius: 8px;
   width: 100%;
+  cursor: pointer;
 }
 .n-offers__item--tabs-header.active svg {
   -webkit-transform: rotate(0);
@@ -44237,6 +44255,9 @@ ul.mobile-logo li:before {
   min-width: 512px;
   z-index: 1;
   padding: 32px 24px;
+}
+.form-wrap__flexbox h2{
+  color:#757575;
 }
 @media screen and (max-width: 550px) {
   .n-contacts-section .form-wrap__flexbox {

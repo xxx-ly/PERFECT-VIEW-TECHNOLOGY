@@ -651,7 +651,7 @@
   border-width: 0 0 15px 15px;
 }
 .cta--black:after {
-  border-color: transparent transparent #242424;
+  border-color: transparent transparent #0A3D62;
 }
 .hero {
   position: relative;
@@ -1097,7 +1097,7 @@
 }
 .expertise .containter--expertise {
   position: relative;
-  background-color: #121212;
+  background-color: #ffffff;
   padding: 75px 20px 100px;
   -webkit-transform: translateY(-30px);
   -ms-transform: translateY(-30px);
@@ -1112,7 +1112,7 @@
   height: 0;
   border-style: solid;
   border-width: 0 50px 50px 0;
-  border-color: transparent #575757 transparent transparent;
+  border-color: transparent #0c0c0c transparent transparent;
 }
 .expertise__wrapper {
   max-width: 1000px;
@@ -1749,14 +1749,20 @@
 .contact-form__submit-wrapper {
   justify-self: right;
 }
+.contact-form__submit a{
+  display: block;
+  width: 200px;
+  line-height: 40px;
+}
 @media (max-width: 768px) {
   .contact-form__submit-wrapper {
     justify-self: center;
   }
 }
 .contact-form__submit {
+  box-sizing: border-box;
   position: relative;
-  padding: 10px 20px;
+  padding: 0;
   border: 1px solid #1E90FF;
   border-radius: 4px;
   background-color: #1E90FF;
@@ -2084,12 +2090,15 @@ h3 {
   font-size: 34px;
   line-height: normal;
   font-weight: 900;
-  color: #ffffff;
+  color: #121212;
   padding-bottom: 5px;
   text-align: left;
 }
 .title--white {
   color: #fff;
+}
+.title--black{
+  color: #121212;
 }
 .title:after {
   content: "";
@@ -2121,6 +2130,9 @@ h3 {
   color: #101011;
   padding-top: 20px;
   max-width: 820px;
+}
+.description.--white{
+  color:#ffffff;
 }
 @media (max-width: 768px) {
   .description {
