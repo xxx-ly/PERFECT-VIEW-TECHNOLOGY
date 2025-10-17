@@ -22748,6 +22748,7 @@ h2 {
   /* text-transform: uppercase; */
   font-weight: 600;
 }
+.title.--uppercase{text-transform: uppercase;}
 @media screen and (max-width: 767px) {
   .title--uppercase,
   h2 {
@@ -39275,6 +39276,7 @@ body.services-ui-ux-design-services .faq {
   }
 }
 .healthcare-workshop__anim {
+  width: 800px;
   -js-display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39293,7 +39295,7 @@ body.services-ui-ux-design-services .faq {
   align-items: center;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  margin-top: 52px;
+  margin: 52px auto 0 auto;
 }
 @media screen and (max-width: 991px) {
   .healthcare-workshop__anim {
@@ -39326,8 +39328,6 @@ body.services-ui-ux-design-services .faq {
 }
 .healthcare-workshop__anim--left {
   background-color: #121212;
-  -webkit-box-shadow: 0 10px 20px rgba(80, 80, 80, 0.1);
-  box-shadow: 0 10px 20px rgba(80, 80, 80, 0.1);
   padding: 28px 20px;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100%;
