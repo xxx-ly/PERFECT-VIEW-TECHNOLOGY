@@ -21,8 +21,12 @@
         <div class="sticky-banner_txt">
           Plan your custom software project with precision
         </div>
-        <div class="sticky-button ">
-              <a href="survey.html">Estimate Now!</a>
+        <div class="sticky-cont">
+          <div class="sticky-button">
+              <div class="sticky-button-text ">
+                <a href="survey.html">Estimate Now!</a>
+          </div>
+          </div>
         </div>
         <div class="sticky-close">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -34,6 +38,23 @@
           </svg>
         </div>
       </div>
+
+      <script>
+            document.querySelector('.sticky-cont').addEventListener('click', function (e) {
+                window.dataLayer.push({
+                    'event': 'click_button_estimate_project',
+                    'blockTitle': 'experiment_20_survey',
+                    'topic': 'click_button_estimate_project'
+                });
+                setTimeout(()=>{
+                    window.location.href = 'https://www.intellectsoft.net/survey';
+                }, 1000);
+            });
+            document.querySelector('.sticky-close').addEventListener('click', function (e) {
+            document.querySelector('.sticky-banner').setAttribute("style", "display: none !important");
+            document.querySelector('.nav').style.top = '0';
+            });
+      </script>
 
     <nav class="nav">
       <div class="container">
@@ -100,7 +121,7 @@
                               <div class="sub-menu__header"></div>
                               <li class="menu-item">
                                 <a href="services_mobile.html" data-image="https://admin.intellectsoft.net/upload/images/menu-items/5dc0cc428b805ff139bea9f050fa98e9df6264c0671cd78e8c675aee4dc79549.png" data-descr="Software for patient, workflow, and asset management, and other solutions" data-link="/platforms/healthcare-it-solutions" data-alt="Healthcare Image" class="sub-item-link">
-                                    Mobile App Development                           <i class="isoi-angle-right"></i>
+                                    Mobile App Development<i class="isoi-angle-right"></i>
                                 </a>
                               </li>
                               </div>
@@ -319,6 +340,7 @@
         <section class="hero hero--600 hero--clients" style="background-image:url(assets/d3aa10f/img/clients-cover.jpg);">
           <div class="container">
             <div class="hero__content expertise-content">
+              <div class="title__preheader title__preheader--tag">OUR WORK</div>
               <h1>
                 EMPOWERING OUR CLIENTS<br />
                 TO SUCCEED WITH TECHNOLOGIES

@@ -184,8 +184,12 @@
         <div class="sticky-banner_txt">
           Plan your custom software project with precision
         </div>
-        <div class="sticky-button ">
-              <a href="survey.html">Estimate Now!</a>
+        <div class="sticky-cont">
+          <div class="sticky-button">
+              <div class="sticky-button-text ">
+                <a href="survey.html">Estimate Now!</a>
+          </div>
+          </div>
         </div>
         <div class="sticky-close">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -197,6 +201,23 @@
           </svg>
         </div>
       </div>
+
+      <script>
+            document.querySelector('.sticky-cont').addEventListener('click', function (e) {
+                window.dataLayer.push({
+                    'event': 'click_button_estimate_project',
+                    'blockTitle': 'experiment_20_survey',
+                    'topic': 'click_button_estimate_project'
+                });
+                setTimeout(()=>{
+                    window.location.href = 'https://www.intellectsoft.net/survey';
+                }, 1000);
+            });
+            document.querySelector('.sticky-close').addEventListener('click', function (e) {
+            document.querySelector('.sticky-banner').setAttribute("style", "display: none !important");
+            document.querySelector('.nav').style.top = '0';
+            });
+      </script>
 
     <nav class="nav">
       <div class="container">
@@ -645,7 +666,7 @@
   <div class="container">
     <div class="mobile-app__content content-center">
       <h2 class="insurance-title"><b>Why Choose PERFECT VIEW TECHNOLOGY as Your Software Development Partner?</b></h2>
-      <p class="insurance-description">At PERFECT VIEW TECHNOLOGY, we go beyond coding—we deliver end-to-end solutions. From initial concept to launch and continuous support, our team builds scalable applications that drive innovation and business growth across industries</p>
+      <p class="insurance-description">At <b>PERFECT VIEW TECHNOLOGY</b>, we go beyond coding—we deliver end-to-end solutions. From initial concept to launch and continuous support, our team builds scalable applications that drive innovation and business growth across industries</p>
     </div>
     <div class="mobile-app__block">
       <div class="mobile-app__block--left">
@@ -780,7 +801,7 @@
       Get comprehensive software development services tailored to your specific business needs.
     </p>
   </div>
-  <a class="augmentation-button button-vantage-talk" href="contacts.html">TALK TO US</a>
+  <a class="augmentation-button button-vantage-talk" href="#contact-section">TALK TO US</a>
 </section>
 
 <section class="n-offers" id="offers-block">
@@ -1207,11 +1228,11 @@
         </h2>
         <div itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer" class="faq__text">
           <p itemprop="text">
-            At PERFECT VIEW TECHNOLOGY LIMITED, we place quality and security at the heart of every project. Our development processes are built on industry best practices to ensure software that is reliable, efficient, and scalable.
-            To protect client data, we implement:
-            Robust security measures including encryption and secure authentication.
-            Rigorous testing at every stage of development.
-            Continuous monitoring and improvements to maintain performance and safeguard information.
+            At PERFECT VIEW TECHNOLOGY LIMITED, we place quality and security at the heart of every project. Our development processes are built on industry best practices to ensure software that is reliable, efficient, and scalable.<br>
+            To protect client data, we implement:<br>
+            Robust security measures including encryption and secure authentication.<br>
+            Rigorous testing at every stage of development.<br>
+            Continuous monitoring and improvements to maintain performance and safeguard information.<br>
             This commitment allows us to deliver solutions that not only meet business goals but also keep sensitive data safe and secure.
           </p>
         </div>
@@ -1220,10 +1241,10 @@
         <h2 itemprop="name" class="faq__title">How to Choose a Software Development Services Company?</h2>
         <div itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer" class="faq__text">
           <p itemprop="text">
-            Finding the right software development partner is a key step in ensuring your project’s success. When evaluating potential providers:
-            Review their portfolio and case studies.
-            Speak with past clients for firsthand insights.
-            Assess their technical expertise, processes, and communication style.
+            Finding the right software development partner is a key step in ensuring your project’s success. When evaluating potential providers:<br>
+            Review their portfolio and case studies.<br>
+            Speak with past clients for firsthand insights.<br>
+            Assess their technical expertise, processes, and communication style.<br>
             By carefully vetting potential partners, you ensure alignment with your business goals and long-term growth
           </p>
         </div>
@@ -1232,11 +1253,11 @@
         <h2 itemprop="name" class="faq__title">What Are the Biggest Benefits of Outsourcing Software Development?</h2>
         <div itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer" class="faq__text">
           <p itemprop="text">
-            Outsourcing software development allows businesses to:
-            Focus on core objectives.
-            Access specialized expertise and cutting-edge technologies.
-            Improve agility and flexibility in scaling teams.
-            Ensure consistent quality while controlling costs.
+            Outsourcing software development allows businesses to:<br>
+            Focus on core objectives.<br>
+            Access specialized expertise and cutting-edge technologies.<br>
+            Improve agility and flexibility in scaling teams.<br>
+            Ensure consistent quality while controlling costs.<br>
             A strong partnership with a trusted provider like PERFECT VIEW TECHNOLOGY LIMITED helps you streamline workflows, reduce risks, and accelerate innovation
           </p>
         </div>
@@ -1245,10 +1266,10 @@
         <h2 itemprop="name" class="faq__title">How to Reduce Software Development Costs?</h2>
         <div itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer" class="faq__text">
           <p itemprop="text">
-            Reducing costs starts with the right approach.
-            Agile project management minimizes waste and ensures focus on high-value deliverables.
-            Best coding practices reduce complexity and long-term maintenance costs.
-            Accurate planning and execution prevent budget overruns.
+            Reducing costs starts with the right approach.<br>
+            Agile project management minimizes waste and ensures focus on high-value deliverables.<br>
+            Best coding practices reduce complexity and long-term maintenance costs.<br>
+            Accurate planning and execution prevent budget overruns.<br>
             By working with PERFECT VIEW TECHNOLOGY LIMITED, you benefit from efficient processes and cost-effective solutions without compromising on quality
           </p>
         </div>
@@ -1257,16 +1278,16 @@
         <h2 itemprop="name" class="faq__title">Which Software Development Services Are in Highest Demand?</h2>
         <div itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer" class="faq__text">
           <p itemprop="text">
-            Today’s most in-demand software development services include:
-            Web Development
-            Mobile App Development
-            Application Development
-            Back-End Development
-            Cloud Computing
-            Security Software Development
-            API Development
-            Data Science & Analytics
-            Embedded Systems Development
+            Today’s most in-demand software development services include:<br>
+            Web Development<br>
+            Mobile App Development<br>
+            Application Development<br>
+            Back-End Development<br>
+            Cloud Computing<br>
+            Security Software Development<br>
+            API Development<br>
+            Data Science & Analytics<br>
+            Embedded Systems Development<br>
             PERFECT VIEW TECHNOLOGY LIMITED delivers tailored solutions across these domains, empowering businesses to stay competitive in a rapidly evolving digital landscape
           </p>  
         </div>

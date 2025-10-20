@@ -61,6 +61,9 @@
     src: url(../fonts/ProximaNova-Xbold.woff);
   }
   </style>
+
+
+
   <script>
   (function(h, o, t, j, a, r) {
     h.hj = h.hj || function() {
@@ -142,8 +145,12 @@
         <div class="sticky-banner_txt">
           Plan your custom software project with precision
         </div>
-        <div class="sticky-button ">
-              <a href="survey.html">Estimate Now!</a>
+        <div class="sticky-cont">
+          <div class="sticky-button">
+              <div class="sticky-button-text ">
+                <a href="survey.html">Estimate Now!</a>
+          </div>
+          </div>
         </div>
         <div class="sticky-close">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -155,6 +162,23 @@
           </svg>
         </div>
       </div>
+
+      <script>
+            document.querySelector('.sticky-cont').addEventListener('click', function (e) {
+                window.dataLayer.push({
+                    'event': 'click_button_estimate_project',
+                    'blockTitle': 'experiment_20_survey',
+                    'topic': 'click_button_estimate_project'
+                });
+                setTimeout(()=>{
+                    window.location.href = 'https://www.intellectsoft.net/survey';
+                }, 1000);
+            });
+            document.querySelector('.sticky-close').addEventListener('click', function (e) {
+            document.querySelector('.sticky-banner').setAttribute("style", "display: none !important");
+            document.querySelector('.nav').style.top = '0';
+            });
+      </script>
 
     <nav class="nav">
       <div class="container">
@@ -421,6 +445,7 @@
       </div>
     </nav>
 
+
 <section id="version0" class="hero home-page--hero">
         <div class="container">
           <h1 class="title title--uppercase">
@@ -573,7 +598,7 @@
               </svg>
               <p>Construction</p>
             </a>
-            <a class="home-page-hero-industries--item" href="Industries_construction.html" >
+            <a class="home-page-hero-industries--item" href="Industries_automotive.html" >
               <svg
                 width="57"
                 height="56"
@@ -643,7 +668,7 @@
               </svg>
               <p>Automotive</p>
             </a>
-            <a class="home-page-hero-industries--item" href="Industries_automotive.html" >
+            <a class="home-page-hero-industries--item" href="Industries_travel.html" >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="57"
@@ -727,7 +752,7 @@
               </svg>
               <p>Travel & Hospitality</p>
             </a>
-            <a class="home-page-hero-industries--item" href="Industries_travel.html">
+            <a class="home-page-hero-industries--item" href="Industries_education.html">
               <svg xmlns="http://www.w3.org/2000/svg" width="57" height="56" viewBox="0 0 57 56" fill="none">
                 <g clip-path="url(#clip0_3450_11371)">
                   <circle
@@ -799,7 +824,7 @@
               </svg>
               <p>Edtech</p>
             </a>
-            <a class="home-page-hero-industries--item" href="Industries_education.html" >
+            <a class="home-page-hero-industries--item" href="Industries_insurance.html" >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="57"

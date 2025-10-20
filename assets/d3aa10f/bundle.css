@@ -13124,7 +13124,9 @@ body.solutions-financial-software-development-services
   font-weight: 900;
 }
 @media screen and (max-width: 480px) {
-
+  .sticky-banner_txt{
+    margin-right: 10px;
+  }
 }
 .sticky-cont {
   height: 32px;
@@ -31656,7 +31658,7 @@ body.services-index .faq__wrapper {
 .service-why .service-why__point-title {
   width: 95%;
   z-index: 5;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   margin-bottom: 10px;
   line-height: 1.2;
@@ -39276,7 +39278,7 @@ body.services-ui-ux-design-services .faq {
   }
 }
 .healthcare-workshop__anim {
-  width: 800px;
+  max-width: 800px;
   -js-display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39328,7 +39330,7 @@ body.services-ui-ux-design-services .faq {
 }
 .healthcare-workshop__anim--left {
   background-color: #121212;
-  padding: 28px 20px;
+  /* padding: 28px 20px; */
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -39344,32 +39346,25 @@ body.services-ui-ux-design-services .faq {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  padding: 12px 0 11px 50px;
+  padding: 10px;
   position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   color: #ffffff;
 }
 .healthcare-workshop__anim--left li:nth-child(5):before {
   background-image: url(img/platforms/Group_139.svg);
 }
-@media screen and (max-width: 991px) {
-  .healthcare-workshop__anim--left li {
-    padding: 12px 0 8px 50px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .healthcare-workshop__anim--left li {
-    padding: 12px 0 8px 50px;
-  }
-}
-.healthcare-workshop__anim--left li:before {
+
+.healthcare-workshop__anim--left li::before {
   content: "";
-  position: absolute;
-  left: 0;
-  top: 17px;
+  display: block;
   background-image: url(img/platforms/Group_143.svg);
   width: 30px;
   height: 30px;
   background-size: cover;
+  margin-right: 15px;
 }
 .healthcare-workshop__content {
   max-width: 800px;
@@ -39378,6 +39373,9 @@ body.services-ui-ux-design-services .faq {
 @media screen and (max-width: 767px) {
   .healthcare-workshop__content {
     margin: 0 auto 11px;
+  }
+  .healthcare-workshop__anim--left li{
+    padding: 5px;
   }
 }
 .healthcare-workshop__content h2 {
@@ -48724,7 +48722,7 @@ ul.mobile-logo li:before {
   text-align: center;
   font-size: 32px;
   margin-bottom: 48px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 @media screen and (max-width: 767px) {
   .our-clients .h2,

@@ -166,8 +166,12 @@
         <div class="sticky-banner_txt">
           Plan your custom software project with precision
         </div>
-        <div class="sticky-button ">
-              <a href="survey.html">Estimate Now!</a>
+        <div class="sticky-cont">
+          <div class="sticky-button">
+              <div class="sticky-button-text ">
+                <a href="survey.html">Estimate Now!</a>
+          </div>
+          </div>
         </div>
         <div class="sticky-close">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -179,6 +183,23 @@
           </svg>
         </div>
       </div>
+
+      <script>
+            document.querySelector('.sticky-cont').addEventListener('click', function (e) {
+                window.dataLayer.push({
+                    'event': 'click_button_estimate_project',
+                    'blockTitle': 'experiment_20_survey',
+                    'topic': 'click_button_estimate_project'
+                });
+                setTimeout(()=>{
+                    window.location.href = 'https://www.intellectsoft.net/survey';
+                }, 1000);
+            });
+            document.querySelector('.sticky-close').addEventListener('click', function (e) {
+            document.querySelector('.sticky-banner').setAttribute("style", "display: none !important");
+            document.querySelector('.nav').style.top = '0';
+            });
+      </script>
 
     <nav class="nav">
       <div class="container">
@@ -450,7 +471,7 @@
           <div class="page-title txtc">
             <h1>Legal Information</h1>
             <p>Transparency, trust, and compliance are at the core of how we operate</p>
-            <p>At PERFECT VIEW TECHNOLOGY LIMITED,we are committed to profecting your privacy and ensuring responsible use ofour service.Below you will find our Terms of Use and Privacy Policy, which outline your rights and our obligations.</p>
+            <p>At <b>PERFECT VIEW TECHNOLOGY LIMITED</b>,we are committed to profecting your privacy and ensuring responsible use ofour service.Below you will find our Terms of Use and Privacy Policy, which outline your rights and our obligations.</p>
           </div>
         </div>
       </section>
@@ -459,7 +480,7 @@
         <div class="container">
           <div class="page-title">
             <h2>Privacy Policy</h2>
-            <p>This Privacy Policy explains how PERFECT VIEW TECHNOLOGY LIMITED ("Company," "we," "us," or "our") collects, uses, stores, and protects your personal information when you visit our website or use our services.</p><br>
+            <p>This Privacy Policy explains how <b>PERFECT VIEW TECHNOLOGY LIMITED</b> ("Company," "we," "us," or "our") collects, uses, stores, and protects your personal information when you visit our website or use our services.</p><br>
             <p>By accessing our Site or engaging with our services, you agree to the practices described in this Privacy Policy.</p>
           </div>
         </div>
@@ -470,9 +491,9 @@
           <div class="page-title">
             <h2>Information We Collect</h2>
             <p>We may collect the following types of information:</p>
-            <p>Personal Information: Name, email address, phone number, company name, and any other details you voluntarily provide (e.g., when filling out a contact form or requesting a demo).</p><br>
-            <p>Technical Data: IP address, browser type, operating system, referral URLs, and browsing behavior on our Site.</p><br>
-            <p>Cookies and Tracking: Information collected via cookies or similar technologies to improve user experience, analyze traffic, and personalize content.</p>
+            <p><b>Personal Information:</b> Name, email address, phone number, company name, and any other details you voluntarily provide (e.g., when filling out a contact form or requesting a demo).</p><br>
+            <p><b>Technical Data:</b> IP address, browser type, operating system, referral URLs, and browsing behavior on our Site.</p><br>
+            <p><b>Cookies and Tracking:</b> Information collected via cookies or similar technologies to improve user experience, analyze traffic, and personalize content.</p>
           </div>
         </div>
       </section>
@@ -495,10 +516,10 @@
         <div class="container">
           <div class="page-title">
             <h2>How We Share Your Information</h2>
-            <p>We respect your privacy. We do not sell or rent your personal information.<br>We may share data only in the following circumstances:</p><br>
-            <p>With trusted service providers (e.g., hosting, analytics, or CRM platforms) to support our operations.</p><br>
-            <p>As required by law or legal process.</p><br>
-            <p>In case of business transfers, such as a merger or acquisition, where information may be transferred as part of the assets.</p>
+            <p>We respect your privacy. We do <b>not</b> sell or rent your personal information.<br>We may share data only in the following circumstances:</p><br>
+            <p><b>With trusted service providers</b> (e.g., hosting, analytics, or CRM platforms) to support our operations.</p><br>
+            <p><b>As required by law</b> or legal process.</p><br>
+            <p><b>In case of business transfers</b>, such as a merger or acquisition, where information may be transferred as part of the assets.</p>
           </div>
         </div>
       </section>

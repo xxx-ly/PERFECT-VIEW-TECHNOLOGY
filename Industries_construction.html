@@ -261,8 +261,12 @@
         <div class="sticky-banner_txt">
           Plan your custom software project with precision
         </div>
-        <div class="sticky-button ">
-              <a href="survey.html">Estimate Now!</a>
+        <div class="sticky-cont">
+          <div class="sticky-button">
+              <div class="sticky-button-text ">
+                <a href="survey.html">Estimate Now!</a>
+          </div>
+          </div>
         </div>
         <div class="sticky-close">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -274,28 +278,22 @@
           </svg>
         </div>
       </div>
-      
+
       <script>
-        document
-          .querySelector(".sticky-cont")
-          .addEventListener("click", function (e) {
-            window.dataLayer.push({
-              event: "click_button_estimate_project",
-              blockTitle: "experiment_20_survey",
-              topic: "click_button_estimate_project",
+            document.querySelector('.sticky-cont').addEventListener('click', function (e) {
+                window.dataLayer.push({
+                    'event': 'click_button_estimate_project',
+                    'blockTitle': 'experiment_20_survey',
+                    'topic': 'click_button_estimate_project'
+                });
+                setTimeout(()=>{
+                    window.location.href = 'https://www.intellectsoft.net/survey';
+                }, 1000);
             });
-            setTimeout(() => {
-              window.location.href = "https://www.intellectsoft.net/survey";
-            }, 1000);
-          });
-        document
-          .querySelector(".sticky-close")
-          .addEventListener("click", function (e) {
-            document
-              .querySelector(".sticky-banner")
-              .setAttribute("style", "display: none !important");
-            document.querySelector(".nav").style.top = "0";
-          });
+            document.querySelector('.sticky-close').addEventListener('click', function (e) {
+            document.querySelector('.sticky-banner').setAttribute("style", "display: none !important");
+            document.querySelector('.nav').style.top = '0';
+            });
       </script>
 
     <nav class="nav">

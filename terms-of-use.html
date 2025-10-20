@@ -150,8 +150,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="sticky-banner_txt">
           Plan your custom software project with precision
         </div>
-        <div class="sticky-button ">
-              <a href="survey.html">Estimate Now!</a>
+        <div class="sticky-cont">
+          <div class="sticky-button">
+              <div class="sticky-button-text ">
+                <a href="survey.html">Estimate Now!</a>
+          </div>
+          </div>
         </div>
         <div class="sticky-close">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -163,24 +167,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </svg>
         </div>
       </div>
-    <script>
 
-          document.querySelector('.sticky-cont').addEventListener('click', function (e) {
-              window.dataLayer.push({
-                  'event': 'click_button_estimate_project',
-                  'blockTitle': 'experiment_20_survey',
-                  'topic': 'click_button_estimate_project'
-              });
-              setTimeout(()=>{
-                  window.location.href = 'https://www.intellectsoft.net/survey';
-              }, 1000);
-          });
-          document.querySelector('.sticky-close').addEventListener('click', function (e) {
-              document.querySelector('.sticky-banner').setAttribute("style", "display: none !important");
-              document.querySelector('.nav').style.top = '0';
-          });
-
-    </script>
+      <script>
+            document.querySelector('.sticky-cont').addEventListener('click', function (e) {
+                window.dataLayer.push({
+                    'event': 'click_button_estimate_project',
+                    'blockTitle': 'experiment_20_survey',
+                    'topic': 'click_button_estimate_project'
+                });
+                setTimeout(()=>{
+                    window.location.href = 'https://www.intellectsoft.net/survey';
+                }, 1000);
+            });
+            document.querySelector('.sticky-close').addEventListener('click', function (e) {
+            document.querySelector('.sticky-banner').setAttribute("style", "display: none !important");
+            document.querySelector('.nav').style.top = '0';
+            });
+      </script>
 
     <nav class="nav">
       <div class="container">
@@ -452,7 +455,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="page-title txtc">
             <h1>Legal Information</h1>
             <p>Transparency, trust, and compliance are at the core of how we operate</p>
-            <p>At PERFECT VIEW TECHNOLOGY LIMITED,we are committed to profecting your privacy and ensuring responsible use ofour service.Below you will find our Terms of Use and Privacy Policy, which outline your rights and our obligations.</p>
+            <p>At <b>PERFECT VIEW TECHNOLOGY LIMITED</b>,we are committed to profecting your privacy and ensuring responsible use ofour service.Below you will find our Terms of Use and Privacy Policy, which outline your rights and our obligations.</p>
           </div>
         </div>
       </section>
@@ -461,7 +464,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	    <div class="container">
 	    	<div class="page-title">
 	    		<h2>Terms and Conditions of Use</h2>
-                <p>These Terms and Conditions of Use ("Terms") apply to your use of the PERFECT VIEW TECHNOLOGY LIMITED website (the "Site"). By accessing or using this Site, you agree to comply with these Terms.</p>
+                <p>These Terms and Conditions of Use ("Terms") apply to your use of the <b>PERFECT VIEW TECHNOLOGY LIMITED</b> website (the "Site"). By accessing or using this Site, you agree to comply with these Terms.</p>
 	    	</div>
 	    </div>
     </section>
@@ -470,7 +473,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
             <div class="page-title">
                 <h2>General</h2>
-                <p>PERFECT VIEW TECHNOLOGY LIMITED ("Company," "we," "us," or "our") provides this Site for informational purposes. We make reasonable efforts to keep information accurate and up to date, but do not guarantee completeness, accuracy, or reliability. We reserve the right to update, modify, or remove content (including these Terms) at any time without prior notice, except that revised documents will be posted with an updated publication date.</p><br>
+                <p><b>PERFECT VIEW TECHNOLOGY LIMITED</b> ("Company," "we," "us," or "our") provides this Site for informational purposes. We make reasonable efforts to keep information accurate and up to date, but do not guarantee completeness, accuracy, or reliability. We reserve the right to update, modify, or remove content (including these Terms) at any time without prior notice, except that revised documents will be posted with an updated publication date.</p><br>
                 <p>We encourage you to review these Terms periodically to stay informed. For details about how we handle personal data and cookies, please refer to our Privacy Policy.</p>
             </div>
         </div>
@@ -480,7 +483,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
             <div class="page-title">
                 <h2>Disclaimer of Warranty</h2>
-                <p>All materials and content on this Site are provided “AS IS” without any warranty of any kind. To the fullest extent permitted by law, we disclaim all warranties, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, title, non-infringement, accuracy, timeliness, or availability.</p><br>
+                <p>All materials and content on this Site are provided <b>“AS IS”</b> without any warranty of any kind. To the fullest extent permitted by law, we disclaim all warranties, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, title, non-infringement, accuracy, timeliness, or availability.</p><br>
                 <p>We do not guarantee that the Site will operate uninterrupted, error-free, or free of harmful components. Any use of this Site is at your own risk, and you are solely responsible for any damage to your systems or data.</p><br>
                 <p>If you are dissatisfied with the Site or any part of it, your sole remedy is to discontinue using the Site.</p>
             </div>
@@ -491,7 +494,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
             <div class="page-title">
                 <h2>Limitation of Liability</h2>
-                <p>Under no circumstances shall PERFECT VIEW TECHNOLOGY LIMITED be liable for any indirect, incidental, consequential, or special damages, including loss of profits, revenues, or data, even if advised of the possibility of such damages.</p>
+                <p>Under no circumstances shall <b>PERFECT VIEW TECHNOLOGY LIMITED</b> be liable for any indirect, incidental, consequential, or special damages, including loss of profits, revenues, or data, even if advised of the possibility of such damages.</p>
             </div>
         </div>
     </section>
@@ -517,7 +520,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
             <div class="page-title">
                 <h2>Software Downloads</h2>
-                <p>Any software made available for download from this Site is the copyrighted work of PERFECT VIEW TECHNOLOGY LIMITED or its suppliers. Use of such software is subject to the End User License Agreement (EULA) that accompanies it. Unauthorized use outside of the EULA is prohibited.</p>
+                <p>Any software made available for download from this Site is the copyrighted work of <b>PERFECT VIEW TECHNOLOGY LIMITED</b> or its suppliers. Use of such software is subject to the End User License Agreement (EULA) that accompanies it. Unauthorized use outside of the EULA is prohibited.</p>
             </div>
         </div>
     </section>
@@ -535,7 +538,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
             <div class="page-title">
                 <h2>Copyright and Trademarks</h2>
-                <p>All product names, logos, and brands are the property of their respective owners. PERFECT VIEW TECHNOLOGY LIMITED retains all rights to its trademarks and copyrighted materials. No license is granted for use of our trademarks without express written permission.</p>
+                <p>All product names, logos, and brands are the property of their respective owners. <b>PERFECT VIEW TECHNOLOGY LIMITED</b> retains all rights to its trademarks and copyrighted materials. No license is granted for use of our trademarks without express written permission.</p>
             </div>
         </div>
     </section>
@@ -553,8 +556,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
             <div class="page-title">
                 <h2>Applicable Laws</h2>
-                <p>This Site is operated by PERFECT VIEW TECHNOLOGY LIMITED. Access to the Site may not be legal in certain jurisdictions, and users are responsible for compliance with applicable laws.</p><br>
-                <p>Any claims or disputes arising out of these Terms shall be governed by and construed in accordance with the laws of the jurisdiction where PERFECT VIEW TECHNOLOGY LIMITED is registered, without regard to conflict of law principles.</p>
+                <p>This Site is operated by <b>PERFECT VIEW TECHNOLOGY LIMITED</b>. Access to the Site may not be legal in certain jurisdictions, and users are responsible for compliance with applicable laws.</p><br>
+                <p>Any claims or disputes arising out of these Terms shall be governed by and construed in accordance with the laws of the jurisdiction where <b>PERFECT VIEW TECHNOLOGY LIMITED</b> is registered, without regard to conflict of law principles.</p>
             </div>
         </div>
     </section>

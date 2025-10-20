@@ -7435,8 +7435,8 @@ body {
   font-size: 1.1rem;
   font-weight: 500;
   padding: 0;
-  color: #ffffff;
-  background-color: #0A3D62;
+  color: #121212;
+  background-color: #ffd007;
   text-decoration: none;
   border-radius: 6px;
   cursor: pointer;
@@ -7453,7 +7453,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 10px 20px;
-  color: #ffffff;
+  color: #121212;
   text-decoration:none;
 }
 .homePage .sp-contact-form .btnWrapper .submitBtn:hover,
@@ -7462,7 +7462,7 @@ body {
 .android .sp-contact-form .btnWrapper .submitBtn:hover,
 .embedded .sp-contact-form .btnWrapper .submitBtn:hover,
 .hardware .sp-contact-form .btnWrapper .submitBtn:hover {
-  background-color: #1E90FF;
+  background-color: #ffc100;
 }
 .homePage .sp-contact-form .btnWrapper .submitBtn:focus,
 .workPage .sp-contact-form .btnWrapper .submitBtn:focus,

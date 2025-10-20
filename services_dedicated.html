@@ -208,8 +208,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="sticky-banner_txt">
           Plan your custom software project with precision
         </div>
-        <div class="sticky-button ">
-              <a href="survey.html">Estimate Now!</a>
+        <div class="sticky-cont">
+          <div class="sticky-button">
+              <div class="sticky-button-text ">
+                <a href="survey.html">Estimate Now!</a>
+          </div>
+          </div>
         </div>
         <div class="sticky-close">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -221,24 +225,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </svg>
         </div>
       </div>
-    <script>
 
-          document.querySelector('.sticky-cont').addEventListener('click', function (e) {
-              window.dataLayer.push({
-                  'event': 'click_button_estimate_project',
-                  'blockTitle': 'experiment_20_survey',
-                  'topic': 'click_button_estimate_project'
-              });
-              setTimeout(()=>{
-                  window.location.href = 'https://www.intellectsoft.net/survey';
-              }, 1000);
-          });
-          document.querySelector('.sticky-close').addEventListener('click', function (e) {
-              document.querySelector('.sticky-banner').setAttribute("style", "display: none !important");
-              document.querySelector('.nav').style.top = '0';
-          });
-
-    </script>
+      <script>
+            document.querySelector('.sticky-cont').addEventListener('click', function (e) {
+                window.dataLayer.push({
+                    'event': 'click_button_estimate_project',
+                    'blockTitle': 'experiment_20_survey',
+                    'topic': 'click_button_estimate_project'
+                });
+                setTimeout(()=>{
+                    window.location.href = 'https://www.intellectsoft.net/survey';
+                }, 1000);
+            });
+            document.querySelector('.sticky-close').addEventListener('click', function (e) {
+            document.querySelector('.sticky-banner').setAttribute("style", "display: none !important");
+            document.querySelector('.nav').style.top = '0';
+            });
+      </script>
 
     <nav class="nav">
       <div class="container">
@@ -714,7 +717,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       Bring your innovative ideas to life with our expert product engineering team. 
     </h2>
   </div>
-  <a class="button--white-green button-vantage-talk get-in-touch-form" href="contacts.html">TALK TO ENGINEERS</a>
+  <a class="button--white-green button-vantage-talk get-in-touch-form" href="#contact-section">TALK TO ENGINEERS</a>
 </section>
 
 <section class="model">
@@ -794,7 +797,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="box2">
             <div class="competencies__list--content">
               <p>
-                Our dedicated team business model is specifically designed to provide clients with Intellectsoft’s best-in-class software development professionals and experts on a long-term basis.
+                Our dedicated team business model is specifically designed to provide clients with PERFECT VIEW TECHNOLOGY’s best-in-class software development professionals and experts on a long-term basis.
               </p>
             </div>
           </div>
@@ -828,7 +831,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="box2">
             <div class="competencies__list--content">
               <p>
-                A project-based model is designed to provide a reliable collaboration between a customer and Intellestsoft specialists engaged in the specific project
+                A project-based model is designed to provide a reliable collaboration between a customer and PERFECT VIEW TECHNOLOGY specialists engaged in the specific project
               </p>
             </div>
           </div>
