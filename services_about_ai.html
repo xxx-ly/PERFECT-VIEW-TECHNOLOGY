@@ -4,8 +4,6 @@
 	<meta charset="utf-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name="viewport">
-	<link href="/favicon.ico" rel="shortcut icon">
-  	<link rel="stylesheet" href="static/bundle.9a0b3bbb.css">
 	<script async src="https://scripts.clarity.ms/0.8.33/clarity.js"></script>
 	<script async src="https://snap.licdn.com/li.lms-analytics/insight.min.js" type="text/javascript"></script>
 	<script async src="https://s3-us-west-2.amazonaws.com/b2bjsstore/b/1N5W0H0QX8O5/1N5W0H0QX8O5.js.gz" type="text/javascript"></script>
@@ -14,9 +12,11 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPX4692H1S&amp;cx=c&amp;gtm=4e5a81h1" type="text/javascript"></script>
 	<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-WXTDXX"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="icon" type="image/png" href="/assets/d3aa10f/img/perfect_logo.ico">
 	<script async defer src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=fhfeb"></script>
-	<title></title>
+	<link rel="icon" type="image/png" href="/assets/d3aa10f/img/perfect_logo.ico">
+	<link rel="stylesheet" href="static/main.f9814598.js">
+	<link rel="stylesheet" href="static/bundle.9a0b3bbb.css">
+
 </head>
 <body>
 	<div id="root">
@@ -27,8 +27,10 @@
 						<header class="main-header">
 							<div class="logo">
 								<a class="main-site-link" href="index.html"><img class="logo__img" src="assets/d3aa10f/img/logo.png"></a>
-							</div><button class="nav-btn">
-							<div class="inner-btn"></div></button>
+							</div>
+							<button class="nav-btn" type="button">
+								<span class="inner-btn"></span>
+							</button>
 							<nav class="nav-menu">
 								<ul>
 									<li><a exact="true" class="link" href="#hero">Home</a></li>
@@ -38,6 +40,9 @@
 							</nav>
 						</header>
 					</section>
+
+					
+
 					<section class="hero" id="hero" style="background:url(assets/d3aa10f/img/img11.jpg)no-repeat top center/cover">
 						<div class="container">
 							<div class="welcome">
@@ -216,6 +221,8 @@
 	        		</div>
 	        	</div>
 	        </section>
+
+
 
             <section class="ctablock">
 						<div class="ctablock__container">
@@ -1158,7 +1165,7 @@
 										<input accept=".doc,.docx,.pdf,.odt, .ott,.txt" class="contact-form__attach-input" id="attach" name="attach" type="file"><label class="contact-form__attach-label" for="attach">Attach File</label>
 									</div>
 									<div class="contact-form__submit-wrapper">
-										<button class="contact-form__submit"><a href="contacts.html">▸ Talk to Our Experts</a></button>
+										<button class="contact-form__submit"><a href="#">▸ Talk to Our Experts</a></button>
 									</div>
 								</div>
 							</form>
@@ -1172,5 +1179,31 @@
 			</div>
 		</div>
 	</div>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		  const navBtn = document.querySelector('.nav-btn');
+		  const navMenu = document.querySelector('.nav-menu');
+		
+		  navBtn.addEventListener('click', function () {
+		    navMenu.classList.toggle('active'); // 點一次加上，再點一次移除
+		  });
+		});
+	</script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		  const areas = document.querySelectorAll('.area');
+		
+		  areas.forEach(area => {
+		    area.addEventListener('click', function () {
+		      // 先移除所有 active
+		      areas.forEach(a => a.classList.remove('area--active'));
+		      // 只給被點擊的那個加上 active
+		      this.classList.add('area--active');
+		    });
+		  });
+		});
+	</script>
 </body>
 </html>

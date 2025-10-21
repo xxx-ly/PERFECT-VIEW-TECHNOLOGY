@@ -11995,7 +11995,7 @@ body.pages-contacts-new {
 }
 @media screen and (max-width: 991px) {
   .financial-industry__content--left > div {
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
 }
 @media screen and (max-width: 575px) {
@@ -12171,7 +12171,7 @@ body.solutions-financial-software-development-services
   -ms-flex-pack: start;
   justify-content: flex-start;
   position: relative;
-  align-items: center;
+  align-items: flex-start;
 }
 @media screen and (min-width: 1025px) {
   body.services-it-staffing-services .insurance-integrations__block:after,
@@ -15154,6 +15154,9 @@ body.platforms-travel-hospitality-software-development
   font-size: 0;
   padding: 0;
 }
+.article__link img{
+  height: 250px;
+}
 .nav .has-dropdown.is-hover .article__img {
   width: 550px;
 }
@@ -15166,6 +15169,9 @@ body.platforms-travel-hospitality-software-development
   color: #fff;
   text-transform: none;
   font-weight: 500;
+}
+.article__description{
+  text-shadow: 0 0 5px #121212;
 }
 .nav .has-dropdown.is-hover .sub-menu-wrapper {
   display: block;
@@ -22020,6 +22026,9 @@ body.services-outsourcing-software-development-ukraine-services
   -ms-flex: 0 0 36%;
   flex: 0 0 36%;
   padding-right: 16px;
+}
+.approach__content--left img{
+  height: 235px;
 }
 @media screen and (max-width: 991px) {
   .approach__content--left {
@@ -34969,7 +34978,6 @@ p.participant__position {
   font-size: 32px;
   line-height: 1.56;
   font-weight: 600;
-  text-transform: uppercase;
   color: #ffffff;
 }
 @media screen and (max-width: 767px) {
@@ -40621,7 +40629,7 @@ body.services-ui-ux-design-services .faq {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 700px;
   flex: 0 0 700px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   -js-display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40649,7 +40657,8 @@ body.services-ui-ux-design-services .faq {
   }
 }
 @media (max-width: 991px) {
-  .insurance-integrations__block--right {
+  .insurance-integrations__block--right,
+  .insurance-integrations__block--left {
     margin-top: 5px;
   }
 }
