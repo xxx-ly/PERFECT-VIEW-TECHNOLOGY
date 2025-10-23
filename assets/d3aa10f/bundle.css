@@ -8017,6 +8017,7 @@ body.cases-transplant-hero header:before {
   flex: 1 1 auto;
   padding: 0;
 }
+
 @media screen and (max-width: 1023px) {
   .footer__menu .has-dropdown {
     padding: 0 20px 40px;
@@ -8032,6 +8033,11 @@ body.cases-transplant-hero header:before {
   .footer__menu .has-dropdown:last-child {
     border-bottom: 1px solid hsla(0, 0%, 59%, 0.15);
   }
+    .footer__menu .has-dropdown>b {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
 }
 .footer__menu .has-dropdown > a {
   display: inline-block;
@@ -17259,6 +17265,7 @@ body.disable-scroll {
 .mt80{
   margin-top: 80px;
 }
+.pt80{padding-top: 80px;}
 .page-header__content .page-title h1 {
   color: #fff;
 }
