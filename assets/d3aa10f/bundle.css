@@ -39276,7 +39276,8 @@ body.services-ui-ux-design-services .faq {
   background-color: #121212;
   padding: 89px 0 81px;
 }
-.healthcare-workshop.--fin{
+.healthcare-workshop.--fin,
+.healthcare-workshop.--education{
   background-color:#fafafa;
 }
 @media screen and (max-width: 767px) {
@@ -39314,6 +39315,19 @@ body.services-ui-ux-design-services .faq {
   -ms-flex-line-pack: stretch;
   align-content: stretch;
   margin: 52px auto 0 auto;
+}
+
+.--education .healthcare-workshop__anim{
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.--education .healthcare-workshop__anim--left{
+  margin-left: 20px;
+}
+
+.--insur .healthcare-workshop__anim--left{
+  flex:0 0 50%;
 }
 @media screen and (max-width: 991px) {
   .healthcare-workshop__anim {
@@ -39381,6 +39395,7 @@ body.services-ui-ux-design-services .faq {
   height: 30px;
   background-size: cover;
   margin-right: 15px;
+  flex: none;
 }
 .healthcare-workshop__content {
   max-width: 800px;
@@ -39400,7 +39415,9 @@ body.services-ui-ux-design-services .faq {
   color: #ffffff;
 }
 .--fin .healthcare-workshop__content h2,
-.--fin .insurance-description{color:#121212;}
+.--fin .insurance-description,
+.--education .healthcare-workshop__content h2,
+.--education .insurance-description{color:#121212;}
 @media screen and (max-width: 767px) {
   .healthcare-workshop__content h2 {
     font-size: 24px;
@@ -40693,6 +40710,9 @@ body.services-ui-ux-design-services .faq {
   margin-bottom: 30px;
   color: #ffffff;
 }
+.--fin .insurance-integrations__block--right h3{
+  color:#121212;
+}
 .insurance-integrations__block--right ul {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 50%;
@@ -40947,6 +40967,7 @@ body.services-ui-ux-design-services .faq {
 .healthcare-workshop.insurance-workshop {
   padding: 82px 0 81px;
 }
+
 @media (max-width: 575px) {
   .healthcare-workshop.insurance-workshop {
     padding: 53px 0 40px;
@@ -50803,6 +50824,6 @@ ul.mobile-logo li:before {
 .edtech-content {
   max-width: unset;
 }
-.txt_black{color:#121212;}
-.txt_white{color:#ffffff;}
+.txt_black{color:#121212 !important;}
+.txt_white{color:#ffffff !important;}
 .title--white{color:#ffffff; text-align: center;}
