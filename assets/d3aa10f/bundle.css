@@ -2940,8 +2940,8 @@ body.services-team-extension .step-text {
   min-width: 220px;
   font-weight: 600;
   color: #fff;
-  background: #1E90FF;
-  border: 2px solid #1E90FF;
+  background: #17ca8e;
+  border: 2px solid #17ca8e;
   font-size: 15px;
 }
 @media screen and (max-width: 575px) {
@@ -2952,13 +2952,13 @@ body.services-team-extension .step-text {
 .button--white-green [class*=" isoi-"],
 .button--white-green [class^="isoi-"] {
   font-size: 12px;
-  color: #1476f2;
+  color: #17ca8e;
   padding-left: 12px;
   display: block;
 }
 .button--white-green:hover {
-  background: #2772d4;
-  border-color: #2772d4;
+  background: #129d6e;
+  border-color: #129d6e;
 }
 .button--white-green:hover [class*=" isoi-"],
 .button--white-green:hover [class^="isoi-"] {
@@ -2978,8 +2978,8 @@ body.services-team-extension .step-text {
   background: #fff;
   border: 2px solid #fff;
   color: #fff;
-  background: #2772d4;
-  border: 2px solid #2772d4;
+  background: #129d6e;
+  border: 2px solid #129d6e;
 }
 .button--white-green:active {
   color: #323232;
@@ -11634,7 +11634,7 @@ body.pages-contacts-new {
 }
 .financial {
   padding: 80px 0 70px;
-  background-color: #121212;
+  background-color: #fafafa;
 }
 .financial .insurance-title {
   margin-bottom: 65px;
@@ -11979,7 +11979,7 @@ body.pages-contacts-new {
 }
 .financial-industry__content--left > div:first-child {
   padding-bottom: 30px;
-  border-bottom: 1px solid rgba(50, 50, 50, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 @media screen and (max-width: 575px) {
   .financial-industry__content--left > div:first-child {
@@ -12069,7 +12069,7 @@ body.solutions-financial-software-development-services {
 }
 body.services-it-staffing-services .insurance-integrations,
 body.solutions-financial-software-development-services .insurance-integrations {
-  background-color: #121212;
+  background-color: #fafafa;
   padding: 80px 0;
 }
 @media screen and (max-width: 991px) {
@@ -14374,8 +14374,7 @@ body.solutions-financial-software-development-services
   margin-top: 30px;
 }
 .industries-section {
-  /* background: url(img/platforms/bg-industries.jpg) no-repeat 50% fixed; */
-  background-size: cover;
+  background: #fafafa;
   height: 100%;
   overflow: hidden;
 }
@@ -14731,6 +14730,13 @@ body.platforms-travel-hospitality-software-development
   .healthcare-workshop__anim--left
   li:before {
   background-image: url(img/Group143.svg);
+}
+.healthcare-workshop__anim--left.--fin{
+  background: #fff;
+  flex: 0 0 50%;
+}
+.healthcare-workshop__anim--left.--fin li{
+  color:#121212;
 }
 .jobs {
   padding-bottom: 60px;
@@ -22135,6 +22141,7 @@ body.services-outsourcing-software-development-ukraine-services
 }
 .responsibilities {
   padding: 60px 0;
+  background: #fafafa;
 }
 .responsibilities ul {
   padding-left: 0 !important;
@@ -22144,7 +22151,7 @@ body.services-outsourcing-software-development-ukraine-services
   text-transform: unset;
   font-size: 24px;
   line-height: 20px;
-  color: #ffffff;
+  color: #121212;
   font-weight: 600;
 }
 .responsibilities h4,
@@ -22154,7 +22161,7 @@ body.services-outsourcing-software-development-ukraine-services
   line-height: 20px;
   text-transform: uppercase;
   margin-bottom: 11px;
-  color: #ffffff;
+  color: #121212;
 }
 .team {
   padding: 74px 0 0;
@@ -22756,6 +22763,7 @@ body.services-outsourcing-software-development-ukraine-services
 .title--black {
   text-align: center;
   width: 100%;
+  color: #121212;
 }
 @media screen and (max-width: 767px) {
   .title--insights {
@@ -22841,7 +22849,6 @@ h2 {
 .title--medium,h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  color: #ffffff;
 }
 h2.--black{
   color: #121212;
@@ -25366,6 +25373,7 @@ a.all-link-about {
 }
 .model {
   padding: 80px 0;
+  background: #fafafa;
 }
 .model .container {
   max-width: 1015px;
@@ -26876,7 +26884,7 @@ body.services-team-extension .locations {
 .apocalypse__title {
   font-weight: 600;
   text-transform: uppercase;
-  color: #fff;
+  color: #121212;
   margin-bottom: 60px;
   max-width: 560px;
   line-height: 1.25;
@@ -26911,10 +26919,7 @@ body.services-team-extension .locations {
   color: #fff;
   width: 40%;
 }
-.apocalypse__list h3,
-.apocalypse__list p{
-  text-shadow: 0 0 5px #121212;
-}
+
 @media screen and (max-width: 1023px) {
   .apocalypse__list {
     padding: -20px;
@@ -26978,6 +26983,7 @@ body.services-team-extension .locations {
   text-transform: uppercase;
   line-height: 1.3;
   margin-bottom: 10px;
+  color:#121212;
 }
 .apocalypse__heading--blockchain {
   margin-bottom: 0;
@@ -26986,6 +26992,7 @@ body.services-team-extension .locations {
   font-size: 13px;
   line-height: 1.5;
   opacity: 0.8;
+  color: #121212;
 }
 .icon-apocalypsis-item,
 .icon-artificial-intelligence,
@@ -27350,8 +27357,8 @@ body.services-team-extension .locations {
     left: 0;
     right: 0;
     margin: auto;
-    height: 655px;
-    width: 300px;
+    height: 570px;
+    width: 335px;
     z-index: 2;
   }
 }
@@ -27403,7 +27410,7 @@ body.services-team-extension .locations {
 .snakepit__rectangle--right {
   position: relative;
 }
-.snakepit__rectangle--left:before,
+/* .snakepit__rectangle--left:before,
 .snakepit__rectangle--right:before {
   content: "";
   display: block;
@@ -27416,15 +27423,15 @@ body.services-team-extension .locations {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
-}
-.snakepit__rectangle--right:before {
+} */
+/* .snakepit__rectangle--right:before {
   left: auto;
   right: -12px;
   border-top: 12px solid transparent;
   border-right: none;
   border-left: 12px solid rgba(20, 118, 242, 0.8);
   border-bottom: 12px solid transparent;
-}
+} */
 .snakepit__item:hover .snakepit__heading {
   color: rgba(20, 118, 242, 0.8);
 }
@@ -27433,10 +27440,10 @@ body.services-team-extension .locations {
     padding-top: 14px;
     background-color: rgba(20, 118, 242, 0.8);
   }
-  .snakepit .js-active .snakepit__rectangle--left:before,
+  /* .snakepit .js-active .snakepit__rectangle--left:before,
   .snakepit .js-active .snakepit__rectangle--right:before {
     opacity: 1;
-  }
+  } */
   .snakepit .js-active .snakepit__heading {
     color: #fff;
   }
@@ -31749,14 +31756,7 @@ body.services-index .faq__wrapper {
 .service-cta {
   height: 200px;
   width: 100vw;
-  background: -webkit-linear-gradient(
-    201deg,
-    #343434,
-    #5b5b5b,
-    #2a2a2a,
-    #525252
-  );
-  background: linear-gradient(249deg, #343434, #5b5b5b, #2a2a2a, #525252);
+  background: #1E90FF;
   -js-display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31828,7 +31828,7 @@ body.services-index .faq__wrapper {
   animation: none;
 }
 .service-cta--about {
-  background: url(img/about-page/our-work.jpg)no-repeat center top /cover;
+  background: url(img/about-page/our-work.jpg)no-repeat center center /cover;
 }
 .service-cta__text-area--construction,
 .service-cta__text-area--it-consulting {
@@ -35166,7 +35166,7 @@ p.participant__position {
     font-size: 16px;
     line-height: 27px;
     font-weight: 400;
-    color: #ffffff;
+    color: #121212;
   }
   .latest-teach .teach-items .teach-item.active {
     border-bottom: 1px solid #3f7fe7;
@@ -37991,9 +37991,10 @@ canvas {
   }
 }
 .faq {
-  background-color: #121212;
+  background-color: #fafafa;
   padding: 80px 0 100px;
 }
+.faq .description{color:#121212;}
 @media screen and (max-width: 767px) {
   .faq {
     padding: 60px 0;
@@ -38021,7 +38022,7 @@ canvas {
   cursor: pointer;
 }
 .faq__item:first-child .faq__title {
-  border-top: 2px solid rgba(255, 255, 255, 0.8);
+  border-top: 2px solid #121212;
 }
 .faq__item:hover .faq__title {
   color: #1476f2;
@@ -38040,12 +38041,12 @@ canvas {
 }
 .faq__title {
   position: relative;
-  color: #ffffff;
+  color: #121212;
   font-size: 18px !important;
   line-height: 1.5;
   text-transform: none;
   padding: 20px 20px 20px 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid #121212;
   margin: 0;
 }
 @media screen and (max-width: 767px) {
@@ -38070,11 +38071,11 @@ canvas {
 .faq__text {
   display: none;
   cursor: text;
-  color: #fff;
+  color: #121212;
   font-size: 16px;
   margin: 0;
   padding: 15px 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid #121212;
 }
 .faq__text div,
 .faq__text p {
@@ -38135,7 +38136,7 @@ canvas {
 }
 body.services-qa-and-software-testing-services .faq,
 body.services-ui-ux-design-services .faq {
-  padding-top: 0;
+  padding-top: 80px;
 }
 .healthcare-about {
   padding: 80px 0 90px;
@@ -38822,10 +38823,7 @@ body.services-ui-ux-design-services .faq {
   font-size: 18px;
 }
 .healthcare-cta {
-  background-image: url(img/platforms/map.webp);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 50% 50%;
+  background: #1476f2;
   -webkit-animation: none;
   animation: none;
   height: 210px;
@@ -39278,6 +39276,9 @@ body.services-ui-ux-design-services .faq {
   background-color: #121212;
   padding: 89px 0 81px;
 }
+.healthcare-workshop.--fin{
+  background-color:#fafafa;
+}
 @media screen and (max-width: 767px) {
   .healthcare-workshop {
     padding: 54px 0 81px;
@@ -39398,6 +39399,8 @@ body.services-ui-ux-design-services .faq {
   margin-bottom: 19px;
   color: #ffffff;
 }
+.--fin .healthcare-workshop__content h2,
+.--fin .insurance-description{color:#121212;}
 @media screen and (max-width: 767px) {
   .healthcare-workshop__content h2 {
     font-size: 24px;
@@ -40083,7 +40086,7 @@ body.services-ui-ux-design-services .faq {
 .insurance-title {
   font-size: 32px;
   line-height: 40px;
-  color: #fff;
+  color: #121212;
 }
 @media (max-width: 991px) {
   .insurance-title {
@@ -40100,7 +40103,7 @@ body.services-ui-ux-design-services .faq {
 .insurance-description {
   font-size: 18px;
   line-height: 30px;
-  color: #fff;
+  color: #121212;
 }
 @media (max-width: 991px) {
   .insurance-description {
@@ -40725,7 +40728,7 @@ body.services-ui-ux-design-services .faq {
 .insurance-integrations__block--right li {
   font-size: 16px;
   line-height: 20px;
-  color: #ffffff;
+  color: #121212;
   opacity: 0.8;
   position: relative;
   padding: 14px 0 14px 50px;
@@ -40743,8 +40746,11 @@ body.services-ui-ux-design-services .faq {
   transform: translateY(-50%);
 }
 .latest-teach.insurance-latest-teach {
-  background-color: #121212;
+  background-color: #fafafa;
 }
+.--travel .content-center h2,
+.--travel.latest-teach .teach-items .teach-item .item-title,
+.--travel .latest-teach .teach-items .teach-item .more-info .item-description{color:#121212;}
 @media (max-width: 575px) {
   .latest-teach.insurance-latest-teach {
     padding: 70px 0 0;
@@ -42438,7 +42444,7 @@ body.product-engineering-company .choose-us__content h3 {
   }
 }
 .mobile-app {
-  background-color: #121212;
+  background-color: #fafafa;
   padding: 80px 0;
 }
 @media (max-width: 575px) {
@@ -42535,7 +42541,7 @@ body.product-engineering-company .choose-us__content h3 {
   font-size: 16px;
   line-height: 24px;
   text-transform: unset;
-  color: #fff;
+  color: #121212;
   padding: 10px 0 11px 50px;
 }
 @media (max-width: 991px) {
@@ -43690,7 +43696,7 @@ ul.mobile-logo li:before {
 }
 .n-offers {
   padding: 72px 0;
-  /* background: #fafafa; */
+  background: #fafafa;
 }
 @media screen and (max-width: 768px) {
   .n-offers {
@@ -44135,7 +44141,7 @@ ul.mobile-logo li:before {
   margin: 0;
 }
 .n-contacts-section {
-  background: #1476f2;
+  background: url(/assets/d3aa10f/img/contact-bg.jpg)no-repeat center center /cover;
   padding: 72px 0 56px;
   position: relative;
 }
@@ -44152,23 +44158,7 @@ ul.mobile-logo li:before {
 .n-contacts-section .thank__text a {
   color: #1476f2;
 }
-.n-contacts-section:after {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: url(img/waves.svg) no-repeat;
-  background-position: 50%;
-  background-size: contain;
-}
-@media screen and (max-width: 991px) {
-  .n-contacts-section:after {
-    background-size: cover;
-  }
-}
+
 .n-contacts-section .contact-section {
   font-family: Montserrat;
   -webkit-box-align: start;
@@ -44310,8 +44300,8 @@ ul.mobile-logo li:before {
   align-items: flex-start;
 }
 .n-contacts-section .form-wrap__flexbox .form__footer .form__submit--contact {
-  background: #f54d4d;
-  border-color: #f54d4d;
+  background: #121212;
+  border-color: #121212;
   width: 100%;
   max-width: 100%;
   margin-top: 50px;
@@ -50813,3 +50803,6 @@ ul.mobile-logo li:before {
 .edtech-content {
   max-width: unset;
 }
+.txt_black{color:#121212;}
+.txt_white{color:#ffffff;}
+.title--white{color:#ffffff; text-align: center;}
