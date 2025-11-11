@@ -15979,3 +15979,120 @@ body {
 }
 
 /*# sourceMappingURL=styles.css.map*/
+
+.imagetxtAnima {
+  width: 100%;
+  text-align: center;
+  color: #545453;
+  max-width: 1200px;
+  margin: auto ;
+  padding: 20px 0 40px;
+}
+
+.imagetxtAnima > h2{
+  font-size: 3.75rem;
+  font-weight: 300;
+  padding-top: 70px;
+}
+
+.imagetxtAnima > p {
+  color: #036ae5;
+  font-size: 18px;
+}
+
+.imagetxtAnima_box{
+  display: flex;
+  margin-top: 32px;
+}
+
+.imagetxtAnima_item{
+  position: relative;
+  width: 25%;
+  height: 400px;
+  padding:40px 20px;
+}
+
+.imagetxtAnima_item::before{
+  content:'';
+  position: absolute;
+  top: 0; bottom: 0;left: 0;right: 0;
+  background: rgba(29, 33, 46, .8);
+  transition: all .3s ease 0ms;
+}
+.imagetxtAnima_item::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  z-index: 1;
+  transition: all .3s ease 0ms;
+  background: rgba(3, 106, 229, .85);
+}
+
+
+.imagetxtAnima_item_txt{
+  position: relative;
+  z-index: 5;
+  height: 100%;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  overflow: hidden;
+}
+
+.imagetxtAnima_item_txt > h3{
+  position: relative;
+  font-size: 24px ;
+  line-height: 140% ;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-top: 17px;
+}
+.imagetxtAnima_item_txt>h3::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 5px;
+  background: #036ae5;
+  z-index: 1;
+}
+
+.imagetxtAnima_item_txt > p {
+  font-size: 16px;
+  height: 0;
+  visibility: hidden;
+  transition: all .5s ease 0ms;
+  line-height: 140%;
+}
+
+.imagetxtAnima_item:hover .imagetxtAnima_item_txt > p{
+  height: 100%;
+  visibility: visible;
+}
+.imagetxtAnima_item:hover::after{
+  height: 100%;
+}
+.imagetxtAnima_item:hover .imagetxtAnima_item_txt>h3::before{
+  background: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .imagetxtAnima_box{
+    flex-direction: column;
+  }
+  .imagetxtAnima_item{
+    width: 100%;
+    height: 250px;
+  }
+  .imagetxtAnima>h2 {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+}

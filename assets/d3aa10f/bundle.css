@@ -2941,7 +2941,7 @@ body.services-team-extension .step-text {
   font-weight: 600;
   color: #fff;
   background: #17ca8e;
-  border: 2px solid #17ca8e;
+  border: 2px solid #ffd700;
   font-size: 15px;
 }
 @media screen and (max-width: 575px) {
@@ -2979,7 +2979,7 @@ body.services-team-extension .step-text {
   border: 2px solid #fff;
   color: #fff;
   background: #129d6e;
-  border: 2px solid #129d6e;
+  border: 2px solid #cdae01;
 }
 .button--white-green:active {
   color: #323232;
@@ -19955,6 +19955,9 @@ body.services-team-extension
   -ms-flex: 0 1 25%;
   flex: 0 1 25%;
 }
+.enterprise-development-offers.--digital{
+  background: #fafafa;
+}
 @media (max-width: 767px) {
   body.platforms-ar-construction
     .enterprise-development-offers
@@ -22153,6 +22156,7 @@ body.services-outsourcing-software-development-ukraine-services
   line-height: 20px;
   color: #121212;
   font-weight: 600;
+  text-align: center;
 }
 .responsibilities h4,
 .responsibilities p {
@@ -34985,7 +34989,7 @@ p.participant__position {
   font-size: 32px;
   line-height: 1.56;
   font-weight: 600;
-  color: #ffffff;
+  color: #121212;
 }
 @media screen and (max-width: 767px) {
   .latest-teach .teach-title {
@@ -35142,7 +35146,7 @@ p.participant__position {
     line-height: 1.25;
     font-weight: 400;
     text-transform: none;
-    color: #ffffff;
+    color: #121212;
   }
   .latest-teach .teach-items .teach-item .more-info {
     position: absolute;
@@ -35651,7 +35655,7 @@ canvas {
 .n-offers_description {
   text-align: center;
   margin-bottom: 48px;
-  color:#fff;
+  /* color:#fff; */
 }
 .n-offers__item--big_homepage {
   -ms-flex-preferred-size: calc(25% - 15px);
@@ -39322,10 +39326,14 @@ body.services-ui-ux-design-services .faq {
   justify-content: space-between;
   align-items: flex-start;
 }
-.--education .healthcare-workshop__anim--left{
-  margin-left: 20px;
+
+.--education .healthcare-workshop__content{
+  max-width: 1200px;
 }
 
+.--education .healthcare-workshop__anim img{
+  width: 50%;
+}
 .--insur .healthcare-workshop__anim--left{
   flex:0 0 50%;
 }
@@ -39336,6 +39344,13 @@ body.services-ui-ux-design-services .faq {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .--education .healthcare-workshop__anim{
+    align-items: center;
+  }
+    .--education .healthcare-workshop__anim img{
+      width: 400px;
+      margin-bottom: 20px;
+    }
 }
 .healthcare-workshop__anim--right {
   -webkit-box-flex: 0;
@@ -41100,11 +41115,17 @@ body.services-ui-ux-design-services .faq {
   margin-bottom: 9px;
   text-transform: unset;
 }
+.latest-teach.enterprise-development-latest.--digital,
+.latest-teach.enterprise-development-latest.--auto{
+  background: #fafafa;
+}
+
 @media (min-width: 768px) {
   .latest-teach.enterprise-development-latest {
     background: #121212;
     padding: 70px 0 0;
   }
+  
   .latest-teach.enterprise-development-latest .teach-description {
     max-width: 880px;
   }
@@ -42857,7 +42878,7 @@ body.services-mobile-app-development-services
   min-height: 170px;
 }
 body.services-mobile-app-development-services .latest-teach {
-  background-color: #121212;
+  background-color: #fafafa;
   padding: 65px 0 0;
 }
 body.services-mobile-app-development-services .choose-us {
@@ -42874,7 +42895,7 @@ body.services-mobile-app-development-services #particles {
   display: none;
 }
 body.services-mobile-app-development-services .enterprise-development-offers {
-  background-color: #121212;
+  background-color: #fafafa;
 }
 .native {
   padding: 80px 0 39px;
@@ -44061,8 +44082,9 @@ ul.mobile-logo li:before {
   }
 }
 .augmentation-button {
-  background-color: #fff;
-  color: #1476f2;
+  background: #17ca8e;
+  border: 2px solid #ffd700;
+  color: #fff;
   font-weight: 600;
   padding: 15px 35px;
   max-width: 310px;
@@ -44078,8 +44100,9 @@ ul.mobile-logo li:before {
   }
 }
 .augmentation-button:hover {
+  background: #129d6e;
   color: #fff;
-  background-color: #06d;
+  border: 2px solid #cdae01;
 }
 .augmentation-list {
   counter-reset: my-awesome-counter;
@@ -50448,6 +50471,7 @@ ul.mobile-logo li:before {
   font-weight: 600;
   margin-bottom: 16px;
   text-transform: none;
+  color:#fff;
 }
 .survey-progress-bar {
   -js-display: flex;
