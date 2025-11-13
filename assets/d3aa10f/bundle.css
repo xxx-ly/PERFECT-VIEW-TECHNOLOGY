@@ -2941,7 +2941,7 @@ body.services-team-extension .step-text {
   font-weight: 600;
   color: #fff;
   background: #17ca8e;
-  border: 2px solid #ffd700;
+  border: 2px solid #17ca8e;
   font-size: 15px;
 }
 @media screen and (max-width: 575px) {
@@ -2979,7 +2979,7 @@ body.services-team-extension .step-text {
   border: 2px solid #fff;
   color: #fff;
   background: #129d6e;
-  border: 2px solid #cdae01;
+  border: 2px solid #129d6e;
 }
 .button--white-green:active {
   color: #323232;
@@ -12662,9 +12662,10 @@ body.solutions-financial-software-development-services
 }
 .services-offer.custom-insurance-software-development
   .services-offer__block--box
-  a {
+  i {
   padding: 0;
   width: 100%;
+  height: 100%;
   -js-display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12683,6 +12684,7 @@ body.solutions-financial-software-development-services
   align-items: center;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
+  cursor: default;
 }
 .services-offer.custom-insurance-software-development
   .services-offer__block--box
@@ -26334,10 +26336,12 @@ body.services-team-extension .locations {
   }
 }
 .apocalypse {
+  position: relative;
   background-size: cover;
   background-position: 100%;
   padding: 150px 0;
 }
+
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .apocalypse {
     background-position: 70%;
@@ -26346,7 +26350,7 @@ body.services-team-extension .locations {
 @media screen and (max-width: 1023px) {
   .apocalypse {
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;
     padding: 75px 0;
   }
@@ -26958,6 +26962,7 @@ body.services-team-extension .locations {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
   }
 }
 @media screen and (max-width: 767px) {
@@ -26997,6 +27002,11 @@ body.services-team-extension .locations {
   line-height: 1.5;
   opacity: 0.8;
   color: #121212;
+}
+@media screen and (max-width: 1023px) {
+  .apocalypse__heading,.apocalypse__description {
+    color: #fff;
+  }
 }
 .icon-apocalypsis-item,
 .icon-artificial-intelligence,
@@ -27215,7 +27225,7 @@ body.services-team-extension .locations {
   }
 }
 @media screen and (max-width: 1023px) and (max-width: 1023px) {
-  .snakepit__list {
+  .industries-section.--industiries {
     display: none;
   }
 }
@@ -35166,6 +35176,7 @@ p.participant__position {
     color: #ffffff;
     padding-right: 10px;
   }
+  .latest-teach .teach-items .teach-item .more-info .item-title.--education{color:#121212;}
   .latest-teach .teach-items .teach-item .more-info .item-description {
     font-size: 16px;
     line-height: 27px;
@@ -39405,7 +39416,7 @@ body.services-ui-ux-design-services .faq {
 .healthcare-workshop__anim--left li::before {
   content: "";
   display: block;
-  background-image: url(img/platforms/Group_143.svg);
+  background-image: url(img/platforms/Group_139.svg);
   width: 30px;
   height: 30px;
   background-size: cover;
@@ -41001,10 +41012,11 @@ body.services-ui-ux-design-services .faq {
   li:nth-child(5):before {
   background-image: url(img/insurance/Group139.svg);
 }
-.healthcare-workshop.insurance-workshop
-  .healthcare-workshop__anim--left
-  li:before {
+.healthcare-workshop.insurance-workshop .healthcare-workshop__anim--left li:before {
   background-image: url(img/insurance/Group143.svg);
+}
+.healthcare-workshop.insurance-workshop .healthcare-workshop__anim--left.--fin.--bluearrow li:before{
+  background-image: url(img/platforms/Group_70.svg);
 }
 @media (max-width: 575px) {
   body.platforms-custom-insurance-software-development .container {
@@ -41125,6 +41137,9 @@ body.services-ui-ux-design-services .faq {
     background: #121212;
     padding: 70px 0 0;
   }
+    .latest-teach.enterprise-development-latest.--education{
+      background: #fafafa;
+    }
   
   .latest-teach.enterprise-development-latest .teach-description {
     max-width: 880px;
@@ -44083,7 +44098,7 @@ ul.mobile-logo li:before {
 }
 .augmentation-button {
   background: #17ca8e;
-  border: 2px solid #ffd700;
+  border: 2px solid #17ca8e;
   color: #fff;
   font-weight: 600;
   padding: 15px 35px;
@@ -44102,7 +44117,7 @@ ul.mobile-logo li:before {
 .augmentation-button:hover {
   background: #129d6e;
   color: #fff;
-  border: 2px solid #cdae01;
+  border: 2px solid #129d6e;
 }
 .augmentation-list {
   counter-reset: my-awesome-counter;
@@ -48760,6 +48775,9 @@ ul.mobile-logo li:before {
 .our-clients {
   padding: 72px 0;
   background: #121212;
+}
+.our-clients.--health{
+  background: #fafafa;
 }
 @media screen and (max-width: 700px) {
   .our-clients {
