@@ -36749,12 +36749,7 @@ canvas {
   margin: 0 auto;
   width: 100%;
   max-width: 1200px;
-  background-image: url(img/bg-map.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   background-color: #fafafa;
-  padding-bottom: 20px;
 }
 .map-scroll .container {
   height: unset;
@@ -36778,7 +36773,7 @@ canvas {
   }
 }
 .map-scroll .mission-vision {
-  padding: 400px 0 55px;
+  padding: 80px 55px;
 }
 @media screen and (max-width: 768px) {
   .map-scroll .mission-vision {
